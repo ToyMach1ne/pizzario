@@ -1,0 +1,67 @@
+.acf-youtubepicker {
+	position: relative;
+	overflow: hidden;
+	border: #DFDFDF solid 1px;
+	border-top: none;
+}
+
+.acf-youtubepicker-field {
+	box-shadow: none !important;
+}
+
+.acf-youtubepicker {
+	background-color: #fff;
+}
+
+.acf-youtubepicker .thumbnails.multiple .thumbnail {
+	cursor: move;
+}
+
+.acf-youtubepicker .thumbnail {
+	margin: 10px;
+	position: relative;
+	float: left;
+}
+
+.acf-youtubepicker .thumbnail .inner {
+	border: #DFDFDF solid 1px;
+}
+
+.acf-youtubepicker .thumbnail  img {
+	display: block;
+}
+
+.acf-youtubepicker .thumbnail.ui-sortable-placeholder {
+	visibility: visible !important;
+	background: #F1F1F1;
+}
+
+.acf-youtubepicker .actions {
+	position: absolute;
+	top: -9px;
+	right: -9px;	
+}
+
+.acf-youtubepicker .acf-soh-target {
+	-webkit-transition: opacity 0.25s 0s ease-in-out, visibility 0s linear 0.25s;
+	-moz-transition: opacity 0.25s 0s ease-in-out, visibility 0s linear 0.25s;
+	-o-transition: opacity 0.25s 0s ease-in-out, visibility 0s linear 0.25s; 	
+	transition: opacity 0.25s 0s ease-in-out, visibility 0s linear 0.25s; 
+	
+	visibility: hidden;
+	opacity: 0;
+}
+
+.acf-youtubepicker .thumbnail:hover .acf-soh-target {
+	-webkit-transition-delay:0s;
+	-moz-transition-delay:0s;
+	-o-transition-delay:0s;
+	transition-delay:0s;
+
+	visibility: visible;
+	opacity: 1;
+}
+
+.youtubepicker-wrap {
+	height: 250px;
+}

@@ -1,0 +1,915 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Dynamic Pricing and Discounts\n"
+"POT-Creation-Date: 2017-02-08 17:29+0100\n"
+"PO-Revision-Date: 2017-02-08 17:29+0100\n"
+"Last-Translator: \n"
+"Language-Team: Yithemes <plugins@yithemes.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../includes/class-yith-wc-dynamic-pricing-admin.php:173
+msgid "Please, add a description for the rule"
+msgstr "Por favor, añade una descripción para esta regla"
+
+#: ../includes/class-yith-wc-dynamic-pricing-admin.php:174
+msgid "Do you really want to delete this rule?"
+msgstr "¿De verdad quieres eliminar esta regla?"
+
+#: ../includes/class-yith-wc-dynamic-pricing-admin.php:208
+#: ../includes/class-yith-wc-dynamic-pricing-admin.php:328
+msgid "Settings"
+msgstr "Ajustes"
+
+#: ../includes/class-yith-wc-dynamic-pricing-admin.php:212
+msgid "Premium Version"
+msgstr "Versión Premium"
+
+#: ../includes/class-yith-wc-dynamic-pricing-admin.php:215
+msgid "Price Rules"
+msgstr "Reglas de Precio"
+
+#: ../includes/class-yith-wc-dynamic-pricing-admin.php:216
+msgid "Cart Discounts"
+msgstr "Descuentos de Carrito"
+
+#: ../includes/class-yith-wc-dynamic-pricing-admin.php:222
+#: ../includes/class-yith-wc-dynamic-pricing-admin.php:223
+msgid "Dynamic Pricing"
+msgstr "Dynamic Pricing"
+
+#: ../includes/class-yith-wc-dynamic-pricing-admin.php:537
+msgid "Plugin Documentation"
+msgstr "Documentación del Plugin"
+
+#: ../includes/class-yith-wc-dynamic-pricing-frontend.php:778
+#, php-format
+msgid "Offer ends: %s"
+msgstr "La oferta termina: %s"
+
+#: ../includes/class-yith-wc-dynamic-pricing-helper.php:155
+msgid "Guest"
+msgstr "Invitado"
+
+#: ../includes/compatibility/yith-woocommerce-brands-add-on-premium.php:215
+msgid "Include a list of brands"
+msgstr ""
+
+#: ../includes/compatibility/yith-woocommerce-brands-add-on-premium.php:216
+msgid "Exclude a list of brands"
+msgstr ""
+
+#: ../includes/compatibility/yith-woocommerce-brands-add-on-premium.php:237
+msgid "At least a selected brand"
+msgstr ""
+
+#: ../includes/compatibility/yith-woocommerce-brands-add-on-premium.php:238
+msgid "All selected brands in cart"
+msgstr ""
+
+#: ../includes/compatibility/yith-woocommerce-brands-add-on-premium.php:239
+msgid "Brands not selected"
+msgstr ""
+
+#: ../includes/compatibility/yith-woocommerce-product-vendors.php:79
+#: ../includes/compatibility/yith-woocommerce-product-vendors.php:102
+msgid "Include a list of vendors"
+msgstr "Incluir una lista de vendedores"
+
+#: ../includes/compatibility/yith-woocommerce-product-vendors.php:80
+#: ../includes/compatibility/yith-woocommerce-product-vendors.php:103
+msgid "Exclude a list of vendors"
+msgstr "Excluir una lista de vendedores"
+
+#: ../init.php:130
+msgid ""
+"YITH WooCommerce Dynamic Pricing and Discounts Premium is enabled but not "
+"effective. It requires WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Dynamic Pricing and Discounts Premium está activado pero no "
+"es efectivo. Requiere WooCommerce para funcionar."
+
+#: ../plugin-options/cart-rules-options.php:8
+msgid "Customers"
+msgstr "Clientes"
+
+#: ../plugin-options/cart-rules-options.php:10
+msgid "Users in list"
+msgstr "Usuarios en la lista"
+
+#: ../plugin-options/cart-rules-options.php:11
+msgid "Exclude users in list"
+msgstr "Excluir usuarios en la lista"
+
+#: ../plugin-options/cart-rules-options.php:12
+msgid "Roles in list"
+msgstr "Roles en la lista"
+
+#: ../plugin-options/cart-rules-options.php:13
+msgid "Roles not in list"
+msgstr "Roles que no están en la lista"
+
+#: ../plugin-options/cart-rules-options.php:14
+#: ../templates/admin/cart-rules-option.php:217
+#: ../templates/admin/cart-rules-panel.php:142
+msgid "Minimum number of orders required"
+msgstr "Número mínimo de pedidos obligatorio"
+
+#: ../plugin-options/cart-rules-options.php:15
+#: ../templates/admin/cart-rules-option.php:228
+#: ../templates/admin/cart-rules-panel.php:147
+msgid "Minimum past expense required"
+msgstr "Gasto mínimo necesario"
+
+#: ../plugin-options/cart-rules-options.php:20
+msgid "Products"
+msgstr "Productos"
+
+#: ../plugin-options/cart-rules-options.php:22
+msgid "At least one selected product"
+msgstr "Al menos un producto seleccionado"
+
+#: ../plugin-options/cart-rules-options.php:23
+msgid "All selected products in cart"
+msgstr "Todos los productos seleccionados en el carrito"
+
+#: ../plugin-options/cart-rules-options.php:24
+msgid "Products not selected"
+msgstr "Productos no seleccionados"
+
+#: ../plugin-options/cart-rules-options.php:25
+msgid "At least a selected category"
+msgstr "Al menos una categoría seleccionada"
+
+#: ../plugin-options/cart-rules-options.php:26
+msgid "All selected categories in cart"
+msgstr "Todas las categorías seleccionadas en el carrito"
+
+#: ../plugin-options/cart-rules-options.php:27
+msgid "Categories not selected"
+msgstr "Categorías no seleccionadas"
+
+#: ../plugin-options/cart-rules-options.php:28
+msgid "At least a selected tag"
+msgstr "Al menos una etiqueta seleccionada"
+
+#: ../plugin-options/cart-rules-options.php:29
+msgid "All selected tags in cart"
+msgstr "Todas las etiquetas seleccionadas en el carrito"
+
+#: ../plugin-options/cart-rules-options.php:30
+msgid "Tags not selected"
+msgstr "Etiquetas no seleccionadas"
+
+#: ../plugin-options/cart-rules-options.php:36
+msgid "Cart Items"
+msgstr "Artículos en el carrito"
+
+#: ../plugin-options/cart-rules-options.php:38
+msgid "Minimum quantity of product items"
+msgstr "Cantidad mínima de artículos de producto"
+
+#: ../plugin-options/cart-rules-options.php:39
+msgid "Maximum quantity of product items"
+msgstr "Cantidad máxima de artículos de producto"
+
+#: ../plugin-options/cart-rules-options.php:40
+msgid "Minimum quantity of cart items"
+msgstr "Cantidad mínima de artículos en el carrito"
+
+#: ../plugin-options/cart-rules-options.php:41
+msgid "Maximum quantity of cart items"
+msgstr "Cantidad máxima de artículos en el carrito"
+
+#: ../plugin-options/cart-rules-options.php:46
+msgid "Cart Subtotals"
+msgstr "Subtotales en el Carrito"
+
+#: ../plugin-options/cart-rules-options.php:48
+msgid "Minimum subtotal"
+msgstr "Mínimo subtotal"
+
+#: ../plugin-options/cart-rules-options.php:49
+msgid "Maximum subtotal"
+msgstr "Máximo subtotal"
+
+#: ../plugin-options/cart-rules-options.php:56
+#: ../plugin-options/pricing-rules-options.php:39
+msgid "Percentage Discount"
+msgstr "Porcentaje de descuento"
+
+#: ../plugin-options/cart-rules-options.php:57
+#: ../plugin-options/pricing-rules-options.php:40
+msgid "Price Discount"
+msgstr "Descuento"
+
+#: ../plugin-options/cart-rules-options.php:58
+#: ../plugin-options/pricing-rules-options.php:41
+msgid "Fixed Price"
+msgstr "Precio fijado"
+
+#: ../plugin-options/general-options.php:10
+msgid "General Settings"
+msgstr "Ajustes generales"
+
+#: ../plugin-options/general-options.php:24
+msgid "Enable Dynamic Pricing and Discounts"
+msgstr "Activar Dynamic Pricing and Discounts"
+
+#: ../plugin-options/general-options.php:32
+msgid "Coupon Label"
+msgstr "Etiqueta de Cupón"
+
+#: ../plugin-options/general-options.php:33
+msgid ""
+"Name of the coupon showed in cart if there are discounts in cart (add a "
+"single word)"
+msgstr ""
+"Nombre del cupón que se muestra si hay descuentos en el carrito (añadir sólo "
+"una palabra)"
+
+#: ../plugin-options/general-options.php:35
+msgid "DISCOUNT"
+msgstr ""
+
+#: ../plugin-options/general-options.php:41
+msgid "Display notes on products"
+msgstr ""
+
+#: ../plugin-options/general-options.php:42
+msgid ""
+"Display notes on \"Apply to\" products and on \"Apply Adjustment to\" "
+"products - available for price rules"
+msgstr ""
+
+#: ../plugin-options/general-options.php:49
+msgid "Position of notes in products"
+msgstr ""
+
+#: ../plugin-options/general-options.php:50
+msgid ""
+"Position of notes on \"Apply to\" products and on \"Apply Adjustment to\" "
+"products - available for price rules"
+msgstr ""
+
+#: ../plugin-options/general-options.php:53
+#: ../plugin-options/general-options.php:109
+msgid "Before \"Add to cart\" button"
+msgstr "Antes del botón \"Añadir al carrito\""
+
+#: ../plugin-options/general-options.php:54
+#: ../plugin-options/general-options.php:110
+msgid "After \"Add to cart\" button"
+msgstr "Después del botón \"Añadir al carrito\""
+
+#: ../plugin-options/general-options.php:55
+#: ../plugin-options/general-options.php:111
+msgid "Before excerpt"
+msgstr "Antes de la excerpta"
+
+#: ../plugin-options/general-options.php:56
+#: ../plugin-options/general-options.php:112
+msgid "After excerpt"
+msgstr "Después de la excerpta"
+
+#: ../plugin-options/general-options.php:57
+#: ../plugin-options/general-options.php:113
+msgid "After product meta"
+msgstr "Después de product meta"
+
+#: ../plugin-options/general-options.php:65
+msgid "Display Quantity Table Position"
+msgstr ""
+
+#: ../plugin-options/general-options.php:73
+msgid "Display Expiring Date In Quantity Table"
+msgstr "Mostrar Fecha de Caducidad en Tabla de Cantidad"
+
+#: ../plugin-options/general-options.php:81
+msgid "Quantity Table Title"
+msgstr "Título Tabla de Cantidad"
+
+#: ../plugin-options/general-options.php:82
+msgid "Title of the Quantity Table"
+msgstr "Título de la Tabla de Cantidad"
+
+#: ../plugin-options/general-options.php:84
+msgid "Discount per Quantity"
+msgstr "Descuento por Cantidad"
+
+#: ../plugin-options/general-options.php:89
+msgid "Label for Quantity"
+msgstr "Etiqueta de Cantidad"
+
+#: ../plugin-options/general-options.php:92
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: ../plugin-options/general-options.php:97
+msgid "Label for Price"
+msgstr "Etiqueta de precio"
+
+#: ../plugin-options/general-options.php:100
+msgid "Price"
+msgstr "Precio"
+
+#: ../plugin-options/general-options.php:105
+msgid "Display Quantity Table"
+msgstr "Mostrar Tabla de Cantidad"
+
+#: ../plugin-options/general-options.php:123
+msgid "Show minimum price for product with quantity discounts"
+msgstr ""
+
+#: ../plugin-options/general-options.php:124
+msgid ""
+"The discount is visible only if the discount starts from quantity equals to 1"
+msgstr ""
+
+#: ../plugin-options/general-options.php:131
+msgid "Price format"
+msgstr ""
+
+#: ../plugin-options/general-options.php:132
+msgid ""
+"You can use: %original_price%, %discounted_price%, %percentual_discount%. "
+"Note: enable the option above to see the minimum discounted amount"
+msgstr ""
+
+#: ../plugin-options/general-options.php:134
+msgid "<del>%original_price%</del> %discounted_price%"
+msgstr ""
+
+#: ../plugin-options/general-options.php:140
+msgid "Calculate the cart discount from"
+msgstr ""
+
+#: ../plugin-options/general-options.php:144
+msgid "Subtotal Tax Excluded"
+msgstr ""
+
+#: ../plugin-options/general-options.php:145
+msgid "Subtotal Tax Included"
+msgstr ""
+
+#: ../plugin-options/general-options.php:153
+msgid "Enable Shop Manager to edit these options"
+msgstr "Habilitar que el Shop manager edite estas opciones"
+
+#: ../plugin-options/pricing-rules-options.php:5
+msgid "Quantity Discount"
+msgstr "Cantidad de Descuento"
+
+#: ../plugin-options/pricing-rules-options.php:6
+msgid "Special Offer"
+msgstr "Oferta Especial"
+
+#: ../plugin-options/pricing-rules-options.php:7
+msgid "Exclude items from rules"
+msgstr "Excluir artículos de reglas"
+
+#: ../plugin-options/pricing-rules-options.php:11
+msgid "Item quantity in cart line"
+msgstr "Cantidad de artículos en la línea del carrito"
+
+#: ../plugin-options/pricing-rules-options.php:12
+msgid "Single product"
+msgstr "Un sólo producto"
+
+#: ../plugin-options/pricing-rules-options.php:13
+msgid "Single product variation"
+msgstr "Variación de producto único"
+
+#: ../plugin-options/pricing-rules-options.php:14
+msgid "Sum of all products in list or category list"
+msgstr "Suma de todos los productos en la lista o lista de categorías"
+
+#: ../plugin-options/pricing-rules-options.php:18
+#: ../plugin-options/pricing-rules-options.php:29
+msgid "All products"
+msgstr "Todos los productos"
+
+#: ../plugin-options/pricing-rules-options.php:19
+#: ../plugin-options/pricing-rules-options.php:30
+msgid "Include a list of products"
+msgstr "Incluir una lista de productos"
+
+#: ../plugin-options/pricing-rules-options.php:20
+#: ../plugin-options/pricing-rules-options.php:31
+msgid "Exclude a list of products"
+msgstr "Excluir una lista de productos"
+
+#: ../plugin-options/pricing-rules-options.php:21
+#: ../plugin-options/pricing-rules-options.php:32
+msgid "Include a list of categories"
+msgstr "Incluir una lista de categorías"
+
+#: ../plugin-options/pricing-rules-options.php:22
+#: ../plugin-options/pricing-rules-options.php:33
+msgid "Exclude a list of categories"
+msgstr "Excluir una lista de categorías"
+
+#: ../plugin-options/pricing-rules-options.php:23
+#: ../plugin-options/pricing-rules-options.php:34
+msgid "Include a list of tags"
+msgstr "Incluir una lista de etiquetas"
+
+#: ../plugin-options/pricing-rules-options.php:24
+#: ../plugin-options/pricing-rules-options.php:35
+msgid "Exclude a list of tags"
+msgstr "Excluir una lista de etiquetas"
+
+#: ../plugin-options/pricing-rules-options.php:28
+msgid "Same product"
+msgstr "El mismo producto"
+
+#: ../plugin-options/pricing-rules-options.php:45
+msgid "Everyone"
+msgstr "Todos"
+
+#: ../plugin-options/pricing-rules-options.php:46
+msgid "Include a list of roles"
+msgstr "Incluir una lista de roles"
+
+#: ../plugin-options/pricing-rules-options.php:47
+msgid "Exclude a list of roles"
+msgstr "Excluir una lista de roles"
+
+#: ../plugin-options/pricing-rules-options.php:48
+msgid "Include a list of customers"
+msgstr "Incluir una lista de clientes"
+
+#: ../plugin-options/pricing-rules-options.php:49
+msgid "Exclude a list of customers"
+msgstr "Excluir una lista de clientes"
+
+#: ../templates/admin/cart-rules-option.php:43
+#: ../templates/admin/cart-rules-panel.php:30
+#: ../templates/admin/pricing-rules-option.php:43
+#: ../templates/admin/pricing-rules-panel.php:31
+msgid "Duplicate"
+msgstr ""
+
+#: ../templates/admin/cart-rules-option.php:53
+#: ../templates/admin/cart-rules-panel.php:39
+#: ../templates/admin/pricing-rules-option.php:52
+#: ../templates/admin/pricing-rules-panel.php:40
+msgid "Description"
+msgstr ""
+
+#: ../templates/admin/cart-rules-option.php:64
+#: ../templates/admin/cart-rules-panel.php:49
+#: ../templates/admin/pricing-rules-option.php:121
+#: ../templates/admin/pricing-rules-panel.php:96
+msgid "Discount Schedule"
+msgstr "Horario de Descuento"
+
+#: ../templates/admin/cart-rules-option.php:69
+#: ../templates/admin/cart-rules-panel.php:54
+#: ../templates/admin/pricing-rules-option.php:126
+#: ../templates/admin/pricing-rules-panel.php:101
+msgid "From"
+msgstr "Desde"
+
+#: ../templates/admin/cart-rules-option.php:75
+#: ../templates/admin/cart-rules-panel.php:58
+#: ../templates/admin/pricing-rules-option.php:133
+#: ../templates/admin/pricing-rules-panel.php:105
+msgid "To"
+msgstr "Hasta"
+
+#: ../templates/admin/cart-rules-option.php:90
+#: ../templates/admin/cart-rules-panel.php:70
+msgid "Discount Combined"
+msgstr "Descuento Combinado"
+
+#: ../templates/admin/cart-rules-option.php:97
+#: ../templates/admin/cart-rules-panel.php:74
+msgid "Choose if this cart discount must be combined with other coupon"
+msgstr "Elige si este descuento del carrito debe ser combinado con otro cupón"
+
+#: ../templates/admin/cart-rules-option.php:104
+#: ../templates/admin/cart-rules-panel.php:80
+#: ../templates/admin/pricing-rules-option.php:775
+#: ../templates/admin/pricing-rules-panel.php:405
+msgid "Discount Rules"
+msgstr "Reglas de descuento"
+
+#: ../templates/admin/cart-rules-option.php:109
+#: ../templates/admin/cart-rules-panel.php:85
+msgid "Rule"
+msgstr "Regla"
+
+#: ../templates/admin/cart-rules-option.php:110
+#: ../templates/admin/cart-rules-panel.php:86
+msgid "Value"
+msgstr "Valor"
+
+#: ../templates/admin/cart-rules-option.php:145
+#: ../templates/admin/cart-rules-option.php:160
+#: ../templates/admin/cart-rules-panel.php:110
+#: ../templates/admin/cart-rules-panel.php:119
+#: ../templates/admin/pricing-rules-option.php:168
+#: ../templates/admin/pricing-rules-option.php:184
+#: ../templates/admin/pricing-rules-panel.php:132
+#: ../templates/admin/pricing-rules-panel.php:144
+msgid "Select a role"
+msgstr "Selecciona un rol"
+
+#: ../templates/admin/cart-rules-option.php:177
+#: ../templates/admin/cart-rules-option.php:198
+#: ../templates/admin/cart-rules-panel.php:128
+#: ../templates/admin/cart-rules-panel.php:135
+#: ../templates/admin/pricing-rules-option.php:201
+#: ../templates/admin/pricing-rules-option.php:222
+#: ../templates/admin/pricing-rules-panel.php:156
+#: ../templates/admin/pricing-rules-panel.php:165
+msgid "Search for a customer"
+msgstr "Buscar un cliente"
+
+#: ../templates/admin/cart-rules-option.php:241
+#: ../templates/admin/cart-rules-option.php:266
+#: ../templates/admin/cart-rules-option.php:290
+#: ../templates/admin/cart-rules-panel.php:153
+#: ../templates/admin/cart-rules-panel.php:160
+#: ../templates/admin/cart-rules-panel.php:166
+#: ../templates/admin/pricing-rules-option.php:266
+#: ../templates/admin/pricing-rules-option.php:291
+#: ../templates/admin/pricing-rules-option.php:520
+#: ../templates/admin/pricing-rules-option.php:545
+#: ../templates/admin/pricing-rules-panel.php:192
+#: ../templates/admin/pricing-rules-panel.php:201
+#: ../templates/admin/pricing-rules-panel.php:307
+#: ../templates/admin/pricing-rules-panel.php:317
+msgid "Search for a product"
+msgstr "Buscar un producto"
+
+#: ../templates/admin/cart-rules-option.php:315
+#: ../templates/admin/cart-rules-option.php:336
+#: ../templates/admin/cart-rules-option.php:359
+#: ../templates/admin/cart-rules-panel.php:172
+#: ../templates/admin/cart-rules-panel.php:178
+#: ../templates/admin/cart-rules-panel.php:184
+#: ../templates/admin/pricing-rules-option.php:316
+#: ../templates/admin/pricing-rules-option.php:338
+#: ../templates/admin/pricing-rules-option.php:570
+#: ../templates/admin/pricing-rules-option.php:593
+#: ../templates/admin/pricing-rules-option.php:757
+#: ../templates/admin/pricing-rules-panel.php:210
+#: ../templates/admin/pricing-rules-panel.php:219
+#: ../templates/admin/pricing-rules-panel.php:326
+#: ../templates/admin/pricing-rules-panel.php:335
+msgid "Search for a category"
+msgstr "Buscar una categoría"
+
+#: ../templates/admin/cart-rules-option.php:380
+#: ../templates/admin/cart-rules-option.php:401
+#: ../templates/admin/cart-rules-option.php:423
+#: ../templates/admin/pricing-rules-option.php:360
+#: ../templates/admin/pricing-rules-option.php:382
+#: ../templates/admin/pricing-rules-option.php:614
+#: ../templates/admin/pricing-rules-option.php:636
+#: ../templates/admin/pricing-rules-panel.php:228
+#: ../templates/admin/pricing-rules-panel.php:237
+#: ../templates/admin/pricing-rules-panel.php:344
+#: ../templates/admin/pricing-rules-panel.php:353
+msgid "Search for a tag"
+msgstr "Buscar una etiqueta"
+
+#: ../templates/admin/cart-rules-option.php:444
+#: ../templates/admin/cart-rules-option.php:465
+#: ../templates/admin/cart-rules-option.php:488
+#: ../templates/admin/cart-rules-panel.php:212
+#: ../templates/admin/cart-rules-panel.php:218
+#: ../templates/admin/cart-rules-panel.php:225
+#: ../templates/admin/pricing-rules-option.php:457
+#: ../templates/admin/pricing-rules-option.php:479
+#: ../templates/admin/pricing-rules-option.php:707
+#: ../templates/admin/pricing-rules-option.php:731
+#: ../templates/admin/pricing-rules-panel.php:272
+#: ../templates/admin/pricing-rules-panel.php:282
+#: ../templates/admin/pricing-rules-panel.php:387
+#: ../templates/admin/pricing-rules-panel.php:397
+msgid "Search for a brand"
+msgstr ""
+
+#: ../templates/admin/cart-rules-option.php:513
+#: ../templates/admin/cart-rules-option.php:536
+#: ../templates/admin/cart-rules-panel.php:193
+#: ../templates/admin/cart-rules-panel.php:201
+#: ../templates/admin/pricing-rules-option.php:408
+#: ../templates/admin/pricing-rules-option.php:430
+#: ../templates/admin/pricing-rules-option.php:659
+#: ../templates/admin/pricing-rules-option.php:682
+#: ../templates/admin/pricing-rules-panel.php:248
+#: ../templates/admin/pricing-rules-panel.php:258
+#: ../templates/admin/pricing-rules-panel.php:364
+#: ../templates/admin/pricing-rules-panel.php:374
+msgid "Search for a vendor"
+msgstr "Buscar un vendedor"
+
+#: ../templates/admin/cart-rules-option.php:626
+#: ../templates/admin/cart-rules-panel.php:281
+msgid "Discount Type"
+msgstr "Tipo de descuento"
+
+#: ../templates/admin/cart-rules-option.php:627
+#: ../templates/admin/cart-rules-panel.php:282
+msgid "Amount"
+msgstr "Cantidad"
+
+#: ../templates/admin/cart-rules-option.php:653
+#: ../templates/admin/cart-rules-panel.php:303
+#: ../templates/admin/pricing-rules-option.php:973
+#: ../templates/admin/pricing-rules-panel.php:545
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: ../templates/admin/pricing-rules-option.php:63
+#: ../templates/admin/pricing-rules-panel.php:49
+msgid "Discount mode"
+msgstr "Modo de descuento"
+
+#: ../templates/admin/pricing-rules-option.php:80
+msgid "Show price table"
+msgstr "Mostrar tabla de precios"
+
+#: ../templates/admin/pricing-rules-option.php:92
+#: ../templates/admin/pricing-rules-panel.php:73
+msgid "Show in loop"
+msgstr "Mostrar en loop"
+
+#: ../templates/admin/pricing-rules-option.php:104
+#: ../templates/admin/pricing-rules-panel.php:82
+msgid "Quantity Based"
+msgstr "Basado en la cantidad"
+
+#: ../templates/admin/pricing-rules-option.php:148
+#: ../templates/admin/pricing-rules-panel.php:117
+msgid "User Status"
+msgstr "Estado de Usuario"
+
+#: ../templates/admin/pricing-rules-option.php:163
+#: ../templates/admin/pricing-rules-panel.php:129
+msgid "Select Roles"
+msgstr "Seleccionar Roles"
+
+#: ../templates/admin/pricing-rules-option.php:178
+#: ../templates/admin/pricing-rules-panel.php:141
+msgid "Select roles to exclude"
+msgstr "Selecciona los roles que excluir"
+
+#: ../templates/admin/pricing-rules-option.php:195
+#: ../templates/admin/pricing-rules-panel.php:153
+msgid "Select Customers"
+msgstr "Seleccionar Clientes"
+
+#: ../templates/admin/pricing-rules-option.php:216
+#: ../templates/admin/pricing-rules-panel.php:162
+msgid "Select customers to exclude"
+msgstr "Selecciona clientes que excluir"
+
+#: ../templates/admin/pricing-rules-option.php:243
+#: ../templates/admin/pricing-rules-panel.php:176
+msgid "Apply to"
+msgstr "Aplicar a"
+
+#: ../templates/admin/pricing-rules-option.php:255
+#: ../templates/admin/pricing-rules-panel.php:184
+msgid "Select the products to which applying the rule"
+msgstr "Selecciona los productos a los que aplicar la regla"
+
+#: ../templates/admin/pricing-rules-option.php:260
+#: ../templates/admin/pricing-rules-option.php:285
+#: ../templates/admin/pricing-rules-option.php:514
+#: ../templates/admin/pricing-rules-option.php:539
+#: ../templates/admin/pricing-rules-panel.php:189
+#: ../templates/admin/pricing-rules-panel.php:198
+#: ../templates/admin/pricing-rules-panel.php:304
+#: ../templates/admin/pricing-rules-panel.php:314
+msgid "Select Products"
+msgstr "Seleccionar productos"
+
+#: ../templates/admin/pricing-rules-option.php:310
+#: ../templates/admin/pricing-rules-option.php:332
+#: ../templates/admin/pricing-rules-option.php:564
+#: ../templates/admin/pricing-rules-option.php:586
+#: ../templates/admin/pricing-rules-option.php:750
+#: ../templates/admin/pricing-rules-panel.php:207
+#: ../templates/admin/pricing-rules-panel.php:216
+#: ../templates/admin/pricing-rules-panel.php:323
+#: ../templates/admin/pricing-rules-panel.php:332
+msgid "Categories"
+msgstr "Categorías"
+
+#: ../templates/admin/pricing-rules-option.php:354
+#: ../templates/admin/pricing-rules-option.php:376
+#: ../templates/admin/pricing-rules-option.php:608
+#: ../templates/admin/pricing-rules-option.php:630
+#: ../templates/admin/pricing-rules-panel.php:225
+#: ../templates/admin/pricing-rules-panel.php:234
+#: ../templates/admin/pricing-rules-panel.php:341
+#: ../templates/admin/pricing-rules-panel.php:350
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: ../templates/admin/pricing-rules-option.php:402
+#: ../templates/admin/pricing-rules-option.php:424
+#: ../templates/admin/pricing-rules-option.php:653
+#: ../templates/admin/pricing-rules-option.php:675
+#: ../templates/admin/pricing-rules-panel.php:245
+#: ../templates/admin/pricing-rules-panel.php:255
+#: ../templates/admin/pricing-rules-panel.php:361
+#: ../templates/admin/pricing-rules-panel.php:371
+msgid "Vendors"
+msgstr "Vendedores"
+
+#: ../templates/admin/pricing-rules-option.php:451
+#: ../templates/admin/pricing-rules-option.php:473
+#: ../templates/admin/pricing-rules-option.php:701
+#: ../templates/admin/pricing-rules-option.php:724
+#: ../templates/admin/pricing-rules-panel.php:269
+#: ../templates/admin/pricing-rules-panel.php:279
+#: ../templates/admin/pricing-rules-panel.php:384
+#: ../templates/admin/pricing-rules-panel.php:394
+msgid "Brands"
+msgstr ""
+
+#: ../templates/admin/pricing-rules-option.php:497
+#: ../templates/admin/pricing-rules-panel.php:291
+msgid "Apply adjustment to"
+msgstr "Aplicar ajuste a"
+
+#: ../templates/admin/pricing-rules-option.php:509
+msgid "Select the products to which apply the adjustments"
+msgstr "Selecciona los productos a los cuales aplicar los ajustes"
+
+#: ../templates/admin/pricing-rules-option.php:780
+#: ../templates/admin/pricing-rules-panel.php:410
+msgid "Minimum Quantity"
+msgstr "Cantidad Mínima"
+
+#: ../templates/admin/pricing-rules-option.php:781
+#: ../templates/admin/pricing-rules-panel.php:411
+msgid "Maximum Quantity"
+msgstr "Cantidad Máxima"
+
+#: ../templates/admin/pricing-rules-option.php:782
+#: ../templates/admin/pricing-rules-option.php:849
+#: ../templates/admin/pricing-rules-panel.php:412
+#: ../templates/admin/pricing-rules-panel.php:451
+msgid "Type of Discount"
+msgstr "Tipo de descuento"
+
+#: ../templates/admin/pricing-rules-option.php:783
+#: ../templates/admin/pricing-rules-option.php:850
+#: ../templates/admin/pricing-rules-panel.php:413
+#: ../templates/admin/pricing-rules-panel.php:452
+msgid "Discount Amount"
+msgstr "Cantidad de descuento"
+
+#: ../templates/admin/pricing-rules-option.php:799
+#: ../templates/admin/pricing-rules-option.php:859
+#: ../templates/admin/pricing-rules-panel.php:418
+#: ../templates/admin/pricing-rules-panel.php:457
+msgid "e.g. 5"
+msgstr "p. ej. 5"
+
+#: ../templates/admin/pricing-rules-option.php:806
+#: ../templates/admin/pricing-rules-option.php:866
+#: ../templates/admin/pricing-rules-panel.php:421
+#: ../templates/admin/pricing-rules-panel.php:460
+msgid "e.g. 10 - * for unlimited items"
+msgstr "p. ej. 10 - * para artículos ilimitados"
+
+#: ../templates/admin/pricing-rules-option.php:823
+#: ../templates/admin/pricing-rules-option.php:884
+#: ../templates/admin/pricing-rules-panel.php:431
+#: ../templates/admin/pricing-rules-panel.php:470
+msgid "e.g. 50"
+msgstr "p. ej. 50"
+
+#: ../templates/admin/pricing-rules-option.php:841
+#: ../templates/admin/pricing-rules-panel.php:443
+msgid "Special Offer Rules"
+msgstr "Reglas de Oferta Especial"
+
+#: ../templates/admin/pricing-rules-option.php:847
+#: ../templates/admin/pricing-rules-panel.php:449
+msgid "Purchase"
+msgstr "Compra"
+
+#: ../templates/admin/pricing-rules-option.php:848
+#: ../templates/admin/pricing-rules-panel.php:450
+msgid "Receive"
+msgstr "Recibir"
+
+#: ../templates/admin/pricing-rules-option.php:851
+#: ../templates/admin/pricing-rules-panel.php:453
+msgid "Repeat"
+msgstr "Repetir"
+
+#: ../templates/admin/pricing-rules-option.php:905
+#: ../templates/admin/pricing-rules-panel.php:487
+msgid "Notes shown on \"Apply to\" products"
+msgstr ""
+
+#: ../templates/admin/pricing-rules-option.php:916
+#: ../templates/admin/pricing-rules-panel.php:496
+msgid "Notes shown on \"Apply adjustment to\" products"
+msgstr ""
+
+#: ../templates/admin/pricing-rules-option.php:927
+msgid "Notes shown in quantity table"
+msgstr ""
+
+#: ../templates/admin/pricing-rules-option.php:941
+#: ../templates/admin/pricing-rules-panel.php:521
+msgid "Apply this discount"
+msgstr "Aplicar este descuento"
+
+#: ../templates/admin/pricing-rules-option.php:945
+#: ../templates/admin/pricing-rules-panel.php:525
+msgid ""
+"With other rules <br><small style=\"font-weight:normal\">Only one quantity "
+"discount per product can be applied at the same time</small>"
+msgstr ""
+
+#: ../templates/admin/pricing-rules-option.php:951
+#: ../templates/admin/pricing-rules-panel.php:529
+msgid "Even if the product is on sale"
+msgstr "Incluso si el producto está rebajado"
+
+#: ../templates/admin/pricing-rules-option.php:959
+#: ../templates/admin/pricing-rules-panel.php:535
+msgid "Disable with other coupon"
+msgstr ""
+
+#: ../templates/admin/pricing-rules-panel.php:63
+msgid "Show Price Table"
+msgstr "Mostrar Tabla de Precios"
+
+#: ../templates/admin/pricing-rules-panel.php:299
+msgid "Select the products to which applying the adjustments"
+msgstr "Selecciona los productos a los cuales se le aplican los ajustes"
+
+#: ../templates/admin/pricing-rules-panel.php:507
+msgid "Notes shown in the discount table"
+msgstr ""
+
+#: ../templates/admin/rules-panel.php:18
+msgid "Add new rule"
+msgstr "Añadir nueva regla"
+
+#: ../templates/yith_ywdpd_table_pricing.php:54
+#: ../templates/yith_ywdpd_table_pricing_vertical.php:37
+#, php-format
+msgctxt "Price range: from-to"
+msgid "%1$s&ndash;%2$s"
+msgstr "%1$s&ndash;%2$s"
+
+#~ msgctxt "min_price"
+#~ msgid "From:"
+#~ msgstr "De:"
+
+#~ msgid "Free!"
+#~ msgstr "¡Gratis!"
+
+#~ msgid "With other rules"
+#~ msgstr "Con Otras Reglas"
+
+#~ msgid ""
+#~ "Display Note on \"Apply Products\" and on \"Adjustment Products\" on "
+#~ "Price Rules"
+#~ msgstr ""
+#~ "Mostrar Nota en \"Aplicar Productos\" y en \"Productos de Ajuste\" en "
+#~ "Reglas de Precio"
+
+#~ msgid ""
+#~ "Position of Note on \"Apply Products\" on and on \"Adjustment Products\" "
+#~ "on Price Rules"
+#~ msgstr ""
+#~ "Posición de la Nota en \"Aplicar Productos\" y en \"Productos de Ajuste\" "
+#~ "en Reglas de Precio"
+
+#~ msgid "Notes for the Discount In Products \"Apply To\""
+#~ msgstr "Notas del descuento en productos \"Aplicar a\""
+
+#~ msgid "Notes for the Discount In Products \"Adjustment To\""
+#~ msgstr "Notas del descuento en los productos \"Aplicar ajuste a\""
+
+#~ msgid "Notes for the Discount per Quantity table"
+#~ msgstr "Notas del Descuento por Tabla de Cantidad"
+
+#~ msgid "Notes for the Discount table"
+#~ msgstr "Notas de la Tabla de Descuento"

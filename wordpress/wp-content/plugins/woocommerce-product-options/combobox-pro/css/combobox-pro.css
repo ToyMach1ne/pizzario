@@ -1,0 +1,50 @@
+/**
+* Copyright (c) All Rights Reserved WPShowCase.net
+*/
+
+.combobox-pro-list {
+    background:#fff;
+    border:1px solid #aaa;
+    list-style: none;
+    margin: 0;
+    background: #fff;
+    border: 1px solid;
+    position:absolute;
+    left:0;
+    text-align:left;
+    padding:3px 10px 3px 10px;
+}
+
+.combobox-pro-list li span.value {
+    display:none;
+}
+
+.combobox-pro-list li {
+    position:relative;
+    z-index:10000;
+    list-style:none;
+    white-space: nowrap;
+}
+
+.combobox-pro-list li:hover {
+    background:#ddd;
+}
+
+.combobox-pro-down-arrow {
+    display:inline;
+    background:#eee;
+    border:1px solid;
+    position:absolute;
+    border-top-right-radius:2px;
+    border-bottom-right-radius: 2px;
+    padding: 0 3px;
+}
+
+.combobox-pro-text {
+    top:0;
+    left:0;
+    position:absolute;
+    border-top-left-radius:2px;
+    border-bottom-left-radius: 2px;
+    z-index:9000;
+}

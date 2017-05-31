@@ -1,0 +1,1265 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: woo brand\n"
+"POT-Creation-Date: 2016-05-01 19:23+0430\n"
+"PO-Revision-Date: 2016-05-01 19:23+0430\n"
+"Last-Translator: \n"
+"Language-Team: proword\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+
+#: classes/addons.php:51
+msgid "Activated"
+msgstr ""
+
+#: classes/addons.php:55
+msgid "Activate Here"
+msgstr ""
+
+#: classes/addons.php:61
+msgid "Buy Now"
+msgstr ""
+
+#: classes/setting-tabs.php:46
+msgid "Product brands"
+msgstr ""
+
+#: classes/setting-tabs.php:47 classes/setting-tabs.php:53
+msgid "Please BUY/activated woocommerce brand coupon Add-ons"
+msgstr ""
+
+#: classes/setting-tabs.php:47
+msgid ""
+"A product must be associated with this brand for the coupon to remain valid "
+"or, for \"Product Discounts\", products with these brands will be discounted."
+msgstr ""
+
+#: classes/setting-tabs.php:52
+msgid "Exclude brands"
+msgstr ""
+
+#: classes/setting-tabs.php:54
+msgid ""
+"Product must not be associated with these brands for the coupon to remain "
+"valid or, for \"Product Discounts\", products associated with these brands "
+"will not be discounted."
+msgstr ""
+
+#: classes/setting-tabs.php:81 classes/taxonomies.php:71
+#: classes/taxonomies.php:175 classes/taxonomies.php:176
+#: classes/widget.php:1093 classes/widget_DropDownFilter.php:1054
+#: classes/widget_bac.php:1091 vc_composer/class/pw_brand_product_grid.php:32
+#: vc_composer/class/pw_brand_product_list_filter.php:40
+#: vc_composer/class/pw_brand_thumbnails.php:32
+msgid "Brands"
+msgstr ""
+
+#: classes/setting-tabs.php:88
+msgid "Product Brand base"
+msgstr ""
+
+#: classes/setting-tabs.php:139
+msgid "Wishlist Page"
+msgstr ""
+
+#: classes/setting-tabs.php:140
+msgid "Page contents: [pw_woocommerce_brands]"
+msgstr ""
+
+#: classes/setting-tabs.php:176
+msgid "General Settings"
+msgstr ""
+
+#: classes/setting-tabs.php:178
+msgid "Customize \"Brand\""
+msgstr ""
+
+#: classes/setting-tabs.php:179
+msgid "Change \"Brand\" Text"
+msgstr ""
+
+#: classes/setting-tabs.php:200
+msgid "Extra Button Settings"
+msgstr ""
+
+#: classes/setting-tabs.php:202
+msgid "Display Brands Extra Button"
+msgstr ""
+
+#: classes/setting-tabs.php:203
+msgid "Display Brands Extra Button."
+msgstr ""
+
+#: classes/setting-tabs.php:210
+msgid "Position Extra Button"
+msgstr ""
+
+#: classes/setting-tabs.php:211
+msgid "You Can Choose Extra Button Position.(Left/Right)"
+msgstr ""
+
+#: classes/setting-tabs.php:217
+msgid "Left"
+msgstr ""
+
+#: classes/setting-tabs.php:218
+msgid "Right"
+msgstr ""
+
+#: classes/setting-tabs.php:223
+msgid "Style Extra Button"
+msgstr ""
+
+#: classes/setting-tabs.php:224
+msgid "You Can Choose Extra Button Style"
+msgstr ""
+
+#: classes/setting-tabs.php:230 classes/widget.php:84 classes/widget.php:256
+#: classes/widget.php:335 classes/widget_DropDownFilter.php:84
+#: classes/widget_DropDownFilter.php:256 classes/widget_DropDownFilter.php:335
+#: classes/widget_bac.php:84 classes/widget_bac.php:256
+#: classes/widget_bac.php:335 vc_composer/class/pw_brand_a_z_view.php:35
+#: vc_composer/class/pw_brand_a_z_view.php:52
+#: vc_composer/class/pw_brand_carousel.php:89
+#: vc_composer/class/pw_brand_carousel.php:103
+#: vc_composer/class/pw_brand_product_carousel.php:48
+#: vc_composer/class/pw_brand_product_carousel.php:60
+#: vc_composer/class/pw_brand_product_carousel.php:71
+#: vc_composer/class/pw_brand_product_grid.php:48
+#: vc_composer/class/pw_brand_thumbnails.php:98
+#: vc_composer/class/pw_brand_vc_all_view.php:67
+#: vc_composer/class/pw_brand_vc_all_view.php:154
+msgid "Style 1"
+msgstr ""
+
+#: classes/setting-tabs.php:231 classes/widget.php:85 classes/widget.php:257
+#: classes/widget.php:336 classes/widget_DropDownFilter.php:85
+#: classes/widget_DropDownFilter.php:257 classes/widget_DropDownFilter.php:336
+#: classes/widget_bac.php:85 classes/widget_bac.php:257
+#: classes/widget_bac.php:336 vc_composer/class/pw_brand_a_z_view.php:36
+#: vc_composer/class/pw_brand_a_z_view.php:53
+#: vc_composer/class/pw_brand_carousel.php:90
+#: vc_composer/class/pw_brand_carousel.php:104
+#: vc_composer/class/pw_brand_product_carousel.php:49
+#: vc_composer/class/pw_brand_product_carousel.php:61
+#: vc_composer/class/pw_brand_product_carousel.php:72
+#: vc_composer/class/pw_brand_product_grid.php:49
+#: vc_composer/class/pw_brand_vc_all_view.php:68
+#: vc_composer/class/pw_brand_vc_all_view.php:155
+msgid "Style 2"
+msgstr ""
+
+#: classes/setting-tabs.php:232 classes/widget.php:86 classes/widget.php:258
+#: classes/widget.php:337 classes/widget_DropDownFilter.php:86
+#: classes/widget_DropDownFilter.php:258 classes/widget_DropDownFilter.php:337
+#: classes/widget_bac.php:86 classes/widget_bac.php:258
+#: classes/widget_bac.php:337 vc_composer/class/pw_brand_a_z_view.php:37
+#: vc_composer/class/pw_brand_a_z_view.php:54
+#: vc_composer/class/pw_brand_carousel.php:91
+#: vc_composer/class/pw_brand_carousel.php:105
+#: vc_composer/class/pw_brand_product_carousel.php:50
+#: vc_composer/class/pw_brand_product_carousel.php:73
+#: vc_composer/class/pw_brand_product_grid.php:50
+#: vc_composer/class/pw_brand_vc_all_view.php:69
+#: vc_composer/class/pw_brand_vc_all_view.php:156
+msgid "Style 3"
+msgstr ""
+
+#: classes/setting-tabs.php:241
+msgid "Brand`s Image&Text Setting"
+msgstr ""
+
+#: classes/setting-tabs.php:254
+msgid "Display Brand Title In Product Listing"
+msgstr ""
+
+#: classes/setting-tabs.php:262
+msgid "Display Brand`s Description In Single Producut"
+msgstr ""
+
+#: classes/setting-tabs.php:270
+msgid "Display Brand`s Description In Producut List"
+msgstr ""
+
+#: classes/setting-tabs.php:278
+msgid "Display Brand`s Text In Single Producut"
+msgstr ""
+
+#: classes/setting-tabs.php:286
+msgid "Display Brand logo In Product Listing"
+msgstr ""
+
+#: classes/setting-tabs.php:293 classes/setting-tabs.php:309
+#: classes/setting-tabs.php:325
+msgid "Image Size"
+msgstr ""
+
+#: classes/setting-tabs.php:294 classes/setting-tabs.php:310
+#: classes/setting-tabs.php:326
+msgid "This size is usually used in product listings"
+msgstr ""
+
+#: classes/setting-tabs.php:302
+msgid "Display Brand`s Image In Single Producut"
+msgstr ""
+
+#: classes/setting-tabs.php:318
+msgid "Display Brand`s Image In Brand Archive Page"
+msgstr ""
+
+#: classes/setting-tabs.php:333
+msgid "Default Image"
+msgstr ""
+
+#: classes/setting-tabs.php:334
+msgid "Add Default Image"
+msgstr ""
+
+#: classes/setting-tabs.php:341
+msgid "Term counts"
+msgstr ""
+
+#: classes/setting-tabs.php:342
+msgid ""
+"\tThis tool will recount product terms - useful when changing your settings "
+"in a way which hides products from the catalog."
+msgstr ""
+
+#: classes/setting-tabs.php:349
+msgid "Brand`s Add-ons"
+msgstr ""
+
+#: classes/setting-tabs.php:421 classes/taxonomies.php:241
+#: classes/taxonomies.php:332
+msgid "Upload/Add image"
+msgstr ""
+
+#: classes/setting-tabs.php:422 classes/taxonomies.php:242
+#: classes/taxonomies.php:333
+msgid "Remove image"
+msgstr ""
+
+#: classes/setting-tabs.php:454 classes/taxonomies.php:265
+#: classes/taxonomies.php:352
+msgid "Choose an image"
+msgstr ""
+
+#: classes/setting-tabs.php:456 classes/taxonomies.php:267
+#: classes/taxonomies.php:354
+msgid "Use image"
+msgstr ""
+
+#: classes/setting-tabs.php:497
+msgid "Show/Hide Add-ons"
+msgstr ""
+
+#: classes/setting-tabs.php:532
+msgid "Recount terms"
+msgstr ""
+
+#: classes/setting-tabs.php:546
+msgid "Loading..."
+msgstr ""
+
+#: classes/taxonomies.php:132
+msgid "Most Used"
+msgstr ""
+
+#: classes/taxonomies.php:177
+msgid "Search Genres"
+msgstr ""
+
+#: classes/taxonomies.php:178
+msgid "All Brands"
+msgstr ""
+
+#: classes/taxonomies.php:179
+msgid "Parent Brands"
+msgstr ""
+
+#: classes/taxonomies.php:180
+msgid "Parent Brands:"
+msgstr ""
+
+#: classes/taxonomies.php:181
+msgid "Edit Brands"
+msgstr ""
+
+#: classes/taxonomies.php:182
+msgid "Update Brands"
+msgstr ""
+
+#: classes/taxonomies.php:183
+msgid "Add New Brands"
+msgstr ""
+
+#: classes/taxonomies.php:184
+msgid "New Brands Name"
+msgstr ""
+
+#: classes/taxonomies.php:199
+msgid "brand"
+msgstr ""
+
+#: classes/taxonomies.php:226
+msgid "Url"
+msgstr ""
+
+#: classes/taxonomies.php:228 classes/taxonomies.php:315
+msgid ""
+"Set Brand External Url (if you set the url, when visitor click on a brand "
+"name, this url will be displayed instead of brand page )"
+msgstr ""
+
+#: classes/taxonomies.php:232 classes/taxonomies.php:321
+msgid "Featured"
+msgstr ""
+
+#: classes/taxonomies.php:237 classes/taxonomies.php:327
+msgid "Thumbnail"
+msgstr ""
+
+#: classes/taxonomies.php:312
+msgid "URL"
+msgstr ""
+
+#: classes/taxonomies.php:409
+msgid "Image"
+msgstr ""
+
+#: classes/taxonomies.php:410 classes/widget.php:770
+#: classes/widget_DropDownFilter.php:224 classes/widget_DropDownFilter.php:769
+#: classes/widget_bac.php:224 classes/widget_bac.php:769
+msgid "Name"
+msgstr ""
+
+#: classes/taxonomies.php:411
+msgid "featured"
+msgstr ""
+
+#: classes/taxonomies.php:412
+msgid "url"
+msgstr ""
+
+#: classes/widget.php:10 classes/widget_DropDownFilter.php:10
+#: classes/widget_bac.php:10
+msgid "Woo Brand`s Carousel"
+msgstr ""
+
+#: classes/widget.php:11 classes/widget_DropDownFilter.php:11
+#: classes/widget_bac.php:11
+msgid "Display a Carousel of your Brands on widget."
+msgstr ""
+
+#: classes/widget.php:45 classes/widget.php:206 classes/widget.php:329
+#: classes/widget_DropDownFilter.php:45 classes/widget_DropDownFilter.php:206
+#: classes/widget_DropDownFilter.php:329 classes/widget_bac.php:45
+#: classes/widget_bac.php:206 classes/widget_bac.php:329
+msgid "title:"
+msgstr ""
+
+#: classes/widget.php:49 classes/widget.php:210
+#: classes/widget_DropDownFilter.php:49 classes/widget_DropDownFilter.php:210
+#: classes/widget_bac.php:49 classes/widget_bac.php:210
+msgid "Brand`s:"
+msgstr ""
+
+#: classes/widget.php:50 classes/widget.php:211 classes/widget.php:219
+#: classes/widget.php:753 classes/widget_DropDownFilter.php:50
+#: classes/widget_DropDownFilter.php:211 classes/widget_DropDownFilter.php:219
+#: classes/widget_DropDownFilter.php:752 classes/widget_bac.php:50
+#: classes/widget_bac.php:211 classes/widget_bac.php:219
+#: classes/widget_bac.php:752 includes/brand_lists/adv2.php:18
+msgid "All"
+msgstr ""
+
+#: classes/widget.php:53 classes/widget.php:214 classes/widget.php:341
+#: classes/widget_DropDownFilter.php:53 classes/widget_DropDownFilter.php:214
+#: classes/widget_DropDownFilter.php:341 classes/widget_bac.php:53
+#: classes/widget_bac.php:214 classes/widget_bac.php:341
+msgid "Except Brand`s:"
+msgstr ""
+
+#: classes/widget.php:54 classes/widget.php:215 classes/widget.php:342
+#: classes/widget.php:758 classes/widget_DropDownFilter.php:54
+#: classes/widget_DropDownFilter.php:215 classes/widget_DropDownFilter.php:342
+#: classes/widget_DropDownFilter.php:757 classes/widget_bac.php:54
+#: classes/widget_bac.php:215 classes/widget_bac.php:342
+#: classes/widget_bac.php:757
+msgid "None"
+msgstr ""
+
+#: classes/widget.php:57 classes/widget.php:229 classes/widget.php:345
+#: classes/widget_DropDownFilter.php:57 classes/widget_DropDownFilter.php:229
+#: classes/widget_DropDownFilter.php:345 classes/widget_bac.php:57
+#: classes/widget_bac.php:229 classes/widget_bac.php:345
+msgid "Display Only Featured Brands:"
+msgstr ""
+
+#: classes/widget.php:59 classes/widget.php:231 classes/widget.php:347
+#: classes/widget_DropDownFilter.php:59 classes/widget_DropDownFilter.php:231
+#: classes/widget_DropDownFilter.php:347 classes/widget_bac.php:59
+#: classes/widget_bac.php:231 classes/widget_bac.php:347
+#: vc_composer/class/pw_brand_a_z_view.php:67
+#: vc_composer/class/pw_brand_carousel.php:46
+#: vc_composer/class/pw_brand_thumbnails.php:63
+#: vc_composer/class/pw_brand_vc_all_view.php:78
+msgid "Display Only Featured Brands"
+msgstr ""
+
+#: classes/widget.php:62 classes/widget.php:244 classes/widget.php:350
+#: classes/widget_DropDownFilter.php:62 classes/widget_DropDownFilter.php:244
+#: classes/widget_DropDownFilter.php:350 classes/widget_bac.php:62
+#: classes/widget_bac.php:244 classes/widget_bac.php:350
+msgid "Display Count Of Brands:"
+msgstr ""
+
+#: classes/widget.php:64 classes/widget.php:246 classes/widget.php:352
+#: classes/widget_DropDownFilter.php:64 classes/widget_DropDownFilter.php:246
+#: classes/widget_DropDownFilter.php:352 classes/widget_bac.php:64
+#: classes/widget_bac.php:246 classes/widget_bac.php:352
+#: vc_composer/class/pw_brand_carousel.php:54
+#: vc_composer/class/pw_brand_thumbnails.php:81
+msgid "Display Count Of Brands"
+msgstr ""
+
+#: classes/widget.php:67 classes/widget_DropDownFilter.php:67
+#: classes/widget_bac.php:67
+msgid "Display Brand`s Image:"
+msgstr ""
+
+#: classes/widget.php:69 classes/widget_DropDownFilter.php:69
+#: classes/widget_bac.php:69 vc_composer/class/pw_brand_carousel.php:62
+#: vc_composer/class/pw_brand_vc_all_view.php:96
+msgid "Display Brand`s Image"
+msgstr ""
+
+#: classes/widget.php:72 classes/widget.php:239
+#: classes/widget_DropDownFilter.php:72 classes/widget_DropDownFilter.php:239
+#: classes/widget_bac.php:72 classes/widget_bac.php:239
+msgid "Display Brand`s Title:"
+msgstr ""
+
+#: classes/widget.php:74 classes/widget.php:241
+#: classes/widget_DropDownFilter.php:74 classes/widget_DropDownFilter.php:241
+#: classes/widget_bac.php:74 classes/widget_bac.php:241
+#: vc_composer/class/pw_brand_carousel.php:70
+#: vc_composer/class/pw_brand_thumbnails.php:75
+#: vc_composer/class/pw_brand_vc_all_view.php:102
+msgid "Display Brand`s Title"
+msgstr ""
+
+#: classes/widget.php:77 classes/widget.php:249
+#: classes/widget_DropDownFilter.php:77 classes/widget_DropDownFilter.php:249
+#: classes/widget_bac.php:77 classes/widget_bac.php:249
+msgid "Show Tooltip:"
+msgstr ""
+
+#: classes/widget.php:79 classes/widget.php:251
+#: classes/widget_DropDownFilter.php:79 classes/widget_DropDownFilter.php:251
+#: classes/widget_bac.php:79 classes/widget_bac.php:251
+#: vc_composer/class/pw_brand_carousel.php:78
+#: vc_composer/class/pw_brand_thumbnails.php:87
+#: vc_composer/class/pw_brand_vc_all_view.php:162
+msgid "Show Tooltip"
+msgstr ""
+
+#: classes/widget.php:82 classes/widget.php:254 classes/widget.php:333
+#: classes/widget_DropDownFilter.php:82 classes/widget_DropDownFilter.php:254
+#: classes/widget_DropDownFilter.php:333 classes/widget_bac.php:82
+#: classes/widget_bac.php:254 classes/widget_bac.php:333
+msgid "Style:"
+msgstr ""
+
+#: classes/widget.php:90 classes/widget.php:272
+#: classes/widget_DropDownFilter.php:90 classes/widget_DropDownFilter.php:272
+#: classes/widget_bac.php:90 classes/widget_bac.php:272
+msgid "Round Corner:"
+msgstr ""
+
+#: classes/widget.php:92 classes/widget.php:274
+#: classes/widget_DropDownFilter.php:92 classes/widget_DropDownFilter.php:274
+#: classes/widget_bac.php:92 classes/widget_bac.php:274
+#: vc_composer/class/pw_brand_carousel.php:123
+#: vc_composer/class/pw_brand_thumbnails.php:149
+msgid "Round Corner"
+msgstr ""
+
+#: classes/widget.php:95 classes/widget_DropDownFilter.php:95
+#: classes/widget_bac.php:95
+msgid "Item Width:"
+msgstr ""
+
+#: classes/widget.php:96 classes/widget.php:100 classes/widget.php:361
+#: classes/widget_DropDownFilter.php:96 classes/widget_DropDownFilter.php:100
+#: classes/widget_DropDownFilter.php:361 classes/widget_bac.php:96
+#: classes/widget_bac.php:100 classes/widget_bac.php:361
+msgid "300"
+msgstr ""
+
+#: classes/widget.php:99 classes/widget_DropDownFilter.php:99
+#: classes/widget_bac.php:99
+msgid "Item Marrgin:"
+msgstr ""
+
+#: classes/widget.php:103 classes/widget_DropDownFilter.php:103
+#: classes/widget_bac.php:103
+msgid "Slide direction:"
+msgstr ""
+
+#: classes/widget.php:105 classes/widget_DropDownFilter.php:105
+#: classes/widget_bac.php:105 vc_composer/class/pw_brand_carousel.php:150
+#: vc_composer/class/pw_brand_product_carousel.php:94
+msgid "Vertical"
+msgstr ""
+
+#: classes/widget.php:106 classes/widget_DropDownFilter.php:106
+#: classes/widget_bac.php:106 vc_composer/class/pw_brand_carousel.php:151
+#: vc_composer/class/pw_brand_product_carousel.php:95
+msgid "Horizontal"
+msgstr ""
+
+#: classes/widget.php:110 classes/widget_DropDownFilter.php:110
+#: classes/widget_bac.php:110
+msgid "Show Pagination:"
+msgstr ""
+
+#: classes/widget.php:112 classes/widget_DropDownFilter.php:112
+#: classes/widget_bac.php:112 vc_composer/class/pw_brand_carousel.php:157
+#: vc_composer/class/pw_brand_product_carousel.php:117
+msgid "Show Pagination"
+msgstr ""
+
+#: classes/widget.php:115 classes/widget_DropDownFilter.php:115
+#: classes/widget_bac.php:115
+msgid "Show Control:"
+msgstr ""
+
+#: classes/widget.php:117 classes/widget_DropDownFilter.php:117
+#: classes/widget_bac.php:117 vc_composer/class/pw_brand_carousel.php:163
+#: vc_composer/class/pw_brand_product_carousel.php:123
+msgid "Show Control"
+msgstr ""
+
+#: classes/widget.php:120 classes/widget_DropDownFilter.php:120
+#: classes/widget_bac.php:120
+msgid "Item Per View:"
+msgstr ""
+
+#: classes/widget.php:121 classes/widget.php:266
+#: classes/widget_DropDownFilter.php:121 classes/widget_DropDownFilter.php:266
+#: classes/widget_bac.php:121 classes/widget_bac.php:266
+msgid "3"
+msgstr ""
+
+#: classes/widget.php:124 classes/widget_DropDownFilter.php:124
+#: classes/widget_bac.php:124
+msgid "Slide Speed:"
+msgstr ""
+
+#: classes/widget.php:126 classes/widget_DropDownFilter.php:126
+#: classes/widget_bac.php:126 vc_composer/class/pw_brand_carousel.php:187
+#: vc_composer/class/pw_brand_product_carousel.php:147
+msgid "1 Sec"
+msgstr ""
+
+#: classes/widget.php:127 classes/widget_DropDownFilter.php:127
+#: classes/widget_bac.php:127 vc_composer/class/pw_brand_carousel.php:188
+#: vc_composer/class/pw_brand_product_carousel.php:148
+msgid "2 Sec"
+msgstr ""
+
+#: classes/widget.php:128 classes/widget_DropDownFilter.php:128
+#: classes/widget_bac.php:128 vc_composer/class/pw_brand_carousel.php:189
+#: vc_composer/class/pw_brand_product_carousel.php:149
+msgid "3 Sec"
+msgstr ""
+
+#: classes/widget.php:129 classes/widget_DropDownFilter.php:129
+#: classes/widget_bac.php:129 vc_composer/class/pw_brand_carousel.php:190
+#: vc_composer/class/pw_brand_product_carousel.php:150
+msgid "4 Sec"
+msgstr ""
+
+#: classes/widget.php:130 classes/widget_DropDownFilter.php:130
+#: classes/widget_bac.php:130 vc_composer/class/pw_brand_carousel.php:191
+#: vc_composer/class/pw_brand_product_carousel.php:151
+msgid "5 Sec"
+msgstr ""
+
+#: classes/widget.php:134 classes/widget_DropDownFilter.php:134
+#: classes/widget_bac.php:134
+msgid "Auto play:"
+msgstr ""
+
+#: classes/widget.php:136 classes/widget_DropDownFilter.php:136
+#: classes/widget_bac.php:136
+msgid "Auto play"
+msgstr ""
+
+#: classes/widget.php:173 classes/widget_DropDownFilter.php:173
+#: classes/widget_bac.php:173
+msgid "Woo Brand`s Thumbnails"
+msgstr ""
+
+#: classes/widget.php:174 classes/widget_DropDownFilter.php:174
+#: classes/widget_bac.php:174
+msgid "Display a Thumbnails of your Brands on widget."
+msgstr ""
+
+#: classes/widget.php:218 classes/widget_DropDownFilter.php:218
+#: classes/widget_bac.php:218
+msgid "Count Of Item:"
+msgstr ""
+
+#: classes/widget.php:222 classes/widget_DropDownFilter.php:222
+#: classes/widget_bac.php:222
+msgid "Order By:"
+msgstr ""
+
+#: classes/widget.php:224 vc_composer/class/pw_brand_product_grid.php:93
+#: vc_composer/class/pw_brand_thumbnails.php:56
+msgid "ASC"
+msgstr ""
+
+#: classes/widget.php:225 vc_composer/class/pw_brand_product_grid.php:94
+#: vc_composer/class/pw_brand_thumbnails.php:57
+msgid "DESC"
+msgstr ""
+
+#: classes/widget.php:234 classes/widget.php:355
+#: classes/widget_DropDownFilter.php:234 classes/widget_DropDownFilter.php:355
+#: classes/widget_bac.php:234 classes/widget_bac.php:355
+msgid "Hide Empty Brands:"
+msgstr ""
+
+#: classes/widget.php:236 classes/widget.php:357
+#: classes/widget_DropDownFilter.php:236 classes/widget_DropDownFilter.php:357
+#: classes/widget_bac.php:236 classes/widget_bac.php:357
+#: vc_composer/class/pw_brand_a_z_view.php:79
+#: vc_composer/class/pw_brand_thumbnails.php:69
+#: vc_composer/class/pw_brand_vc_all_view.php:90
+msgid "Hide Empty Brands"
+msgstr ""
+
+#: classes/widget.php:262 classes/widget.php:747
+#: classes/widget_DropDownFilter.php:262 classes/widget_DropDownFilter.php:746
+#: classes/widget_bac.php:262 classes/widget_bac.php:746
+msgid "Columns:"
+msgstr ""
+
+#: classes/widget.php:264 classes/widget_DropDownFilter.php:264
+#: classes/widget_bac.php:264
+msgid "1"
+msgstr ""
+
+#: classes/widget.php:265 classes/widget_DropDownFilter.php:265
+#: classes/widget_bac.php:265
+msgid "2"
+msgstr ""
+
+#: classes/widget.php:267 classes/widget_DropDownFilter.php:267
+#: classes/widget_bac.php:267
+msgid "4"
+msgstr ""
+
+#: classes/widget.php:268 classes/widget_DropDownFilter.php:268
+#: classes/widget_bac.php:268
+msgid "6"
+msgstr ""
+
+#: classes/widget.php:304 classes/widget_DropDownFilter.php:304
+#: classes/widget_bac.php:304
+msgid "Woo Brand`s A-Z View"
+msgstr ""
+
+#: classes/widget.php:305 classes/widget_DropDownFilter.php:305
+#: classes/widget_bac.php:305
+msgid "Display a A-z views of your Brands on widget."
+msgstr ""
+
+#: classes/widget.php:360 classes/widget_DropDownFilter.php:360
+#: classes/widget_bac.php:360
+msgid "Scroll Height:"
+msgstr ""
+
+#: classes/widget.php:396 classes/widget_DropDownFilter.php:396
+#: classes/widget_bac.php:396
+msgid "WooCommerce Brands"
+msgstr ""
+
+#: classes/widget.php:397 classes/widget.php:540
+#: classes/widget_DropDownFilter.php:397 classes/widget_DropDownFilter.php:540
+#: classes/widget_bac.php:397 classes/widget_bac.php:540
+msgid "Display a list of your Brands on your site."
+msgstr ""
+
+#: classes/widget.php:450 classes/widget_DropDownFilter.php:450
+#: classes/widget_bac.php:450
+msgid "Please Select"
+msgstr ""
+
+#: classes/widget.php:498 classes/widget.php:575 classes/widget.php:742
+#: classes/widget.php:1078 classes/widget_DropDownFilter.php:498
+#: classes/widget_DropDownFilter.php:575 classes/widget_DropDownFilter.php:741
+#: classes/widget_DropDownFilter.php:1039 classes/widget_bac.php:498
+#: classes/widget_bac.php:575 classes/widget_bac.php:741
+#: classes/widget_bac.php:1076
+msgid "Title:"
+msgstr ""
+
+#: classes/widget.php:501 classes/widget_DropDownFilter.php:501
+#: classes/widget_bac.php:501
+msgid "Display Show:"
+msgstr ""
+
+#: classes/widget.php:514 classes/widget.php:618
+#: classes/widget_DropDownFilter.php:514 classes/widget_DropDownFilter.php:618
+#: classes/widget_bac.php:514 classes/widget_bac.php:618
+msgid "Display Only featured?"
+msgstr ""
+
+#: classes/widget.php:516 classes/widget.php:621
+#: classes/widget_DropDownFilter.php:516 classes/widget_DropDownFilter.php:621
+#: classes/widget_bac.php:516 classes/widget_bac.php:621
+msgid "Show post counts"
+msgstr ""
+
+#: classes/widget.php:539 classes/widget_DropDownFilter.php:539
+#: classes/widget_bac.php:539
+msgid "WooCommerce Brands Carousel"
+msgstr ""
+
+#: classes/widget.php:578 classes/widget_DropDownFilter.php:578
+#: classes/widget_bac.php:578
+msgid "Carousel Type:"
+msgstr ""
+
+#: classes/widget.php:590 classes/widget_DropDownFilter.php:590
+#: classes/widget_bac.php:590
+msgid "Carousel Align:"
+msgstr ""
+
+#: classes/widget.php:605 classes/widget_DropDownFilter.php:605
+#: classes/widget_bac.php:605
+msgid "Count of Items"
+msgstr ""
+
+#: classes/widget.php:610 classes/widget_DropDownFilter.php:610
+#: classes/widget_bac.php:610 vc_composer/class/pw_brand_carousel.php:170
+#: vc_composer/class/pw_brand_product_carousel.php:130
+msgid "Item Per View"
+msgstr ""
+
+#: classes/widget.php:615 classes/widget_DropDownFilter.php:615
+#: classes/widget_bac.php:615
+msgid "Show Title?"
+msgstr ""
+
+#: classes/widget.php:706 classes/widget_DropDownFilter.php:705
+#: classes/widget_bac.php:705
+msgid "WooCommerce Brand Thumbnails"
+msgstr ""
+
+#: classes/widget.php:707 classes/widget_DropDownFilter.php:706
+#: classes/widget_bac.php:706
+msgid "Show a grid of brand thumbnails."
+msgstr ""
+
+#: classes/widget.php:752 classes/widget_DropDownFilter.php:751
+#: classes/widget_bac.php:751
+msgid "Count Of Number:"
+msgstr ""
+
+#: classes/widget.php:757 classes/widget_DropDownFilter.php:756
+#: classes/widget_bac.php:756
+msgid "Exclude:"
+msgstr ""
+
+#: classes/widget.php:762 classes/widget_DropDownFilter.php:761
+#: classes/widget_bac.php:761
+msgid "Hide empty brands:"
+msgstr ""
+
+#: classes/widget.php:764 classes/widget_DropDownFilter.php:763
+#: classes/widget_bac.php:763
+msgid "Hide empty brands"
+msgstr ""
+
+#: classes/widget.php:768 classes/widget_DropDownFilter.php:767
+#: classes/widget_bac.php:767
+msgid "Order by:"
+msgstr ""
+
+#: classes/widget.php:771 classes/widget_DropDownFilter.php:225
+#: classes/widget_DropDownFilter.php:770 classes/widget_bac.php:225
+#: classes/widget_bac.php:770
+msgid "Count"
+msgstr ""
+
+#: classes/widget.php:813 classes/widget_DropDownFilter.php:812
+#: classes/widget_bac.php:812
+msgid "WooCommerce Brand Layered Nav"
+msgstr ""
+
+#: classes/widget.php:814 classes/widget_DropDownFilter.php:813
+#: classes/widget_bac.php:813
+msgid ""
+"Shows brands in a widget which lets you narrow down the list of products "
+"when viewing products."
+msgstr ""
+
+#: classes/widget.php:865 classes/widget_DropDownFilter.php:863
+#: classes/widget_bac.php:863
+msgid "Any brand"
+msgstr ""
+
+#: classes/widget.php:1081 classes/widget_DropDownFilter.php:1042
+#: classes/widget_bac.php:1079
+msgid "Display Type:"
+msgstr ""
+
+#: classes/widget.php:1083 classes/widget_DropDownFilter.php:1044
+#: classes/widget_bac.php:1081
+msgid "List"
+msgstr ""
+
+#: classes/widget.php:1084 classes/widget_DropDownFilter.php:1045
+#: classes/widget_bac.php:1082
+msgid "Dropdown"
+msgstr ""
+
+#: includes/actions.php:224 includes/actions.php:414
+msgid "There are no items !"
+msgstr ""
+
+#: includes/actions.php:387 includes/all_shortcode.php:532
+#: includes/product-list/adv-product-1.php:143
+msgid "Categories: "
+msgstr ""
+
+#: includes/actions.php:388 includes/all_shortcode.php:533
+#: includes/product-list/adv-product-1.php:144
+msgid "Brands: "
+msgstr ""
+
+#: includes/all_shortcode.php:496
+msgid "Products In"
+msgstr ""
+
+#: includes/all_shortcode.php:638
+msgid "Products In "
+msgstr ""
+
+#: includes/brand_lists/adv1.php:20
+msgid "All(Select Categorie)"
+msgstr ""
+
+#: includes/product-list/adv-product-1.php:25
+msgid "All (Select Categorie)"
+msgstr ""
+
+#: includes/product-list/adv-product-1.php:41
+msgid "All (Select "
+msgstr ""
+
+#: main.php:169
+msgid "Settings"
+msgstr ""
+
+#: main.php:170
+msgid "Docs"
+msgstr ""
+
+#: vc_composer/class/pw_brand_a_z_view.php:21
+msgid "A-Z View"
+msgstr ""
+
+#: vc_composer/class/pw_brand_a_z_view.php:27
+#: vc_composer/class/pw_brand_carousel.php:27
+#: vc_composer/class/pw_brand_product_carousel.php:27
+#: vc_composer/class/pw_brand_product_grid.php:27
+#: vc_composer/class/pw_brand_product_list_filter.php:27
+#: vc_composer/class/pw_brand_thumbnails.php:27
+#: vc_composer/class/pw_brand_vc_all_view.php:27
+msgid "Woo Brand"
+msgstr ""
+
+#: vc_composer/class/pw_brand_a_z_view.php:32
+#: vc_composer/class/pw_brand_carousel.php:86
+#: vc_composer/class/pw_brand_thumbnails.php:95
+#: vc_composer/class/pw_brand_vc_all_view.php:151
+msgid "Style"
+msgstr ""
+
+#: vc_composer/class/pw_brand_a_z_view.php:38
+#: vc_composer/class/pw_brand_carousel.php:92
+msgid "Style 4"
+msgstr ""
+
+#: vc_composer/class/pw_brand_a_z_view.php:39
+#: vc_composer/class/pw_brand_carousel.php:93
+msgid "Style 5"
+msgstr ""
+
+#: vc_composer/class/pw_brand_a_z_view.php:40
+msgid "Style 6"
+msgstr ""
+
+#: vc_composer/class/pw_brand_a_z_view.php:41
+msgid "Style 7"
+msgstr ""
+
+#: vc_composer/class/pw_brand_a_z_view.php:42
+msgid "Style 8"
+msgstr ""
+
+#: vc_composer/class/pw_brand_a_z_view.php:49
+msgid "Brand List Style"
+msgstr ""
+
+#: vc_composer/class/pw_brand_a_z_view.php:61
+#: vc_composer/class/pw_brand_carousel.php:39
+#: vc_composer/class/pw_brand_thumbnails.php:39
+msgid "Except Brand(s)"
+msgstr ""
+
+#: vc_composer/class/pw_brand_a_z_view.php:69
+#: vc_composer/class/pw_brand_a_z_view.php:75
+#: vc_composer/class/pw_brand_a_z_view.php:81
+#: vc_composer/class/pw_brand_carousel.php:49
+#: vc_composer/class/pw_brand_carousel.php:57
+#: vc_composer/class/pw_brand_carousel.php:65
+#: vc_composer/class/pw_brand_carousel.php:73
+#: vc_composer/class/pw_brand_carousel.php:81
+#: vc_composer/class/pw_brand_carousel.php:126
+#: vc_composer/class/pw_brand_carousel.php:159
+#: vc_composer/class/pw_brand_carousel.php:165
+#: vc_composer/class/pw_brand_carousel.php:201
+#: vc_composer/class/pw_brand_product_carousel.php:40
+#: vc_composer/class/pw_brand_product_carousel.php:119
+#: vc_composer/class/pw_brand_product_carousel.php:125
+#: vc_composer/class/pw_brand_product_carousel.php:161
+#: vc_composer/class/pw_brand_product_grid.php:40
+#: vc_composer/class/pw_brand_product_list_filter.php:48
+#: vc_composer/class/pw_brand_product_list_filter.php:97
+#: vc_composer/class/pw_brand_thumbnails.php:65
+#: vc_composer/class/pw_brand_thumbnails.php:71
+#: vc_composer/class/pw_brand_thumbnails.php:77
+#: vc_composer/class/pw_brand_thumbnails.php:83
+#: vc_composer/class/pw_brand_thumbnails.php:89
+#: vc_composer/class/pw_brand_thumbnails.php:151
+#: vc_composer/class/pw_brand_vc_all_view.php:80
+#: vc_composer/class/pw_brand_vc_all_view.php:86
+#: vc_composer/class/pw_brand_vc_all_view.php:92
+#: vc_composer/class/pw_brand_vc_all_view.php:98
+#: vc_composer/class/pw_brand_vc_all_view.php:104
+#: vc_composer/class/pw_brand_vc_all_view.php:164
+msgid "Yes, please"
+msgstr ""
+
+#: vc_composer/class/pw_brand_a_z_view.php:73
+msgid "Display Count Of Brand"
+msgstr ""
+
+#: vc_composer/class/pw_brand_a_z_view.php:86
+msgid "Scroll Height"
+msgstr ""
+
+#: vc_composer/class/pw_brand_carousel.php:21
+msgid "Brands Carousel"
+msgstr ""
+
+#: vc_composer/class/pw_brand_carousel.php:32
+#: vc_composer/class/pw_brand_product_carousel.php:32
+msgid "Select Brand"
+msgstr ""
+
+#: vc_composer/class/pw_brand_carousel.php:100
+#: vc_composer/class/pw_brand_product_carousel.php:68
+msgid "Controller/Pagination Style"
+msgstr ""
+
+#: vc_composer/class/pw_brand_carousel.php:112
+#: vc_composer/class/pw_brand_product_carousel.php:80
+msgid "Carousel Skin"
+msgstr ""
+
+#: vc_composer/class/pw_brand_carousel.php:115
+msgid "Light"
+msgstr ""
+
+#: vc_composer/class/pw_brand_carousel.php:116
+#: vc_composer/class/pw_brand_product_carousel.php:84
+msgid "Dark"
+msgstr ""
+
+#: vc_composer/class/pw_brand_carousel.php:131
+#: vc_composer/class/pw_brand_product_carousel.php:102
+msgid "Item Width"
+msgstr ""
+
+#: vc_composer/class/pw_brand_carousel.php:139
+msgid "Item Marrgin"
+msgstr ""
+
+#: vc_composer/class/pw_brand_carousel.php:147
+#: vc_composer/class/pw_brand_product_carousel.php:91
+msgid "Slide direction"
+msgstr ""
+
+#: vc_composer/class/pw_brand_carousel.php:177
+#: vc_composer/class/pw_brand_product_carousel.php:137
+msgid "Item Per Slide"
+msgstr ""
+
+#: vc_composer/class/pw_brand_carousel.php:184
+#: vc_composer/class/pw_brand_product_carousel.php:144
+msgid "Slide Speed"
+msgstr ""
+
+#: vc_composer/class/pw_brand_carousel.php:192
+#: vc_composer/class/pw_brand_product_carousel.php:152
+msgid "6 Sec"
+msgstr ""
+
+#: vc_composer/class/pw_brand_carousel.php:193
+#: vc_composer/class/pw_brand_product_carousel.php:153
+msgid "7 Sec"
+msgstr ""
+
+#: vc_composer/class/pw_brand_carousel.php:199
+#: vc_composer/class/pw_brand_product_carousel.php:159
+msgid "Auto Play"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_carousel.php:21
+msgid "Products Carousel By Brands"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_carousel.php:38
+#: vc_composer/class/pw_brand_product_grid.php:38
+msgid "Display Brands In Title"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_carousel.php:45
+msgid "Brands Style Title"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_carousel.php:57
+msgid "Item Style"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_carousel.php:83
+msgid "Liight"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_carousel.php:110
+msgid "Item Margin"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_grid.php:21
+msgid "Products Grid By Brands"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_grid.php:45
+msgid "Brand`s Title Style"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_grid.php:57
+#: vc_composer/class/pw_brand_product_list_filter.php:82
+#: vc_composer/class/pw_brand_thumbnails.php:136
+#: vc_composer/class/pw_brand_vc_all_view.php:137
+msgid "Columns"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_grid.php:65
+msgid "Number Per Page"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_grid.php:73
+#: vc_composer/class/pw_brand_thumbnails.php:53
+msgid "Order By"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_grid.php:76
+msgid "name"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_grid.php:77
+msgid "rand"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_grid.php:78
+msgid "author"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_grid.php:79
+msgid "title"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_grid.php:80
+msgid "date"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_grid.php:81
+msgid "ID"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_grid.php:82
+msgid "modified"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_grid.php:83
+msgid "none"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_grid.php:90
+msgid "Order"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_list_filter.php:21
+msgid "Product Grid By Brands With Filter"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_list_filter.php:33
+#: vc_composer/class/pw_brand_vc_all_view.php:44
+#: vc_composer/class/pw_brand_vc_all_view.php:54
+msgid "Category For Fillter"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_list_filter.php:46
+msgid "Display Products Image"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_list_filter.php:54
+#: vc_composer/class/pw_brand_thumbnails.php:108
+#: vc_composer/class/pw_brand_vc_all_view.php:109
+msgid "Desktop Columns"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_list_filter.php:57
+#: vc_composer/class/pw_brand_product_list_filter.php:71
+#: vc_composer/class/pw_brand_product_list_filter.php:85
+#: vc_composer/class/pw_brand_thumbnails.php:111
+#: vc_composer/class/pw_brand_thumbnails.php:125
+#: vc_composer/class/pw_brand_thumbnails.php:139
+#: vc_composer/class/pw_brand_vc_all_view.php:112
+#: vc_composer/class/pw_brand_vc_all_view.php:126
+#: vc_composer/class/pw_brand_vc_all_view.php:140
+msgid "1 Columns"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_list_filter.php:58
+#: vc_composer/class/pw_brand_product_list_filter.php:72
+#: vc_composer/class/pw_brand_product_list_filter.php:86
+#: vc_composer/class/pw_brand_thumbnails.php:112
+#: vc_composer/class/pw_brand_thumbnails.php:126
+#: vc_composer/class/pw_brand_thumbnails.php:140
+#: vc_composer/class/pw_brand_vc_all_view.php:113
+#: vc_composer/class/pw_brand_vc_all_view.php:127
+#: vc_composer/class/pw_brand_vc_all_view.php:141
+msgid "2 Columns"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_list_filter.php:59
+#: vc_composer/class/pw_brand_product_list_filter.php:73
+#: vc_composer/class/pw_brand_product_list_filter.php:87
+#: vc_composer/class/pw_brand_thumbnails.php:113
+#: vc_composer/class/pw_brand_thumbnails.php:127
+#: vc_composer/class/pw_brand_thumbnails.php:141
+#: vc_composer/class/pw_brand_vc_all_view.php:114
+#: vc_composer/class/pw_brand_vc_all_view.php:128
+#: vc_composer/class/pw_brand_vc_all_view.php:142
+msgid "3 Columns"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_list_filter.php:60
+#: vc_composer/class/pw_brand_product_list_filter.php:74
+#: vc_composer/class/pw_brand_product_list_filter.php:88
+#: vc_composer/class/pw_brand_thumbnails.php:114
+#: vc_composer/class/pw_brand_thumbnails.php:128
+#: vc_composer/class/pw_brand_thumbnails.php:142
+#: vc_composer/class/pw_brand_vc_all_view.php:115
+#: vc_composer/class/pw_brand_vc_all_view.php:129
+#: vc_composer/class/pw_brand_vc_all_view.php:143
+msgid "4 Columns"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_list_filter.php:61
+#: vc_composer/class/pw_brand_product_list_filter.php:75
+#: vc_composer/class/pw_brand_product_list_filter.php:89
+#: vc_composer/class/pw_brand_thumbnails.php:115
+#: vc_composer/class/pw_brand_thumbnails.php:129
+#: vc_composer/class/pw_brand_thumbnails.php:143
+#: vc_composer/class/pw_brand_vc_all_view.php:116
+#: vc_composer/class/pw_brand_vc_all_view.php:130
+#: vc_composer/class/pw_brand_vc_all_view.php:144
+msgid "6 Columns"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_list_filter.php:68
+#: vc_composer/class/pw_brand_thumbnails.php:122
+#: vc_composer/class/pw_brand_vc_all_view.php:123
+msgid "Tablet Columns"
+msgstr ""
+
+#: vc_composer/class/pw_brand_product_list_filter.php:95
+msgid "Display Products Price"
+msgstr ""
+
+#: vc_composer/class/pw_brand_thumbnails.php:21
+msgid "Brands thumbnail"
+msgstr ""
+
+#: vc_composer/class/pw_brand_thumbnails.php:46
+msgid "Count Of Item"
+msgstr ""
+
+#: vc_composer/class/pw_brand_thumbnails.php:99
+msgid "style 2"
+msgstr ""
+
+#: vc_composer/class/pw_brand_thumbnails.php:100
+msgid "style 3"
+msgstr ""
+
+#: vc_composer/class/pw_brand_thumbnails.php:101
+msgid "style 4"
+msgstr ""
+
+#: vc_composer/class/pw_brand_vc_all_view.php:21
+msgid "Brands List"
+msgstr ""
+
+#: vc_composer/class/pw_brand_vc_all_view.php:32
+msgid "Layout"
+msgstr ""
+
+#: vc_composer/class/pw_brand_vc_all_view.php:35
+msgid "Simple Layout"
+msgstr ""
+
+#: vc_composer/class/pw_brand_vc_all_view.php:36
+msgid "Advanced Layout 1"
+msgstr ""
+
+#: vc_composer/class/pw_brand_vc_all_view.php:37
+msgid "Advanced Layout 2(MultiSelect)"
+msgstr ""
+
+#: vc_composer/class/pw_brand_vc_all_view.php:64
+msgid "Filter style"
+msgstr ""
+
+#: vc_composer/class/pw_brand_vc_all_view.php:84
+msgid "Display Count of Products"
+msgstr ""

@@ -1,0 +1,709 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce SMS Notifications\n"
+"POT-Creation-Date: 2017-02-07 15:34+0100\n"
+"PO-Revision-Date: 2017-02-07 15:35+0100\n"
+"Last-Translator: \n"
+"Language-Team: Your Inspiration Themes <plugins@yithemes.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../class.yith-wc-sms-notifications.php:181
+msgctxt "general settings tab name"
+msgid "General Settings"
+msgstr "Impostazioni generali"
+
+#: ../class.yith-wc-sms-notifications.php:182
+msgctxt "sms settings tab name"
+msgid "SMS Settings"
+msgstr "Impostazioni SMS "
+
+#: ../class.yith-wc-sms-notifications.php:183
+msgctxt "how-to tab name"
+msgid "How-to"
+msgstr "Come fare per"
+
+#: ../class.yith-wc-sms-notifications.php:189
+#: ../includes/class-ywsn-multivendor.php:117
+msgctxt "plugin name in admin page title"
+msgid "SMS Notifications"
+msgstr "SMS Notifications"
+
+#: ../class.yith-wc-sms-notifications.php:190
+#: ../includes/class-ywsn-multivendor.php:118
+msgctxt "plugin name in admin WP menu"
+msgid "SMS Notifications"
+msgstr "SMS Notifications"
+
+#: ../class.yith-wc-sms-notifications.php:224
+msgid "Message sent successfully!"
+msgstr "Messaggio inviato con successo!"
+
+#: ../class.yith-wc-sms-notifications.php:225
+msgid "Please select the type of message you want to send."
+msgstr "Per favore seleziona il tipo di messaggio che vuoi inviare."
+
+#: ../class.yith-wc-sms-notifications.php:226
+msgid "Your message is blank!"
+msgstr "Il tuo messaggio è vuoto!"
+
+#: ../class.yith-wc-sms-notifications.php:227
+msgid "Please enter a valid phone number."
+msgstr "Per favore inserisci un numero di telefono valido."
+
+#: ../class.yith-wc-sms-notifications.php:228
+#: ../includes/class-ywsn-metabox.php:124
+#: ../templates/admin/class-ywsn-sms-send.php:108
+msgid "Sending..."
+msgstr "Invio in corso..."
+
+#: ../class.yith-wc-sms-notifications.php:229
+msgid ""
+"The client did not requested sms notifications. Do you really want to send "
+"it?"
+msgstr "Il cliente non ha richiesto le notifiche SMS. Vuoi davvero inviarlo?"
+
+#: ../class.yith-wc-sms-notifications.php:248
+msgid ""
+"To use this plugin, you should first select and configure an SMS service "
+"provider"
+msgstr ""
+"Per utilizzare questo plugin dovresti prima selezionare e configurare un "
+"provider di servizio SMS"
+
+#: ../class.yith-wc-sms-notifications.php:468
+msgid "Website name"
+msgstr "Nome del sito web"
+
+#: ../class.yith-wc-sms-notifications.php:469
+msgid "Order number"
+msgstr "Numero ordine"
+
+#: ../class.yith-wc-sms-notifications.php:470
+msgid "Order total"
+msgstr "Totale dell'ordine"
+
+#: ../class.yith-wc-sms-notifications.php:471
+#: ../plugin-options/general-options.php:454
+#: ../plugin-options/vendor/vendor-options.php:38
+msgid "Order status"
+msgstr "Stato dell'ordine"
+
+#: ../class.yith-wc-sms-notifications.php:472
+#: ../includes/class-ywsn-messages.php:753
+msgid "Billing name"
+msgstr "Nome fatturazione"
+
+#: ../class.yith-wc-sms-notifications.php:473
+#: ../includes/class-ywsn-messages.php:754
+msgid "Shipping name"
+msgstr "Nome spedizione"
+
+#: ../class.yith-wc-sms-notifications.php:474
+#: ../includes/class-ywsn-messages.php:755
+msgid "Shipping method"
+msgstr "Metodo di spedizione"
+
+#: ../class.yith-wc-sms-notifications.php:475
+#: ../includes/class-ywsn-messages.php:756
+msgid "Additional Notes"
+msgstr "Note Aggiuntive"
+
+#: ../class.yith-wc-sms-notifications.php:476
+#: ../includes/class-ywsn-messages.php:757
+msgid "Order Date"
+msgstr "Data Ordine"
+
+#: ../class.yith-wc-sms-notifications.php:481
+msgid "Tracking Number"
+msgstr ""
+
+#: ../class.yith-wc-sms-notifications.php:482
+msgid "Carrier name"
+msgstr ""
+
+#: ../class.yith-wc-sms-notifications.php:483
+msgid "Shipping date"
+msgstr ""
+
+#: ../class.yith-wc-sms-notifications.php:547
+#: ../includes/class-ywsn-multivendor.php:111
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: ../class.yith-wc-sms-notifications.php:573
+msgid "Plugin documentation"
+msgstr "Documentazione plugin"
+
+#: ../includes/class-ywsn-ajax.php:54
+msgid "No SMS service provider configured"
+msgstr "Nessun provider di servizio SMS configurato"
+
+#: ../includes/class-ywsn-ajax.php:74
+msgid "Delete note"
+msgstr "Elimina nota"
+
+#: ../includes/class-ywsn-ajax.php:87
+msgid "An error has occurred while sending the message"
+msgstr "Si è verificato un errore durante l'invio del messaggio"
+
+#: ../includes/class-ywsn-messages.php:299
+msgid "Sent"
+msgstr "Inviato"
+
+#: ../includes/class-ywsn-messages.php:330
+#, php-format
+msgid "SMS text message sent on %s"
+msgstr "Messaggio di testo SMS inviato il %s"
+
+#: ../includes/class-ywsn-messages.php:332
+#: ../includes/class-ywsn-messages.php:752
+msgid "Status"
+msgstr "Stato"
+
+#: ../includes/class-ywsn-messages.php:334
+msgid "Content"
+msgstr "Contenuto"
+
+#: ../includes/class-ywsn-messages.php:750
+msgid "OrderID"
+msgstr "ID ordine"
+
+#: ../includes/class-ywsn-messages.php:751
+msgid "Total"
+msgstr "Totale"
+
+#: ../includes/class-ywsn-metabox.php:81
+msgctxt "metabox title"
+msgid "SMS notifications"
+msgstr "Notifiche SMS "
+
+#: ../includes/class-ywsn-metabox.php:108
+#: ../includes/class-ywsn-metabox.php:110
+msgid "Get order notifications via SMS."
+msgstr "Ottieni le notifiche dell'ordine via SMS."
+
+#: ../includes/class-ywsn-metabox.php:116
+msgid "Text customer:"
+msgstr "Invia messaggio al cliente:"
+
+#: ../includes/class-ywsn-metabox.php:119
+#: ../templates/admin/class-ywsn-sms-send.php:106
+msgid "Remaining characters"
+msgstr "Caratteri rimasti"
+
+#: ../includes/class-ywsn-metabox.php:122
+msgid "Send"
+msgstr "Invia"
+
+#: ../includes/services/class-ywsn-agile-telecom.php:110
+#: ../includes/services/class-ywsn-clicksend.php:110
+#: ../includes/services/class-ywsn-jazz.php:102
+#: ../includes/services/class-ywsn-msg91.php:107
+#: ../includes/services/class-ywsn-sms-country.php:111
+#: ../includes/services/class-ywsn-smscyber.php:111
+#: ../includes/services/class-ywsn-twilio.php:113
+msgid "No answer"
+msgstr "Nessuna risposta"
+
+#: ../includes/services/class-ywsn-agile-telecom.php:118
+#: ../includes/services/class-ywsn-clicksend.php:118
+#: ../includes/services/class-ywsn-clockwork.php:98
+#: ../includes/services/class-ywsn-jazz.php:108
+#: ../includes/services/class-ywsn-messagebird.php:101
+#: ../includes/services/class-ywsn-msg91.php:113
+#: ../includes/services/class-ywsn-sms-country.php:117
+#: ../includes/services/class-ywsn-smscyber.php:117
+#, php-format
+msgid "An error has occurred: %s"
+msgstr "Si è verificato un errore: %s"
+
+#: ../includes/services/class-ywsn-clockwork.php:92
+#, php-format
+msgctxt ""
+"[ %1$s: error code - %2$s: error message; Ex. Error 10: Invalid Parameter ]"
+msgid "Error %1$s: %2$s"
+msgstr "Errore %1$s: %2$s"
+
+#: ../includes/services/class-ywsn-messagebird.php:95
+#, php-format
+msgid "Error: %s"
+msgstr "Errore: %s"
+
+#: ../includes/services/class-ywsn-twilio.php:123
+msgid "An error has occurred while sending the sms"
+msgstr "Si è verificato un errore durante l'invio dell'SMS"
+
+#: ../includes/services/class-ywsn-twilio.php:131
+msgid "No answer code"
+msgstr "Nessun codice di risposta"
+
+#: ../init.php:23
+msgid ""
+"YITH WooCommerce SMS Notifications is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce SMS Notifications è attivo ma non operativo. Il suo "
+"funzionamento richiede WooCommerce."
+
+#: ../plugin-options/general-options.php:16
+#: ../plugin-options/general-options.php:113
+msgid "None"
+msgstr "Nessuno"
+
+#: ../plugin-options/general-options.php:17
+msgid "Google"
+msgstr "Google"
+
+#: ../plugin-options/general-options.php:18
+msgid "bitly"
+msgstr "bitly"
+
+#: ../plugin-options/general-options.php:55
+msgid "Log File"
+msgstr ""
+
+#: ../plugin-options/general-options.php:56
+msgid "View Log File"
+msgstr ""
+
+#: ../plugin-options/general-options.php:64
+msgid "SMS Debug"
+msgstr "Debug SMS"
+
+#: ../plugin-options/general-options.php:69
+msgid "Debug Log"
+msgstr "Debug Log"
+
+#: ../plugin-options/general-options.php:90
+msgid "SMS Notifications settings"
+msgstr "Impostazioni SMS Notifications"
+
+#: ../plugin-options/general-options.php:94
+msgid "Enable YITH WooCommerce SMS Notifications"
+msgstr "Attiva YITH WooCommerce SMS Notifications"
+
+#: ../plugin-options/general-options.php:105
+msgid "SMS Service settings"
+msgstr "Impostazioni servizio SMS "
+
+#: ../plugin-options/general-options.php:109
+msgid "SMS service enabled"
+msgstr "Servizio SMS attivato"
+
+#: ../plugin-options/general-options.php:114
+msgid "Twilio"
+msgstr "Twilio"
+
+#: ../plugin-options/general-options.php:115
+msgid "Clockwork"
+msgstr "Clockwork"
+
+#: ../plugin-options/general-options.php:116
+msgid "Agile Telecom"
+msgstr "Agile Telecom"
+
+#: ../plugin-options/general-options.php:117
+msgid "SmsCyber"
+msgstr "SmsCyber"
+
+#: ../plugin-options/general-options.php:118
+msgid "Msg91"
+msgstr "Msg91"
+
+#: ../plugin-options/general-options.php:119
+msgid "MessageBird"
+msgstr "MessageBird"
+
+#: ../plugin-options/general-options.php:120
+msgid "ClickSend"
+msgstr "ClickSend"
+
+#: ../plugin-options/general-options.php:121
+msgid "SMS Country"
+msgstr "SMS Country"
+
+#: ../plugin-options/general-options.php:122
+msgid "Jazz (Mobilink)"
+msgstr "Jazz (Mobilink)"
+
+#: ../plugin-options/general-options.php:131
+msgid "Twilio settings"
+msgstr "Impostazioni Twilio"
+
+#: ../plugin-options/general-options.php:137
+#, php-format
+msgid "Create a Twilio account on %s"
+msgstr "Crea un account Twilio su %s"
+
+#: ../plugin-options/general-options.php:140
+msgid "Twilio Account SID"
+msgstr "SID account Twilio"
+
+#: ../plugin-options/general-options.php:149
+msgid "Twilio Auth Token"
+msgstr "Twilio Auth Token"
+
+#: ../plugin-options/general-options.php:162
+msgid "Clockwork settings"
+msgstr "Impostazioni Clockwork"
+
+#: ../plugin-options/general-options.php:168
+#, php-format
+msgid "Create your Clockwork account on %s"
+msgstr "Crea il tuo account Clockwork su %s"
+
+#: ../plugin-options/general-options.php:171
+msgid "Clockwork API Key"
+msgstr "API Key Clockwork"
+
+#: ../plugin-options/general-options.php:184
+msgid "Agile Telecom settings"
+msgstr "Impostazioni Agile Telecom"
+
+#: ../plugin-options/general-options.php:190
+#, php-format
+msgid "Create your Agile Telecom account on %s"
+msgstr "Crea il tuo account Agile Telecom su %s"
+
+#: ../plugin-options/general-options.php:193
+msgid "Agile Telecom Username"
+msgstr "Nome utente Agile Telecom "
+
+#: ../plugin-options/general-options.php:202
+msgid "Agile Telecom Password"
+msgstr "Password Agile Telecom "
+
+#: ../plugin-options/general-options.php:215
+msgid "SmsCyber settings"
+msgstr "Impostazioni SmsCyber"
+
+#: ../plugin-options/general-options.php:221
+#, php-format
+msgid "Create your SmsCyber account on %s"
+msgstr "Crea il tuo account SmsCyber su %s"
+
+#: ../plugin-options/general-options.php:224
+msgid "SmsCyber Username"
+msgstr "Nome utente SmsCyber"
+
+#: ../plugin-options/general-options.php:233
+msgid "SmsCyber API Password"
+msgstr "API Password SmsCyber"
+
+#: ../plugin-options/general-options.php:246
+msgid "Msg91 settings"
+msgstr "Impostazioni Msg91"
+
+#: ../plugin-options/general-options.php:252
+#, php-format
+msgid "Create your Msg91 account on %s"
+msgstr "Crea il tuo account Msg91 su %s"
+
+#: ../plugin-options/general-options.php:255
+msgid "Msg91 API Key"
+msgstr "API Key Msg91"
+
+#: ../plugin-options/general-options.php:268
+msgid "MessageBird settings"
+msgstr "Impostazioni MessageBird"
+
+#: ../plugin-options/general-options.php:274
+#, php-format
+msgid "Create your MessageBird account on %s"
+msgstr "Crea il tuo account MessageBird su %s"
+
+#: ../plugin-options/general-options.php:277
+msgid "MessageBird API Key"
+msgstr "API Key MessageBird"
+
+#: ../plugin-options/general-options.php:290
+msgid "ClickSend settings"
+msgstr "Impostazioni ClickSend"
+
+#: ../plugin-options/general-options.php:296
+#, php-format
+msgid "Create your ClickSend account on %s"
+msgstr "Crea il tuo account ClickSend su %s"
+
+#: ../plugin-options/general-options.php:299
+msgid "ClickSend Username"
+msgstr "Nome utente ClickSend"
+
+#: ../plugin-options/general-options.php:308
+msgid "ClickSend API Key"
+msgstr "API Key ClickSend"
+
+#: ../plugin-options/general-options.php:321
+msgid "SMS Country settings"
+msgstr "Impostazioni SMS Country"
+
+#: ../plugin-options/general-options.php:327
+#, php-format
+msgid "Create your SMS Country account on %s"
+msgstr "Crea il tuo account SMS Country su %s"
+
+#: ../plugin-options/general-options.php:330
+msgid "SMS Country Username"
+msgstr "Nome utente SMS Country"
+
+#: ../plugin-options/general-options.php:339
+msgid "SMS Country Password"
+msgstr "Password SMS Country"
+
+#: ../plugin-options/general-options.php:352
+msgid "Jazz settings"
+msgstr "Impostazioni Jazz"
+
+#: ../plugin-options/general-options.php:358
+#, php-format
+msgid "Create your Jazz account on %s"
+msgstr "Crea il tuo account Jazz su %s"
+
+#: ../plugin-options/general-options.php:361
+msgid "Jazz CMS Portal Username"
+msgstr ""
+
+#: ../plugin-options/general-options.php:370
+msgid "Jazz CMS Portal Password"
+msgstr ""
+
+#: ../plugin-options/general-options.php:379
+msgid "Jazz CMS Portal Mask"
+msgstr ""
+
+#: ../plugin-options/general-options.php:392
+#: ../plugin-options/vendor/vendor-options.php:21
+msgid "Sending settings"
+msgstr "Impostazioni di invio"
+
+#: ../plugin-options/general-options.php:396
+msgid "Sender telephone number"
+msgstr "Numero di telefono del mittente"
+
+#: ../plugin-options/general-options.php:399
+msgid "Enter the telephone number that should appear as sender"
+msgstr "Inserisci il numero di telefono che dovrebbe comparire come mittente"
+
+#: ../plugin-options/general-options.php:406
+msgid "Alphanumeric Sender ID"
+msgstr "ID mittente alfanumerico"
+
+#: ../plugin-options/general-options.php:409
+msgid ""
+"Alphanumeric sender identifier: enter the text that should appear as sender "
+"(this option might not work correctly in some countries,\n"
+"            check your country with your SMS service provider you have "
+"selected)"
+msgstr ""
+"Identificatore mittente alfanumerico: inserisci il testo che dovrebbe "
+"apparire come mittente (questa opzione potrebbe non funzionare correttamente "
+"in alcuni paesi,\n"
+"             verifica il tuo paese con il provider del tuo servizio SMS che "
+"hai selezionato)"
+
+#: ../plugin-options/general-options.php:416
+#: ../plugin-options/vendor/vendor-options.php:25
+msgid "Admin phone"
+msgstr "Telefono amministratore"
+
+#: ../plugin-options/general-options.php:420
+#: ../plugin-options/vendor/vendor-options.php:29
+msgid ""
+"Enter here the phone numbers of the admins who will be notified via SMS. "
+"Include country calling codes. You can also\n"
+"            specify more than one phone number. Type the number and press "
+"Enter to add a new one."
+msgstr ""
+"Inserisci qui i numeri di telefono degli amministratori che verranno "
+"notificati via SMS. Includi il prefisso del paese. Puoi anche\n"
+"        specificare più di un numero di telefono. Scrivi il numero e premi "
+"Invio per aggiungerne uno nuovo.  "
+
+#: ../plugin-options/general-options.php:422
+#: ../plugin-options/vendor/vendor-options.php:31
+msgid "Type a phone number&hellip;"
+msgstr "Scrivi un numero di telefono&hellip;"
+
+#: ../plugin-options/general-options.php:425
+msgid "Send SMS notifications to customers"
+msgstr "Invia notifiche SMS ai clienti"
+
+#: ../plugin-options/general-options.php:429
+msgid "All customers"
+msgstr "Tutti i clienti"
+
+#: ../plugin-options/general-options.php:430
+msgid "Only customers who ask for it in checkout"
+msgstr "Solo i clienti che lo richiedono al checkout"
+
+#: ../plugin-options/general-options.php:440
+msgid "Show checkbox selected by default"
+msgstr "Mostra la checkbox già selezionata"
+
+#: ../plugin-options/general-options.php:443
+msgid "Checkbox text"
+msgstr "Testo della checkbox"
+
+#: ../plugin-options/general-options.php:446
+msgid "I want to be notified about any changes in the order via SMS"
+msgstr ""
+"Voglio ricevere notifiche via SMS riguardo a qualsiasi cambiamento "
+"dell'ordine"
+
+#: ../plugin-options/general-options.php:450
+#: ../plugin-options/vendor/vendor-options.php:34
+msgid "SMS notifications for the following order status changes"
+msgstr "Notifiche SMS per i seguenti cambiamenti di stato dell'ordine"
+
+#: ../plugin-options/general-options.php:460
+msgid "Customer"
+msgstr "Cliente"
+
+#: ../plugin-options/general-options.php:461
+#: ../plugin-options/general-options.php:466
+#: ../plugin-options/vendor/vendor-options.php:45
+msgid "Select/deselect all elements"
+msgstr "Seleziona/deseleziona tutti gli elementi"
+
+#: ../plugin-options/general-options.php:465
+msgid "Admin"
+msgstr "Amministratore"
+
+#: ../plugin-options/general-options.php:476
+msgid "URL shortening settings"
+msgstr "Impostazioni abbreviazione URL"
+
+#: ../plugin-options/general-options.php:480
+msgid "URL shortening service"
+msgstr "Servizio abbreviazione URL"
+
+#: ../plugin-options/general-options.php:488
+msgid "Bitly Access Token"
+msgstr "Token di accesso Bitly"
+
+#: ../plugin-options/general-options.php:497
+msgid "Google API Key"
+msgstr "Chiave API Google"
+
+#: ../plugin-options/howto-options.php:17
+msgid "Placeholder reference"
+msgstr "Riferimento segnaposto"
+
+#: ../plugin-options/messages-options.php:35
+msgid ""
+"In this page you can configure all SMS text messages that customers will "
+"receive when any changes to the status of their order is applied."
+msgstr ""
+"In questa pagina è possibile configurare tutti i messaggi di testo SMS che i "
+"clienti riceveranno quando vengono applicate delle modifiche allo stato del "
+"loro ordine."
+
+#: ../plugin-options/messages-options.php:36
+msgid "Allowed placeholders"
+msgstr "Segnaposto consentiti"
+
+#: ../plugin-options/messages-options.php:36
+msgid "More info"
+msgstr "Ulteriori informazioni"
+
+#: ../plugin-options/messages-options.php:37
+msgid ""
+"When you add placeholders, keep in mind that there's a 160 charters limit "
+"for each message."
+msgstr ""
+"Quando aggiungi i segnaposto, ricordati che c'è un limite di 160 caratteri "
+"per ogni messaggio."
+
+#: ../plugin-options/messages-options.php:45
+msgid "SMS text message settings"
+msgstr "Impostazioni messaggio di testo SMS"
+
+#: ../plugin-options/messages-options.php:56
+msgid "Text message for admin(s)"
+msgstr "Messaggio di testo per gli amministratori"
+
+#: ../plugin-options/messages-options.php:57
+msgid ""
+"This is the text message that admin(s) will receive any time the order "
+"status is changed"
+msgstr ""
+"Questo è il messaggio di testo che gli amministratori riceveranno ogni volta "
+"che lo stato dell'ordine è cambiato"
+
+#: ../plugin-options/messages-options.php:60
+msgid "{site_title}: Order #{order_id} switched to {order_status}."
+msgstr "{site_title}: Ordine #{order_id} cambiato a {order_status}."
+
+#: ../plugin-options/messages-options.php:66
+msgid "Default customer SMS"
+msgstr "SMS di default del cliente"
+
+#: ../plugin-options/messages-options.php:67
+msgid ""
+"This is the default message that customers receive each time the status of "
+"the order changes and if no other message is specified"
+msgstr ""
+"Questo è il messaggio di default che riceveranno i clienti ogni volta che lo "
+"stato dell'ordine cambia e se nessun altro messaggio è stato specificato"
+
+#: ../plugin-options/messages-options.php:70
+msgid "Your order #{order_id} on {site_title} is now {order_status}."
+msgstr "Il tuo ordine #{order_id} su {site_title} ora è {order_status}."
+
+#: ../plugin-options/messages-options.php:83
+#, php-format
+msgid "Your order #{order_id} on {site_title} is now %s."
+msgstr "Il tuo ordine #{order_id} su {site_title} ora è %s."
+
+#: ../plugin-options/vendor/vendor-options.php:44
+msgid "Receive SMS"
+msgstr "Ricevi SMS"
+
+#: ../templates/admin/class-ywsn-sms-send.php:79
+msgid "Test message"
+msgstr "Messaggio di prova"
+
+#: ../templates/admin/class-ywsn-sms-send.php:84
+msgid "Choose message"
+msgstr "Scegli messaggio"
+
+#: ../templates/admin/class-ywsn-sms-send.php:85
+msgid "Type message"
+msgstr "Scrivi messaggio"
+
+#: ../templates/admin/class-ywsn-sms-send.php:86
+msgid "Admin message"
+msgstr "Messaggio amministratore"
+
+#: ../templates/admin/class-ywsn-sms-send.php:87
+msgid "Default message"
+msgstr "Messaggio di default"
+
+#: ../templates/admin/class-ywsn-sms-send.php:101
+msgid "Type a phone number to send a test SMS text message"
+msgstr ""
+"Scrivi un numero di telefono per inviare un messaggio di testo SMS di prova"
+
+#: ../templates/admin/class-ywsn-sms-send.php:103
+msgid "Send Test SMS"
+msgstr "Invia SMS di prova"
+
+#~ msgid "Failed: %s"
+#~ msgstr "Fallito: %s"
+
+#~ msgid "Create your Agile telecom account on %s"
+#~ msgstr "Crea il tuo account Agile Telecom su %s"
+
+#~ msgid "An error has occured: %s"
+#~ msgstr "Si è verificato un errore: %s"

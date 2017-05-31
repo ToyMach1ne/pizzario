@@ -1,0 +1,1383 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP AMP - Accelerated Mobile Pages for WordPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-22 14:42+0200\n"
+"POT-Revision-Date: Thu Aug 11 2016 14:27:32 GMT+0300 (FLE Daylight Time)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: admin <aleksey.sinyaev@teamdev.com>\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: en_US\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/class-amphtml-extended-ad.php:51
+msgid "Add New"
+msgstr ""
+
+#: ../includes/class-amphtml-extended-ad.php:57
+msgid "Delete Current"
+msgstr ""
+
+#: ../includes/class-amphtml-extended-ad.php:112
+#: ../includes/tabs/class-amphtml-tab-ad.php:38
+#: ../includes/tabs/class-amphtml-tab-ad.php:48
+msgid "Height"
+msgstr ""
+
+#: ../includes/class-amphtml-extended-ad.php:118
+#: ../includes/tabs/class-amphtml-tab-ad.php:44
+#: ../includes/tabs/class-amphtml-tab-ad.php:54
+msgid "Ad block height (in pixels)"
+msgstr ""
+
+#: ../includes/class-amphtml-extended-ad.php:122
+#: ../includes/tabs/class-amphtml-tab-ad.php:58
+#: ../includes/tabs/class-amphtml-tab-ad.php:68
+msgid "Width"
+msgstr ""
+
+#: ../includes/class-amphtml-extended-ad.php:128
+#: ../includes/tabs/class-amphtml-tab-ad.php:64
+#: ../includes/tabs/class-amphtml-tab-ad.php:74
+msgid "Ad block width (in pixels)"
+msgstr ""
+
+#: ../includes/class-amphtml-extended-ad.php:132
+#: ../includes/tabs/class-amphtml-tab-ad.php:78
+#: ../includes/tabs/class-amphtml-tab-ad.php:87
+msgid "Type"
+msgstr ""
+
+#: ../includes/class-amphtml-extended-ad.php:137
+#: ../includes/tabs/class-amphtml-tab-ad.php:83
+#: ../includes/tabs/class-amphtml-tab-ad.php:92
+msgid "Ad network"
+msgstr ""
+
+#: ../includes/class-amphtml-extended-ad.php:141
+#: ../includes/class-amphtml-extended-ad.php:160
+#: ../includes/tabs/class-amphtml-tab-ad.php:96
+#: ../includes/tabs/class-amphtml-tab-ad.php:115
+#: ../includes/tabs/class-amphtml-tab-ad.php:125
+#: ../includes/tabs/class-amphtml-tab-ad.php:144
+msgid "Data Slot"
+msgstr ""
+
+#: ../includes/class-amphtml-extended-ad.php:147
+#: ../includes/tabs/class-amphtml-tab-ad.php:102
+#: ../includes/tabs/class-amphtml-tab-ad.php:131
+msgid "data-slot"
+msgstr ""
+
+#: ../includes/class-amphtml-extended-ad.php:151
+#: ../includes/tabs/class-amphtml-tab-ad.php:106
+#: ../includes/tabs/class-amphtml-tab-ad.php:135
+msgid "AdSense Client"
+msgstr ""
+
+#: ../includes/class-amphtml-extended-ad.php:156
+#: ../includes/tabs/class-amphtml-tab-ad.php:111
+#: ../includes/tabs/class-amphtml-tab-ad.php:140
+msgid "data-ad-client"
+msgstr ""
+
+#: ../includes/class-amphtml-extended-ad.php:165
+#: ../includes/tabs/class-amphtml-tab-ad.php:121
+#: ../includes/tabs/class-amphtml-tab-ad.php:149
+msgid "data-ad-slot"
+msgstr ""
+
+#: ../includes/class-amphtml-options.php:48
+msgid "WP AMP Endpoint"
+msgstr ""
+
+#: ../includes/class-amphtml-options.php:64
+#: ../includes/tabs/class-amphtml-tab-analytics.php:116
+#: ../includes/tabs/class-amphtml-tab-general.php:116
+msgid "Insert a valid endpoint"
+msgstr ""
+
+#: ../includes/class-amphtml-options.php:94
+msgid "View AMP Version"
+msgstr ""
+
+#: ../includes/class-amphtml-options.php:109
+msgid "Visit AMP Site"
+msgstr ""
+
+#: ../includes/class-amphtml-options.php:179
+msgid "AMP Menu"
+msgstr ""
+
+#: ../includes/class-amphtml-options.php:217
+msgid "WP AMP Settings"
+msgstr ""
+
+#: ../includes/class-amphtml-options.php:395
+msgid "WP AMP featured Image"
+msgstr ""
+
+#: ../includes/class-amphtml-options.php:429
+msgid "Remove featured image"
+msgstr ""
+
+#: ../includes/class-amphtml-options.php:435
+msgid "Set featured Image"
+msgstr ""
+
+#: ../includes/class-amphtml-options.php:435
+msgid "Choose an image"
+msgstr ""
+
+#: ../includes/class-amphtml-options.php:502
+msgid "Override AMP Content"
+msgstr ""
+
+#: ../includes/class-amphtml-options.php:511
+#: ../includes/tabs/class-amphtml-tab-appearance.php:62
+#: ../includes/tabs/class-amphtml-tab-templates.php:289
+#: ../includes/tabs/class-amphtml-tab-templates.php:328
+#: ../includes/tabs/class-amphtml-tab-wc.php:60
+msgid "Title"
+msgstr ""
+
+#: ../includes/class-amphtml-options.php:518
+msgid "Override AMP Title"
+msgstr ""
+
+#: ../includes/class-amphtml-options.php:527
+msgid "Disable AMP version of this page"
+msgstr ""
+
+#: ../includes/class-amphtml-sanitize.php:249
+msgid "This page contains form, you can see it - "
+msgstr ""
+
+#: ../includes/class-amphtml-sanitize.php:250
+msgid "here"
+msgstr ""
+
+#: ../includes/class-amphtml-shortcode.php:57
+#: ../includes/tabs/class-amphtml-tab-templates.php:285
+msgid "You May Also Like"
+msgstr ""
+
+#: ../includes/class-amphtml-shortcode.php:71
+msgid "Latest blog posts"
+msgstr ""
+
+#: ../includes/class-amphtml-shortcode.php:120
+msgid "Switch to default version"
+msgstr ""
+
+#: ../includes/class-amphtml-tab-abstract.php:104
+msgid "ID is required settings option!"
+msgstr ""
+
+#: ../includes/class-amphtml-tab-abstract.php:164
+#: ../includes/tabs/class-amphtml-tab-appearance.php:387
+#: ../templates/parts/content_404.php:1 ../templates/parts/custom_html.php:1
+#: ../templates/parts/title_404.php:2
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../includes/class-amphtml-tab-abstract.php:256
+#: ../includes/tabs/class-amphtml-tab-appearance.php:554
+msgid "Save Changes"
+msgstr ""
+
+#: ../includes/class-amphtml-tab.php:26
+msgid "General"
+msgstr ""
+
+#: ../includes/class-amphtml-tab.php:27
+msgid "Analytics"
+msgstr ""
+
+#: ../includes/class-amphtml-tab.php:28
+msgid "Appearance"
+msgstr ""
+
+#: ../includes/class-amphtml-tab.php:29
+msgid "Templates"
+msgstr ""
+
+#: ../includes/class-amphtml-tab.php:30
+msgid "Schema.org"
+msgstr ""
+
+#: ../includes/class-amphtml-tab.php:31
+msgid "Ads"
+msgstr ""
+
+#: ../includes/class-amphtml-tab.php:32
+#: ../includes/tabs/class-amphtml-tab-troubleshooting.php:13
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../includes/class-amphtml-template.php:309
+msgid "Read more"
+msgstr ""
+
+#: ../includes/class-amphtml-template.php:887
+#: ../includes/class-amphtml-wc.php:253
+msgid "Search Results"
+msgstr ""
+
+#: ../includes/class-amphtml-wc.php:96
+msgid "WooCommerce"
+msgstr ""
+
+#: ../includes/class-amphtml-wc.php:107
+msgid "Add to Cart Button"
+msgstr ""
+
+#: ../includes/class-amphtml-wc.php:125
+msgid "WooCommerce Content Type"
+msgstr ""
+
+#: ../includes/class-amphtml-wc.php:268
+msgid "Product"
+msgstr ""
+
+#: ../includes/class-amphtml-wc.php:276
+msgid "Offer"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:28
+#: ../includes/tabs/class-amphtml-tab-templates.php:361
+#: ../includes/tabs/class-amphtml-tab-templates.php:479
+#: ../includes/tabs/class-amphtml-tab-templates.php:561
+#: ../includes/tabs/class-amphtml-tab-templates.php:664
+#: ../includes/tabs/class-amphtml-tab-templates.php:775
+#: ../includes/tabs/class-amphtml-tab-wc.php:224
+msgid "Ad Block #1"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:29
+#: ../includes/tabs/class-amphtml-tab-templates.php:371
+#: ../includes/tabs/class-amphtml-tab-templates.php:488
+#: ../includes/tabs/class-amphtml-tab-templates.php:570
+#: ../includes/tabs/class-amphtml-tab-templates.php:673
+#: ../includes/tabs/class-amphtml-tab-templates.php:784
+#: ../includes/tabs/class-amphtml-tab-wc.php:234
+msgid "Ad Block #2"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:171
+msgid "Insert a valid ad top block width"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:175
+msgid "Insert a valid ad bottom block width"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:179
+msgid "Insert a valid ad bottom block height"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:183
+msgid "Insert a valid ad top block height"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:195
+#: ../includes/tabs/class-amphtml-tab-ad.php:199
+msgid "Insert a valid ad adsense data slot"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:208
+msgid "AdSense"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:211
+msgid "Doubleclick"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:13
+msgid "Google Analytics Code"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:18
+msgid "Setup Google Analytics tracking ID"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:22
+msgid "Google Tag Manager ID"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:27
+msgid "Replacing GTM-XXXXXX with your container ID"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:31
+msgid "Yandex Metrika counter ID"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:36
+msgid "Setup Yandex Metrika counter ID"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:40
+msgid "Facebook Pixel ID"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:44
+msgid "Setup Facebook pixel ID"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:52
+msgid "Insert a valid ID"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:68
+msgid "Insert a valid google analytics id"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:83
+msgid "Insert a valid counter id"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:92
+#: ../includes/tabs/class-amphtml-tab-general.php:92
+msgid "Insert a valid content width"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:105
+#: ../includes/tabs/class-amphtml-tab-general.php:105
+msgid "Insert a valid pixel ID"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:30
+msgid "Colors"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:31
+msgid "Fonts"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:32
+msgid "Header"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:33
+#: ../includes/tabs/class-amphtml-tab-appearance.php:89
+msgid "Footer"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:34
+msgid "Post Meta Data"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:35
+#: ../includes/tabs/class-amphtml-tab-appearance.php:301
+#: ../includes/tabs/class-amphtml-tab-templates.php:263
+#: ../includes/tabs/class-amphtml-tab-templates.php:467
+#: ../includes/tabs/class-amphtml-tab-wc.php:168
+msgid "Social Share Buttons"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:36
+#: ../includes/tabs/class-amphtml-tab-appearance.php:326
+msgid "Extra CSS"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:44
+msgid "Logo"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:53 ../templates/nav.php:54
+#: ../templates/nav.php:63
+msgid "Menu"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:71
+msgid "Post Meta"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:80
+msgid "Content"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:103
+msgid "Header Background"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:109
+msgid "Footer Background"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:115
+msgid "Page Background"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:121
+msgid "Sidebar Menu Background"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:127
+msgid "Main Title"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:133
+msgid "Link Text"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:139
+msgid "Main Text"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:145
+msgid "Header Text"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:151
+msgid "Footer Text"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:173
+msgid "Favicon"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:181
+msgid "Header Menu"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:183
+msgid "Show header menu (<a href=\""
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:191
+msgid "Header Menu Type"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:199
+msgid "Logo Type"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:207
+msgid "Logo Text"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:216
+msgid "Logo Icon"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:228
+msgid "Footer Content"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:233
+msgid ""
+"This is the footer content block for all AMP pages. <br>Leave empty to hide "
+"footer at all. <br>Plain html without inline styles allowed. (<a href="
+"\"https://github.com/ampproject/amphtml/blob/master/spec/amp-tag-addendum."
+"md#html5-tag-whitelist\" target=\"_blank\">HTML5 Tag Whitelist</a>)"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:240
+msgid "Scroll to Top Button"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:241
+msgid "Back to top"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:245
+msgid "Leave empty to hide this button."
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:254
+msgid "Author"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:259
+msgid "Show post author"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:263
+#: ../includes/tabs/class-amphtml-tab-wc.php:141 ../templates/meta-cats.php:13
+msgid "Categories"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:268
+msgid "Show post categories"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:272
+#: ../includes/tabs/class-amphtml-tab-wc.php:150 ../templates/meta-tags.php:13
+msgid "Tags"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:277
+msgid "Show post tags"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:281
+msgid "Date Format"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:307
+msgid "Facebook"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:308
+msgid "Twitter"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:309
+msgid "LinkedIn"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:310
+msgid "Google Plus"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:311
+msgid "Pinterest"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:312
+msgid "WhatsApp"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:313
+msgid "Email"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:325
+msgid "Enter Your CSS Code"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:349
+msgid "Insert a valid color"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:413
+msgid "Icon Logo"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:416
+msgid "Text Logo"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:419
+msgid "Icon and Text Logo"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:422
+msgid "Image Logo"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:433
+msgid "Site Logo"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:438
+#: ../includes/tabs/class-amphtml-tab-appearance.php:457
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:52
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:72
+msgid "Upload Image"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:440
+#: ../includes/tabs/class-amphtml-tab-appearance.php:459
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:54
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:74
+msgid "Reset Image"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:441
+#: ../includes/tabs/class-amphtml-tab-appearance.php:460
+msgid "The image will have full size."
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:442
+msgid "The image will be resized to fit in a 32x32 box (but not cropped)"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:452
+msgid "Site Favicon"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:487
+msgid "Content contains disallowed tags. Please correct and try again."
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:516
+msgid "None"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:526
+#: ../templates/meta-time.php:17
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:527
+msgid "Relative"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:535
+msgid "Default system format"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:537
+msgid "F j, Y"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:541
+msgid "Custom:"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:557
+msgid "Default theme settings"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:571
+msgid "Important"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:571
+msgid "Do not use disallowed styles for avoiding AMP validation errors."
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:572
+msgid "Please see"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:573
+msgid "Supported CSS"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-general.php:13
+msgid "AMP Endpoint"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-general.php:16
+msgid ""
+"This string will be added to the end of URL for all pages with AMP content"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-general.php:20
+msgid "Redirect Mobile Users"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-general.php:23
+msgid "Redirect all mobile users to AMP version by default"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-general.php:27
+msgid "AMP Content Max-Width"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-general.php:31
+msgid "Setup maximum width for AMP content (in pixels)"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-general.php:35
+msgid "Post Types"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-general.php:42
+msgid "Enable AMP for selected post types"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-general.php:46
+#: ../includes/tabs/class-amphtml-tab-templates.php:20
+msgid "Archives"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-general.php:53
+msgid "Enable AMP for selected archive pages."
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-general.php:57
+msgid "Compatibility Mode"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-general.php:61
+msgid "Remove third-party the_content hooks for better compatibility"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-general.php:65
+msgid "Enable RTL"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-general.php:73
+msgid "Debug Mode"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-general.php:84
+msgid "Show errors, warnings and notices"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:12
+msgid "Publisher Logo"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:18
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:66
+msgid "Default Image"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:24
+msgid "Content Type"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:47
+msgid "Default Logo"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:55
+msgid ""
+"This image is required for Schema.org markup. The logo should fit in a "
+"60x600px rectangle, and either be exactly 60px high or exactly 600px wide."
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:55
+msgid "See full requirements."
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:75
+msgid ""
+"This image is required for Schema.org markup and will be used if you have "
+"not set up featured image for post/page. Image should be at least 696 pixels "
+"wide."
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:75
+msgid "See requirements."
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:16
+msgid "Posts"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:17
+msgid "Pages"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:18
+msgid "Search"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:19
+msgid "Blog Page"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:21
+msgid "404 Page"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:43
+msgid "404 Page Title"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:44
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:52
+msgid "404 Page Content"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:53
+msgid "Nothing was found at this location."
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:58
+#: ../includes/tabs/class-amphtml-tab-templates.php:231
+#: ../includes/tabs/class-amphtml-tab-templates.php:451
+#: ../includes/tabs/class-amphtml-tab-templates.php:526
+#: ../includes/tabs/class-amphtml-tab-templates.php:629
+#: ../includes/tabs/class-amphtml-tab-templates.php:740
+msgid ""
+"Plain html without inline styles allowed. (<a href=\"https://github.com/"
+"ampproject/amphtml/blob/master/spec/amp-tag-addendum.md#html5-tag-whitelist"
+"\" target=\"_blank\">HTML5 Tag Whitelist</a>)"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:63
+#: ../includes/tabs/class-amphtml-tab-templates.php:166
+#: ../includes/tabs/class-amphtml-tab-templates.php:416
+msgid "Search Form"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:68
+#: ../includes/tabs/class-amphtml-tab-templates.php:171
+#: ../includes/tabs/class-amphtml-tab-templates.php:421
+msgid "Enable search form. Needs SSL certificate for AMP validation."
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:176
+#: ../includes/tabs/class-amphtml-tab-templates.php:396
+#: ../includes/tabs/class-amphtml-tab-templates.php:595
+#: ../includes/tabs/class-amphtml-tab-templates.php:697
+#: ../includes/tabs/class-amphtml-tab-wc.php:32
+#: ../includes/tabs/class-amphtml-tab-wc.php:251
+#: ../includes/tabs/class-amphtml-tab-wc.php:331
+msgid "Original Button"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:182
+msgid "Show link to the original version of the post"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:187
+#: ../includes/tabs/class-amphtml-tab-templates.php:407
+#: ../includes/tabs/class-amphtml-tab-templates.php:606
+#: ../includes/tabs/class-amphtml-tab-templates.php:708
+#: ../includes/tabs/class-amphtml-tab-wc.php:43
+#: ../includes/tabs/class-amphtml-tab-wc.php:262
+#: ../includes/tabs/class-amphtml-tab-wc.php:342
+msgid "View Original Version"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:191
+#: ../includes/tabs/class-amphtml-tab-templates.php:211
+#: ../includes/tabs/class-amphtml-tab-templates.php:411
+#: ../includes/tabs/class-amphtml-tab-templates.php:610
+#: ../includes/tabs/class-amphtml-tab-templates.php:712
+#: ../includes/tabs/class-amphtml-tab-wc.php:47
+#: ../includes/tabs/class-amphtml-tab-wc.php:266
+#: ../includes/tabs/class-amphtml-tab-wc.php:346
+msgid "Button title"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:196
+msgid "Comments Button"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:202
+msgid "Show link to the comment form"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:207
+#: ../templates/parts/page_comments_btn.php:3
+msgid "Comments"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:216
+msgid "Post Title"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:225
+#: ../includes/tabs/class-amphtml-tab-templates.php:445
+#: ../includes/tabs/class-amphtml-tab-templates.php:520
+#: ../includes/tabs/class-amphtml-tab-templates.php:623
+#: ../includes/tabs/class-amphtml-tab-templates.php:734
+msgid "Custom HTML"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:236
+#: ../includes/tabs/class-amphtml-tab-templates.php:435
+#: ../includes/tabs/class-amphtml-tab-templates.php:541
+#: ../includes/tabs/class-amphtml-tab-templates.php:644
+msgid "Featured Image"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:241
+msgid "Show post thumbnail"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:245
+#: ../includes/tabs/class-amphtml-tab-templates.php:550
+#: ../includes/tabs/class-amphtml-tab-templates.php:653
+#: ../includes/tabs/class-amphtml-tab-templates.php:764
+msgid "Post Meta Block"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:250
+#: ../includes/tabs/class-amphtml-tab-templates.php:769
+msgid "Show post author, categories and published time"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:254
+msgid "Post Content"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:269
+#: ../includes/tabs/class-amphtml-tab-templates.php:473
+#: ../includes/tabs/class-amphtml-tab-wc.php:173
+msgid "Show social share buttons"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:274
+msgid "Related Posts"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:280
+msgid "Show related posts"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:284
+msgid "Related Posts Title"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:293
+msgid "Number of Related Posts"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:298
+#: ../includes/tabs/class-amphtml-tab-templates.php:337
+msgid "Post count"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:302
+#: ../includes/tabs/class-amphtml-tab-templates.php:341
+msgid "Post"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:307
+#: ../includes/tabs/class-amphtml-tab-templates.php:346
+msgid "Show Post Thumbnail"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:313
+#: ../includes/tabs/class-amphtml-tab-templates.php:324
+msgid "Recent Posts"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:319
+msgid "Show recent posts"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:323
+msgid "Recent Posts Title"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:332
+msgid "Number of Recent Posts"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:350
+msgid "Post Comments"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:355
+msgid "Show post comments"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:366
+#: ../includes/tabs/class-amphtml-tab-templates.php:484
+#: ../includes/tabs/class-amphtml-tab-templates.php:566
+#: ../includes/tabs/class-amphtml-tab-templates.php:669
+#: ../includes/tabs/class-amphtml-tab-templates.php:780
+#: ../includes/tabs/class-amphtml-tab-wc.php:229
+msgid "Show ad block #1"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:376
+#: ../includes/tabs/class-amphtml-tab-templates.php:493
+#: ../includes/tabs/class-amphtml-tab-templates.php:575
+#: ../includes/tabs/class-amphtml-tab-templates.php:678
+#: ../includes/tabs/class-amphtml-tab-templates.php:789
+#: ../includes/tabs/class-amphtml-tab-wc.php:239
+msgid "Show ad block #2"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:402
+#: ../includes/tabs/class-amphtml-tab-wc.php:257
+#: ../includes/tabs/class-amphtml-tab-wc.php:337
+msgid "Show link to the original version of the page"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:425
+#: ../includes/tabs/class-amphtml-tab-templates.php:511
+msgid "Page Title"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:441
+msgid "Show page thumbnail"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:457
+msgid "Page Content"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:532
+#: ../includes/tabs/class-amphtml-tab-templates.php:635
+#: ../includes/tabs/class-amphtml-tab-wc.php:177
+msgid "Content Block"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:537
+msgid "Search Page Content"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:546
+#: ../includes/tabs/class-amphtml-tab-templates.php:649
+msgid "Show posts thumbnail"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:555
+#: ../includes/tabs/class-amphtml-tab-templates.php:658
+msgid "Show posts author, categories and published time"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:601
+msgid "Show link to the original version of the blog"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:614
+msgid "Blog Page Title"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:615
+msgid "Blog"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:640
+msgid "Blog Page Content"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:703
+msgid "Show link to the original version of the archive"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:716
+msgid "Archive Title"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:725
+#: ../includes/tabs/class-amphtml-tab-wc.php:186
+#: ../includes/tabs/class-amphtml-tab-wc.php:350
+msgid "Description"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:730
+#: ../includes/tabs/class-amphtml-tab-wc.php:355
+msgid "Show description of archive page"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:746
+msgid "Content BLock"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:755
+msgid "Featured Images"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:760
+msgid "Show posts thumbnails"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:11
+msgid "Product Page"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:12
+msgid "Shop Page"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:13
+msgid "Product Archives"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:14
+#: ../includes/tabs/class-amphtml-tab-wc.php:316
+#: ../includes/tabs/class-amphtml-tab-wc.php:404
+msgid "Add to Cart"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:38
+msgid "Show link to the original version of the product"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:51
+#: ../includes/tabs/class-amphtml-tab-wc.php:270
+#: ../includes/tabs/class-amphtml-tab-wc.php:359
+msgid "Image"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:56
+msgid "Show product image"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:69
+#: ../templates/parts/product_sku.php:2
+msgid "SKU"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:74
+msgid "Show product SKU"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:78
+#: ../includes/tabs/class-amphtml-tab-wc.php:279
+#: ../includes/tabs/class-amphtml-tab-wc.php:368
+msgid "Rating"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:83
+#: ../includes/tabs/class-amphtml-tab-wc.php:284
+#: ../includes/tabs/class-amphtml-tab-wc.php:373
+msgid "Show product rating"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:87
+#: ../includes/tabs/class-amphtml-tab-wc.php:298
+#: ../includes/tabs/class-amphtml-tab-wc.php:386
+msgid "Add To Cart Block"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:96
+#: ../includes/tabs/class-amphtml-tab-wc.php:307
+#: ../includes/tabs/class-amphtml-tab-wc.php:395
+#: ../templates/parts/shop_add_to_cart_block.php:3
+#: ../templates/parts/wc_archives_add_to_cart_block.php:3
+msgid "Price"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:101
+msgid "Show product price"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:105
+msgid "Stock Status"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:110
+msgid "Show product stock status"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:114
+msgid "Quantity"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:119
+msgid "Show quantity option. Needs SSL certificate for AMP validation."
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:123
+msgid "Options"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:128
+msgid "Show variable options. Needs SSL certificate for AMP validation."
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:132
+#: ../includes/tabs/class-amphtml-tab-wc.php:419
+msgid "Add To Cart"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:137
+msgid "Show add to cart button"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:146
+msgid "Show product categories"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:155
+msgid "Show product tags"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:159
+#: ../includes/tabs/class-amphtml-tab-wc.php:288
+#: ../includes/tabs/class-amphtml-tab-wc.php:377
+msgid "Short Description"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:164
+msgid "Show product short description"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:191
+msgid "Show product description"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:195
+msgid "Attributes"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:200
+msgid "Show product attributes"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:204
+#: ../templates/parts/product_description_block.php:33
+msgid "Reviews"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:209
+msgid "Show product reviews"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:213
+msgid "Related products"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:218
+msgid "Show related products"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:275
+#: ../includes/tabs/class-amphtml-tab-wc.php:364
+msgid "Show product images"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:294
+#: ../includes/tabs/class-amphtml-tab-wc.php:382
+msgid "Show product short descriptions"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:312
+#: ../includes/tabs/class-amphtml-tab-wc.php:400
+msgid "Show product prices"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:321
+#: ../includes/tabs/class-amphtml-tab-wc.php:409
+msgid "Show \"Add to Cart\" button"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:418
+msgid "Add to Cart Text"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:423
+msgid "\"Add to Cart\" button text"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:427
+msgid "Add to Cart Behavior"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:431
+msgid "\"Add to Cart\" button click action"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:444
+msgid "Add To Cart And Redirect"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:447
+msgid "Redirect"
+msgstr ""
+
+#: ../templates/add-to-cart/options.php:39
+msgid "Quantity: "
+msgstr ""
+
+#: ../templates/comments.php:19
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../templates/comments.php:24
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../templates/comments.php:49
+msgid "Comments are closed."
+msgstr ""
+
+#: ../templates/meta-cats.php:9 ../templates/meta-tags.php:9
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: ../templates/parts/pagination.php:2 ../templates/parts/post_content.php:9
+msgid "Next &raquo;"
+msgstr ""
+
+#: ../templates/parts/pagination.php:3
+msgid "&laquo; Previous"
+msgstr ""
+
+#: ../templates/parts/post_content.php:10
+msgid "&laquo; Prev"
+msgstr ""
+
+#: ../templates/parts/product_add_to_cart_block.php:8
+msgid "Out Of Stock"
+msgstr ""
+
+#: ../templates/parts/product_add_to_cart_block.php:10
+msgid "In Stock"
+msgstr ""
+
+#: ../templates/parts/product_categories.php:9
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../templates/parts/product_description_block.php:31
+#, php-format
+msgid "%s review for %s%s%s"
+msgid_plural "%s reviews for %s%s%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../templates/parts/product_description_block.php:47
+msgid "There are no reviews yet."
+msgstr ""
+
+#: ../templates/parts/product_description_block.php:52
+msgid "Add a review"
+msgstr ""
+
+#: ../templates/parts/product_related_products.php:13
+msgid "Related Products"
+msgstr ""
+
+#: ../templates/parts/product_tags.php:4
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../templates/parts/search_page_title.php:3
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../templates/parts/search_page_title.php:6
+msgid "Nothing Found"
+msgstr ""
+
+#: ../templates/search-none.php:10
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../templates/search-none.php:12
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../templates/searchform.php:22
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: ../templates/searchform.php:26
+msgctxt "submit button"
+msgid "Search"
+msgstr ""

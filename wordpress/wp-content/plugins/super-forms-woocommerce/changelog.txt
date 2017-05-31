@@ -1,0 +1,11 @@
+Mar, 10, 2017 - Version 1.2.0
+- Improved: Populate billing fields on checkout pages with form fields based on names that start with billing_
+- Improved: Retrieve WC countries on country field if named billing_country or shipping_country
+
+Feb 03, 2017 - Version 1.1.0
+- Fix: no need to update post status after checkout completion if front-end posting isn't being used
+- Fix: parameter $data for woocommerce_checkout_update_order_meta hook
+- Added: Automatic updates
+
+Sep 21, 2016 - Version 1.0.0
+- Initial release!

@@ -1,0 +1,198 @@
+/**
+ * BxSlider v4.1.2 - Fully loaded, responsive content slider
+ * http://bxslider.com
+ *
+ * Written by: Steven Wanderski, 2014
+ * http://stevenwanderski.com
+ * (while drinking Belgian ales and listening to jazz)
+ *
+ * CEO and founder of bxCreative, LTD
+ * http://bxcreative.com
+ */
+
+
+/** RESET AND LAYOUT
+===================================*/
+
+.wb-bx-wrapper {
+	position: relative;
+	margin: 30px auto 60px;
+	padding: 0;
+	*zoom: 1;
+}
+.wb-bx-wrapper ul { margin:0!important; padding:0!important; }  
+.wb-bx-wrapper img {
+	max-width: 100%;
+	display: block;
+}
+
+/** THEME
+===================================*/
+
+.wb-bx-wrapper .wb-bx-viewport {
+	
+	/*fix other elements on the page moving (on Chrome)*/
+	-webkit-transform: translatez(0);
+	-moz-transform: translatez(0);
+    	-ms-transform: translatez(0);
+    	-o-transform: translatez(0);
+    	transform: translatez(0);
+}
+
+.wb-bx-wrapper .wb-bx-pager,
+.wb-bx-wrapper .wb-bx-controls-auto {
+	position: absolute;
+	bottom: -30px;
+	width: 100%;
+}
+
+/* LOADER */
+
+.wb-bx-wrapper .wb-bx-loading {
+	min-height: 100px;
+	background: url(images/bx_loader.gif) center center no-repeat #fff;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+}
+
+/* PAGER */
+
+.wb-bx-wrapper .wb-bx-pager {
+	text-align: center;
+	font-size: .85em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+	padding-top: 20px;
+}
+
+.wb-bx-wrapper .wb-bx-pager .wb-bx-pager-item,
+.wb-bx-wrapper .wb-bx-controls-auto .wb-bx-controls-auto-item {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+
+.wb-bx-wrapper .wb-bx-pager.wb-bx-default-pager a {
+	border:1px solid #ddd;
+	background-color:#ddd;
+	text-indent: -9999px;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+	outline: 0;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+.wb-bx-wrapper.wb-carousel-skin-light .wb-bx-pager.wb-bx-default-pager a{ background-color:transparent; }
+
+.wb-bx-wrapper .wb-bx-pager.wb-bx-default-pager a:hover,
+.wb-bx-wrapper .wb-bx-pager.wb-bx-default-pager a.active {
+	background: #fff;
+	border:1px solid #ddd;
+	-webkit-transition: all 0.2s ease-in-out;-moz-transition: all 0.2s ease-in-out;-o-transition: all 0.2s ease-in-out;-ms-transition: all 0.2s ease-in-out;transition: all 0.2s ease-in-out;
+}
+.wb-bx-wrapper.wb-carousel-skin-light .wb-bx-pager.wb-bx-default-pager a:hover,
+.wb-bx-wrapper.wb-carousel-skin-light .wb-bx-pager.wb-bx-default-pager a.active {
+	background: #ddd;
+}
+/* DIRECTION CONTROLS (NEXT / PREV) */
+.wb-bx-controls-direction{ width:100%; position:absolute; top:-30px; text-align:center; }
+.wb-bx-wrapper .wb-bx-prev {
+	background-image:url(../../img/prev.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	margin-right:1px;
+}
+.wb-bx-wrapper.wb-carousel-skin-light .wb-bx-prev{ background-image:url(../../img/prev-dark.png); }
+
+.wb-bx-wrapper .wb-bx-next {
+	background-image:url(../../img/next.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	margin-left:1px;
+}
+.wb-bx-wrapper.wb-carousel-skin-light .wb-bx-next { background-image:url(../../img/next-dark.png); }
+
+.wb-bx-wrapper .wb-bx-controls-direction a {
+	display:inline-block;
+	outline: 0;
+	width: 25px;
+	height: 25px;
+	text-indent: -9999px;
+	z-index: 9999;
+	background-color:#ddd;
+}
+.wb-bx-wrapper.wb-carousel-skin-light .wb-bx-controls-direction a { background-color:#fff; border:1px solid #ddd; }
+
+.wb-bx-wrapper .wb-bx-controls-direction a.disabled {
+	display: none;
+}
+
+.wb-carousel-style2 .wb-bx-controls-direction{ text-align:right; font-size:0; }
+
+.wb-carousel-style3 .wb-bx-controls-direction{ text-align:right; font-size:0; }
+.wb-carousel-style3 .wb-bx-controls-direction a{ -webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%; }
+
+.wb-carousel-style4 .wb-bx-controls-direction{ top: 50%;margin-top: -12px; }
+.wb-carousel-style4 .wb-bx-controls-direction .wb-bx-next { right:-25px; opacity:0;position:absolute; -webkit-transition: all 0.2s ease-in-out;-moz-transition: all 0.2s ease-in-out;-o-transition: all 0.2s ease-in-out;-ms-transition: all 0.2s ease-in-out;transition: all 0.2s ease-in-out; }
+.wb-carousel-style4:hover .wb-bx-controls-direction .wb-bx-next { right:-10px; opacity:1;}
+
+.wb-carousel-style4 .wb-bx-controls-direction .wb-bx-prev { left:-25px;opacity:0;position:absolute; -webkit-transition: all 0.2s ease-in-out;-moz-transition: all 0.2s ease-in-out;-o-transition: all 0.2s ease-in-out;-ms-transition: all 0.2s ease-in-out;transition: all 0.2s ease-in-out;}
+.wb-carousel-style4:hover .wb-bx-controls-direction .wb-bx-prev{ left:-10px;opacity:1; }
+.wb-carousel-style4  .wb-bx-pager.wb-bx-default-pager a{ width:30px; height:6px; }
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+
+.wb-bx-wrapper .wb-bx-controls.wb-bx-has-controls-auto.wb-bx-has-pager .wb-bx-pager {
+	text-align: left;
+	width: 80%;
+}
+
+.wb-bx-wrapper .wb-bx-controls.wb-bx-has-controls-auto.wb-bx-has-pager .wb-bx-controls-auto {
+	right: 0;
+	width: 35px;
+}
+
+
+/*STYLES*/
+.wb-car-cnt li .wb-car-item-cnt{ background:#ffffff;  }
+.wb-car-cnt li .wb-car-title{font-size:12px;}
+.wb-car-cnt li .wb-car-title a { text-decoration:none!important; text-transform:capitalize; font-size:12px;  }
+	.wb-car-cnt li .wb-car-title a:hover{ text-decoration:none!important; }
+
+.wb-car-cnt.wb-car-style1 li .wb-car-item-cnt{ text-align:center; padding:20px 0;  }
+.wb-car-cnt.wb-car-style1 img{  margin:0 auto; width:auto!important; }
+
+.wb-car-cnt.wb-car-style2 li .wb-car-item-cnt{ text-align:center; padding:20px 0; border:1px solid #ddd;  }
+	.wb-car-cnt.wb-car-style2.wb-car-round li .wb-car-item-cnt{ -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px; }
+.wb-car-cnt.wb-car-style2 img{  margin:0 auto; width:auto!important; }
+
+.wb-car-cnt.wb-car-style3 li .wb-car-item-cnt{ text-align:center; padding:20px 0 0; border:1px solid #ddd;  }
+	.wb-car-cnt.wb-car-style3.wb-car-round li .wb-car-item-cnt{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px; }
+.wb-car-cnt.wb-car-style3 img{  margin:0 auto 20px auto; width:auto!important; }
+.wb-car-cnt.wb-car-style3 .wb-car-title{ width:100%;  padding:10px 0px; background:#f5f5f5;  }
+	.wb-car-cnt.wb-car-style3.wb-car-round .wb-car-title { -webkit-border-radius:0 0 5px 5px;-moz-border-radius:0 0 5px 5px;border-radius:0 0 5px 5px; }
+
+.wb-car-cnt.wb-car-style4 li .wb-car-item-cnt{ text-align:center; padding:20px 0 0; border:1px solid #ddd;  }
+	.wb-car-cnt.wb-car-style4.wb-car-round li .wb-car-item-cnt{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px; }
+.wb-car-cnt.wb-car-style4 img{  margin:0 auto 20px auto; width:auto!important; }
+.wb-car-cnt.wb-car-style4 .wb-car-title{ width: 100%;padding: 10px 0px;background: #fff;border-top: 1px solid #ddd; position: relative;border-radius: 0!important;box-sizing: content-box;display: block; }
+	.wb-car-cnt.wb-car-style4.wb-car-round .wb-car-title { -webkit-border-radius:0 0 5px 5px;-moz-border-radius:0 0 5px 5px;border-radius:0 0 5px 5px; }
+.wb-car-cnt.wb-car-style4 .wb-car-title:before {position: absolute;content: '';top: 0;width: 100%;height: 100%;left: 0;border: 4px solid #f2f2f2;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.wb-car-cnt.wb-car-style4 .wb-car-title a{position:relative;}	
+
+
+.wb-car-cnt.wb-car-style5 li .wb-car-item-cnt{ text-align:center; padding: 15px 10px 15px 0; border-right:1px solid #ddd;  }
+.wb-car-cnt.wb-car-style5 li .wb-car-item-cnt:before {width: 1px;height: 100%;right: 0;top: 0;background: #ddd;content: ''; position: absolute;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.wb-car-cnt.wb-car-style5 img{  margin:10px auto 10px auto; width:auto!important; }
+.wb-car-cnt.wb-car-style5 .wb-car-title{ width: 100%;background: #fff;}
+
+	
+	
+

@@ -1,0 +1,33 @@
+*** SMS Notifications Changelog ***
+
+2015.03.03 - version 2.0.9
+* Fixed validation on admin notifications mobile number for multiple numbers
+
+2013.07.05 - version 2.0.8
+* Added updates to bring in line with other Clockwork plugins
+
+2013.04.30 - version 2.0.7
+* Added Clockwork testing functionality
+
+2012.12.04 - version 2.0.6
+* New updater
+
+2012.11.14 - version 2.0.5
+* Changing status now works on payments with updated hooks (#32289).
+* Updated for 9 digit MSISDNs.
+
+2012.09.19 - version 2.0.4
+* Fixed an issue where the store name was not getting set in 'From' messages.
+
+2012.09.19 - version 2.0.3
+* Updated base Clockwork classes.
+* Fixed issue with customer status enabled/disabled not being taken notice of.
+
+2012.09.17 - version 2.0.2
+* Fixed issue with setting Clockwork options when your Wordpress installation is not in the root directory.
+
+2012.09.12 - version 2.0.1
+* Fixed a compatibility issue with other Clockwork plugins.
+
+2012.09.11 - version 2.0
+* Update to work with the new Clockwork API.

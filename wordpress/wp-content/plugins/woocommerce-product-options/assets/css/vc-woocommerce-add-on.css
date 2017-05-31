@@ -1,0 +1,21 @@
+.vc_panel-tabs .backend-remove-product-option, .vc_panel-tabs .backend-product-option h2 {
+    display:none;
+}
+
+.vc_panel-tabs .backend-product-option label {
+    margin-bottom:4px;
+}
+
+.vc_panel-tabs .backend-product-option label {
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.vc_panel-tabs .backend-add-new-option {
+    margin-bottom:20px;
+}
+
+.vc_properties-list .backend-product-options input[type=radio],
+.vc_properties-list .backend-product-options input[type=checkbox] {
+    width:auto;
+}

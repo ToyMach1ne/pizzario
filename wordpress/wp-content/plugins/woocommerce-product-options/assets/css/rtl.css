@@ -1,0 +1,127 @@
+body {
+  direction: rtl;
+  unicode-bidi: embed;	
+}
+
+.show-product-options, .hide-product-options {
+    display:none;
+}
+
+.product-option-and-groups-wrapper {
+    float: right;
+}
+
+.two-column-product-option {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+.two-column-product-option label {
+    width:90%;
+    display:inline-block;
+    margin-right:4%;
+}
+
+.two-column-product-option br.line-break-between-input-options {
+    display:none;
+}
+
+.product-option-and-groups-wrapper .product-option {
+    width:45%;
+    display:inline-block;
+    margin-right:4%;
+    vertical-align:top;
+}
+
+.product-option-and-groups-wrapper .product-option-group-title {
+    margin-right:4%;
+}
+
+.product-option-message {
+    display:none;
+}
+
+.product-option-appended-message {
+    border:1px solid #777;
+    color:#777;
+    padding:10px;
+    width:100%;
+    margin:5px;
+    overflow:auto;
+}
+
+.product-option-appended-message img {
+    float:right;
+    margin-left:10px;
+    max-width:70px !important;
+}
+
+.required-error, .numeric-error, .max-checkboxes-error, .min-checkboxes-error {
+    color:#f00;
+    display:inline-block;
+}
+
+.product-option input[type=radio] {
+    margin: 0 20px 0 5px;
+    float: none !important;
+}
+
+.product-option input[type=radio].radio-image-radio, .product-option input[type=checkbox].radio-image-radio {
+    display: none;
+}
+
+.radio-image-label {
+    text-align:center;
+    display:inline-block;
+    margin:10px;
+    max-width:300px;
+    vertical-align:top;
+}
+
+.radio-image-label img, .radio-image-label img.radio-image-image {
+    max-width:70px;
+    opacity:0.9;
+    border:1px solid #eee;
+}
+
+.radio-image-label img:hover {
+    opacity:1.0;
+    border:1px solid #ccc;
+}
+
+.radio-image-label.selected-radio-image img.radio-image-image, .radio-image-label.selected-radio-image img.radio-image-image:hover {
+    opacity:1.0;
+    border:1px solid black;
+    cursor:pointer;
+}
+.radio-image-label:hover {
+    cursor:pointer;
+}
+
+.radio-image-label .radio-image-option {
+    color:#000;
+    text-align:center;
+}
+
+.datepicker-icon {
+    cursor:pointer;
+}
+
+.datepicker-icon img {
+    width: 100px;
+}
+
+.datepicker-value {
+    display:none;
+}
+
+.number-as-text-error {
+    color:red;
+}
+
+.range-value {
+    display: block;
+    width: 100%;
+    text-align: center;
+}

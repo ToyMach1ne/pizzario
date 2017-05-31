@@ -1,0 +1,1228 @@
+# Copyright (C) 2017 Transvelo
+# This file is distributed under the same license as the Pizzaro Extensions package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pizzaro Extensions 1.1.3\n"
+"Report-Msgid-Bugs-To: http://transvelo.freshdesk.com/\n"
+"POT-Creation-Date: 2017-05-01 12:53:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Pizzaro POT <support@transvelo.com>\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+
+#: modules/js_composer/config/map.php:16 modules/kingcomposer/maps.php:13
+#: modules/kingcomposer/maps.php:14
+msgid "Banner"
+msgstr ""
+
+#: modules/js_composer/config/map.php:18
+msgid "Add Banner to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:19 modules/js_composer/config/map.php:99
+#: modules/js_composer/config/map.php:179
+#: modules/js_composer/config/map.php:209
+#: modules/js_composer/config/map.php:246
+#: modules/js_composer/config/map.php:303
+#: modules/js_composer/config/map.php:333
+#: modules/js_composer/config/map.php:393
+#: modules/js_composer/config/map.php:428
+#: modules/js_composer/config/map.php:497
+#: modules/js_composer/config/map.php:588
+#: modules/js_composer/config/map.php:715
+#: modules/js_composer/config/map.php:795
+#: modules/js_composer/config/map.php:876
+#: modules/js_composer/config/map.php:957
+#: modules/js_composer/config/map.php:1033
+#: modules/js_composer/config/map.php:1103
+#: modules/js_composer/config/map.php:1143
+#: modules/js_composer/config/map.php:1216 modules/kingcomposer/maps.php:15
+#: modules/kingcomposer/maps.php:102 modules/kingcomposer/maps.php:189
+#: modules/kingcomposer/maps.php:217 modules/kingcomposer/maps.php:256
+#: modules/kingcomposer/maps.php:319 modules/kingcomposer/maps.php:347
+#: modules/kingcomposer/maps.php:412 modules/kingcomposer/maps.php:448
+#: modules/kingcomposer/maps.php:516 modules/kingcomposer/maps.php:611
+#: modules/kingcomposer/maps.php:749 modules/kingcomposer/maps.php:836
+#: modules/kingcomposer/maps.php:918 modules/kingcomposer/maps.php:1000
+#: modules/kingcomposer/maps.php:1077 modules/kingcomposer/maps.php:1145
+#: modules/kingcomposer/maps.php:1188 modules/kingcomposer/maps.php:1277
+msgid "Pizzaro Elements"
+msgstr ""
+
+#: modules/js_composer/config/map.php:24 modules/js_composer/config/map.php:109
+#: modules/js_composer/config/map.php:720
+#: modules/js_composer/config/map.php:993
+#: modules/js_composer/config/map.php:1148 modules/kingcomposer/maps.php:21
+#: modules/kingcomposer/maps.php:114 modules/kingcomposer/maps.php:755
+#: modules/kingcomposer/maps.php:1031 modules/kingcomposer/maps.php:1194
+msgid "Background Choice"
+msgstr ""
+
+#: modules/js_composer/config/map.php:26 modules/js_composer/config/map.php:111
+#: modules/js_composer/config/map.php:722
+#: modules/js_composer/config/map.php:969
+#: modules/js_composer/config/map.php:995
+#: modules/js_composer/config/map.php:1050
+#: modules/js_composer/config/map.php:1150
+msgid "Choose"
+msgstr ""
+
+#: modules/js_composer/config/map.php:27 modules/js_composer/config/map.php:112
+#: modules/js_composer/config/map.php:518
+#: modules/js_composer/config/map.php:660
+#: modules/js_composer/config/map.php:723
+#: modules/js_composer/config/map.php:996
+#: modules/js_composer/config/map.php:1151 modules/kingcomposer/maps.php:24
+#: modules/kingcomposer/maps.php:117 modules/kingcomposer/maps.php:426
+#: modules/kingcomposer/maps.php:540 modules/kingcomposer/maps.php:691
+#: modules/kingcomposer/maps.php:758 modules/kingcomposer/maps.php:1034
+#: modules/kingcomposer/maps.php:1166 modules/kingcomposer/maps.php:1197
+msgid "Image"
+msgstr ""
+
+#: modules/js_composer/config/map.php:28 modules/js_composer/config/map.php:113
+#: modules/js_composer/config/map.php:724
+#: modules/js_composer/config/map.php:997
+#: modules/js_composer/config/map.php:1152 modules/kingcomposer/maps.php:25
+#: modules/kingcomposer/maps.php:118 modules/kingcomposer/maps.php:759
+#: modules/kingcomposer/maps.php:1035 modules/kingcomposer/maps.php:1198
+msgid "Color"
+msgstr ""
+
+#: modules/js_composer/config/map.php:34 modules/js_composer/config/map.php:119
+#: modules/js_composer/config/map.php:261
+#: modules/js_composer/config/map.php:318
+#: modules/js_composer/config/map.php:408
+#: modules/js_composer/config/map.php:665
+#: modules/js_composer/config/map.php:730
+#: modules/js_composer/config/map.php:1003
+#: modules/js_composer/config/map.php:1123
+#: modules/js_composer/config/map.php:1158 modules/kingcomposer/maps.php:33
+#: modules/kingcomposer/maps.php:126 modules/kingcomposer/maps.php:275
+#: modules/kingcomposer/maps.php:338 modules/kingcomposer/maps.php:697
+#: modules/kingcomposer/maps.php:767 modules/kingcomposer/maps.php:1043
+#: modules/kingcomposer/maps.php:1206
+msgid "Background Image"
+msgstr ""
+
+#: modules/js_composer/config/map.php:39 modules/js_composer/config/map.php:124
+#: modules/js_composer/config/map.php:735
+#: modules/js_composer/config/map.php:1008
+#: modules/js_composer/config/map.php:1163 modules/kingcomposer/maps.php:38
+#: modules/kingcomposer/maps.php:131 modules/kingcomposer/maps.php:772
+#: modules/kingcomposer/maps.php:1048 modules/kingcomposer/maps.php:1211
+msgid "Background Color"
+msgstr ""
+
+#: modules/js_composer/config/map.php:44 modules/js_composer/config/map.php:129
+#: modules/js_composer/config/map.php:740
+#: modules/js_composer/config/map.php:1013
+#: modules/js_composer/config/map.php:1168 modules/kingcomposer/maps.php:44
+#: modules/kingcomposer/maps.php:137 modules/kingcomposer/maps.php:778
+#: modules/kingcomposer/maps.php:1054 modules/kingcomposer/maps.php:1217
+msgid "Height"
+msgstr ""
+
+#: modules/js_composer/config/map.php:49 modules/js_composer/config/map.php:134
+#: modules/js_composer/config/map.php:184
+#: modules/js_composer/config/map.php:256
+#: modules/js_composer/config/map.php:338
+#: modules/js_composer/config/map.php:745
+#: modules/js_composer/config/map.php:1043 modules/kingcomposer/maps.php:50
+#: modules/kingcomposer/maps.php:143 modules/kingcomposer/maps.php:201
+#: modules/kingcomposer/maps.php:268 modules/kingcomposer/maps.php:353
+#: modules/kingcomposer/maps.php:784 modules/kingcomposer/maps.php:1089
+msgid "Pre Title"
+msgstr ""
+
+#: modules/js_composer/config/map.php:54 modules/js_composer/config/map.php:139
+#: modules/js_composer/config/map.php:189
+#: modules/js_composer/config/map.php:251
+#: modules/js_composer/config/map.php:271
+#: modules/js_composer/config/map.php:308
+#: modules/js_composer/config/map.php:343
+#: modules/js_composer/config/map.php:398
+#: modules/js_composer/config/map.php:433
+#: modules/js_composer/config/map.php:502
+#: modules/js_composer/config/map.php:593
+#: modules/js_composer/config/map.php:750
+#: modules/js_composer/config/map.php:800
+#: modules/js_composer/config/map.php:881
+#: modules/js_composer/config/map.php:962
+#: modules/js_composer/config/map.php:1038
+#: modules/js_composer/config/map.php:1108
+#: modules/js_composer/config/map.php:1173 modules/kingcomposer/maps.php:56
+#: modules/kingcomposer/maps.php:149 modules/kingcomposer/maps.php:195
+#: modules/kingcomposer/maps.php:262 modules/kingcomposer/maps.php:289
+#: modules/kingcomposer/maps.php:325 modules/kingcomposer/maps.php:359
+#: modules/kingcomposer/maps.php:418 modules/kingcomposer/maps.php:454
+#: modules/kingcomposer/maps.php:522 modules/kingcomposer/maps.php:617
+#: modules/kingcomposer/maps.php:790 modules/kingcomposer/maps.php:842
+#: modules/kingcomposer/maps.php:924 modules/kingcomposer/maps.php:1006
+#: modules/kingcomposer/maps.php:1083 modules/kingcomposer/maps.php:1151
+#: modules/kingcomposer/maps.php:1223
+msgid "Title"
+msgstr ""
+
+#: modules/js_composer/config/map.php:59 modules/js_composer/config/map.php:144
+#: modules/js_composer/config/map.php:599
+#: modules/js_composer/config/map.php:1178 modules/kingcomposer/maps.php:62
+#: modules/kingcomposer/maps.php:155 modules/kingcomposer/maps.php:624
+#: modules/kingcomposer/maps.php:1229
+msgid "Sub Title"
+msgstr ""
+
+#: modules/js_composer/config/map.php:64 modules/js_composer/config/map.php:149
+#: modules/js_composer/config/map.php:281 modules/kingcomposer/maps.php:68
+#: modules/kingcomposer/maps.php:161 modules/kingcomposer/maps.php:301
+msgid "Description"
+msgstr ""
+
+#: modules/js_composer/config/map.php:69 modules/js_composer/config/map.php:154
+#: modules/js_composer/config/map.php:770 modules/kingcomposer/maps.php:74
+#: modules/kingcomposer/maps.php:167 modules/kingcomposer/maps.php:814
+msgid "Action Text"
+msgstr ""
+
+#: modules/js_composer/config/map.php:74 modules/js_composer/config/map.php:159
+#: modules/js_composer/config/map.php:775 modules/kingcomposer/maps.php:80
+#: modules/kingcomposer/maps.php:173 modules/kingcomposer/maps.php:820
+msgid "Action Link"
+msgstr ""
+
+#: modules/js_composer/config/map.php:79 modules/kingcomposer/maps.php:86
+msgid "Condition"
+msgstr ""
+
+#: modules/js_composer/config/map.php:84 modules/js_composer/config/map.php:164
+#: modules/js_composer/config/map.php:194
+#: modules/js_composer/config/map.php:231
+#: modules/js_composer/config/map.php:288
+#: modules/js_composer/config/map.php:378
+#: modules/js_composer/config/map.php:413
+#: modules/js_composer/config/map.php:482
+#: modules/js_composer/config/map.php:573
+#: modules/js_composer/config/map.php:700
+#: modules/js_composer/config/map.php:780
+#: modules/js_composer/config/map.php:861
+#: modules/js_composer/config/map.php:942
+#: modules/js_composer/config/map.php:1018
+#: modules/js_composer/config/map.php:1088
+#: modules/js_composer/config/map.php:1128
+#: modules/js_composer/config/map.php:1198
+msgid "Extra Class"
+msgstr ""
+
+#: modules/js_composer/config/map.php:96
+msgid "Coupon"
+msgstr ""
+
+#: modules/js_composer/config/map.php:98
+msgid "Add Coupon to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:104 modules/kingcomposer/maps.php:108
+msgid "Coupon Code"
+msgstr ""
+
+#: modules/js_composer/config/map.php:176 modules/kingcomposer/maps.php:187
+msgid "Events"
+msgstr ""
+
+#: modules/js_composer/config/map.php:178
+msgid "Add Events to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:206 modules/kingcomposer/maps.php:215
+#: modules/kingcomposer/maps.php:216
+msgid "Features List"
+msgstr ""
+
+#: modules/js_composer/config/map.php:208
+msgid "Add Feature List to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:219 modules/kingcomposer/maps.php:232
+msgid "Icon"
+msgstr ""
+
+#: modules/js_composer/config/map.php:224 modules/kingcomposer/maps.php:238
+msgid "Label"
+msgstr ""
+
+#: modules/js_composer/config/map.php:243 modules/kingcomposer/maps.php:254
+#: modules/kingcomposer/maps.php:255
+msgid "Menu Card"
+msgstr ""
+
+#: modules/js_composer/config/map.php:245
+msgid "Add Menu Card to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:276
+#: modules/js_composer/config/map.php:755 modules/kingcomposer/maps.php:295
+#: modules/kingcomposer/maps.php:796
+msgid "Price"
+msgstr ""
+
+#: modules/js_composer/config/map.php:300 modules/kingcomposer/maps.php:317
+#: modules/kingcomposer/maps.php:318
+msgid "Newsletter"
+msgstr ""
+
+#: modules/js_composer/config/map.php:302
+msgid "Add Newsletter to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:313 modules/kingcomposer/maps.php:331
+msgid "Marketing Text"
+msgstr ""
+
+#: modules/js_composer/config/map.php:330 modules/kingcomposer/maps.php:345
+#: modules/kingcomposer/maps.php:346
+msgid "Product Categories"
+msgstr ""
+
+#: modules/js_composer/config/map.php:332
+msgid "Add Product Categories to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:348 modules/kingcomposer/maps.php:365
+#: modules/kingcomposer/maps.php:476 modules/kingcomposer/maps.php:571
+#: modules/kingcomposer/maps.php:660 modules/kingcomposer/maps.php:878
+#: modules/kingcomposer/maps.php:960
+msgid "Orderby"
+msgstr ""
+
+#: modules/js_composer/config/map.php:353
+#: modules/js_composer/config/map.php:461
+#: modules/js_composer/config/map.php:552
+#: modules/js_composer/config/map.php:639
+#: modules/js_composer/config/map.php:840
+#: modules/js_composer/config/map.php:921 modules/kingcomposer/maps.php:373
+#: modules/kingcomposer/maps.php:484 modules/kingcomposer/maps.php:579
+#: modules/kingcomposer/maps.php:668 modules/kingcomposer/maps.php:886
+#: modules/kingcomposer/maps.php:968
+msgid "Order"
+msgstr ""
+
+#: modules/js_composer/config/map.php:358 modules/kingcomposer/maps.php:381
+#: modules/kingcomposer/maps.php:560 modules/kingcomposer/maps.php:646
+#: modules/kingcomposer/maps.php:864 modules/kingcomposer/maps.php:946
+#: modules/kingcomposer/maps.php:1114
+msgid "Limit"
+msgstr ""
+
+#: modules/js_composer/config/map.php:364
+msgid "Hide Empty"
+msgstr ""
+
+#: modules/js_composer/config/map.php:365
+#: modules/js_composer/config/map.php:687
+msgid "Show only if brand have products"
+msgstr ""
+
+#: modules/js_composer/config/map.php:367
+#: modules/js_composer/config/map.php:689
+msgid "Allow"
+msgstr ""
+
+#: modules/js_composer/config/map.php:372 modules/kingcomposer/maps.php:395
+msgid "Slugs"
+msgstr ""
+
+#: modules/js_composer/config/map.php:373
+#: modules/js_composer/config/map.php:695
+msgid "Leave blank for default brands"
+msgstr ""
+
+#: modules/js_composer/config/map.php:390 modules/kingcomposer/maps.php:410
+#: modules/kingcomposer/maps.php:411
+msgid "Product"
+msgstr ""
+
+#: modules/js_composer/config/map.php:392
+msgid "Add Product to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:403
+#: modules/js_composer/config/map.php:1118 modules/kingcomposer/maps.php:431
+#: modules/kingcomposer/maps.php:1171
+msgid "Product ID"
+msgstr ""
+
+#: modules/js_composer/config/map.php:425 modules/kingcomposer/maps.php:446
+#: modules/kingcomposer/maps.php:447
+msgid "Products 4-1"
+msgstr ""
+
+#: modules/js_composer/config/map.php:427
+msgid "Add Products 4-1 to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:439
+#: modules/js_composer/config/map.php:508
+#: modules/js_composer/config/map.php:523
+#: modules/js_composer/config/map.php:605
+#: modules/js_composer/config/map.php:806
+#: modules/js_composer/config/map.php:887
+msgid "Product Shortcode"
+msgstr ""
+
+#: modules/js_composer/config/map.php:442
+#: modules/js_composer/config/map.php:511
+#: modules/js_composer/config/map.php:526
+#: modules/js_composer/config/map.php:608
+#: modules/js_composer/config/map.php:809
+#: modules/js_composer/config/map.php:890
+msgid "Select"
+msgstr ""
+
+#: modules/js_composer/config/map.php:443
+#: modules/js_composer/config/map.php:527
+#: modules/js_composer/config/map.php:609
+#: modules/js_composer/config/map.php:810
+#: modules/js_composer/config/map.php:891 modules/kingcomposer/maps.php:464
+#: modules/kingcomposer/maps.php:548 modules/kingcomposer/maps.php:634
+#: modules/kingcomposer/maps.php:852 modules/kingcomposer/maps.php:934
+msgid "Featured Products"
+msgstr ""
+
+#: modules/js_composer/config/map.php:444
+#: modules/js_composer/config/map.php:528
+#: modules/js_composer/config/map.php:610
+#: modules/js_composer/config/map.php:811
+#: modules/js_composer/config/map.php:892 modules/kingcomposer/maps.php:465
+#: modules/kingcomposer/maps.php:549 modules/kingcomposer/maps.php:635
+#: modules/kingcomposer/maps.php:853 modules/kingcomposer/maps.php:935
+msgid "On Sale Products"
+msgstr ""
+
+#: modules/js_composer/config/map.php:445
+#: modules/js_composer/config/map.php:529
+#: modules/js_composer/config/map.php:611
+#: modules/js_composer/config/map.php:812
+#: modules/js_composer/config/map.php:893 modules/kingcomposer/maps.php:466
+#: modules/kingcomposer/maps.php:550 modules/kingcomposer/maps.php:636
+#: modules/kingcomposer/maps.php:854 modules/kingcomposer/maps.php:936
+msgid "Top Rated Products"
+msgstr ""
+
+#: modules/js_composer/config/map.php:446
+#: modules/js_composer/config/map.php:530
+#: modules/js_composer/config/map.php:612
+#: modules/js_composer/config/map.php:813
+#: modules/js_composer/config/map.php:894 modules/kingcomposer/maps.php:467
+#: modules/kingcomposer/maps.php:551 modules/kingcomposer/maps.php:637
+#: modules/kingcomposer/maps.php:855 modules/kingcomposer/maps.php:937
+msgid "Recent Products"
+msgstr ""
+
+#: modules/js_composer/config/map.php:447
+#: modules/js_composer/config/map.php:531
+#: modules/js_composer/config/map.php:613
+#: modules/js_composer/config/map.php:814
+#: modules/js_composer/config/map.php:895 modules/kingcomposer/maps.php:468
+#: modules/kingcomposer/maps.php:552 modules/kingcomposer/maps.php:638
+#: modules/kingcomposer/maps.php:856 modules/kingcomposer/maps.php:938
+msgid "Best Selling Products"
+msgstr ""
+
+#: modules/js_composer/config/map.php:448
+#: modules/js_composer/config/map.php:532
+#: modules/js_composer/config/map.php:614
+#: modules/js_composer/config/map.php:815
+#: modules/js_composer/config/map.php:873
+#: modules/js_composer/config/map.php:896 modules/kingcomposer/maps.php:469
+#: modules/kingcomposer/maps.php:553 modules/kingcomposer/maps.php:639
+#: modules/kingcomposer/maps.php:857 modules/kingcomposer/maps.php:916
+#: modules/kingcomposer/maps.php:917 modules/kingcomposer/maps.php:939
+msgid "Products"
+msgstr ""
+
+#: modules/js_composer/config/map.php:449
+#: modules/js_composer/config/map.php:533
+#: modules/js_composer/config/map.php:615
+#: modules/js_composer/config/map.php:816
+#: modules/js_composer/config/map.php:897 modules/kingcomposer/maps.php:470
+#: modules/kingcomposer/maps.php:554 modules/kingcomposer/maps.php:640
+#: modules/kingcomposer/maps.php:858 modules/kingcomposer/maps.php:940
+msgid "Product Category"
+msgstr ""
+
+#: modules/js_composer/config/map.php:454
+#: modules/js_composer/config/map.php:545
+#: modules/js_composer/config/map.php:632
+#: modules/js_composer/config/map.php:833
+#: modules/js_composer/config/map.php:914
+msgid "Order by"
+msgstr ""
+
+#: modules/js_composer/config/map.php:456
+#: modules/js_composer/config/map.php:547
+#: modules/js_composer/config/map.php:634
+#: modules/js_composer/config/map.php:835
+#: modules/js_composer/config/map.php:916
+msgid ""
+" Sort retrieved posts by parameter. Defaults to 'date'. One or more options "
+"can be passed"
+msgstr ""
+
+#: modules/js_composer/config/map.php:463
+#: modules/js_composer/config/map.php:554
+#: modules/js_composer/config/map.php:641
+#: modules/js_composer/config/map.php:842
+#: modules/js_composer/config/map.php:923
+msgid ""
+"Designates the ascending or descending order of the 'orderby' parameter. "
+"Defaults to 'DESC'."
+msgstr ""
+
+#: modules/js_composer/config/map.php:468
+#: modules/js_composer/config/map.php:559
+#: modules/js_composer/config/map.php:646
+#: modules/js_composer/config/map.php:847
+#: modules/js_composer/config/map.php:928
+msgid "Enter Product IDs"
+msgstr ""
+
+#: modules/js_composer/config/map.php:469
+#: modules/js_composer/config/map.php:560
+#: modules/js_composer/config/map.php:647
+#: modules/js_composer/config/map.php:848
+#: modules/js_composer/config/map.php:929
+msgid "This will only for Products Shortcode"
+msgstr ""
+
+#: modules/js_composer/config/map.php:475
+#: modules/js_composer/config/map.php:566
+#: modules/js_composer/config/map.php:653
+#: modules/js_composer/config/map.php:854
+#: modules/js_composer/config/map.php:935
+msgid "Enter Category Slug"
+msgstr ""
+
+#: modules/js_composer/config/map.php:476
+#: modules/js_composer/config/map.php:567
+#: modules/js_composer/config/map.php:654
+#: modules/js_composer/config/map.php:855
+#: modules/js_composer/config/map.php:936
+msgid "This will only for Product Category Shortcode"
+msgstr ""
+
+#: modules/js_composer/config/map.php:494 modules/kingcomposer/maps.php:514
+#: modules/kingcomposer/maps.php:515
+msgid "Products Card"
+msgstr ""
+
+#: modules/js_composer/config/map.php:496
+msgid "Add Products Card to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:512 modules/kingcomposer/maps.php:532
+msgid "Media Left"
+msgstr ""
+
+#: modules/js_composer/config/map.php:513 modules/kingcomposer/maps.php:533
+msgid "Media Right"
+msgstr ""
+
+#: modules/js_composer/config/map.php:538
+#: modules/js_composer/config/map.php:620
+#: modules/js_composer/config/map.php:821
+#: modules/js_composer/config/map.php:902
+msgid "Number of products to display"
+msgstr ""
+
+#: modules/js_composer/config/map.php:540
+msgid " Enter limit either 1,2 or 4."
+msgstr ""
+
+#: modules/js_composer/config/map.php:585 modules/kingcomposer/maps.php:609
+#: modules/kingcomposer/maps.php:610
+msgid "Products Carousel with Image"
+msgstr ""
+
+#: modules/js_composer/config/map.php:587
+msgid "Add Products Carousel with Image to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:626
+#: modules/js_composer/config/map.php:827
+#: modules/js_composer/config/map.php:908
+msgid "Number of columns to display"
+msgstr ""
+
+#: modules/js_composer/config/map.php:670 modules/kingcomposer/maps.php:702
+msgid "Category Orderby"
+msgstr ""
+
+#: modules/js_composer/config/map.php:675 modules/kingcomposer/maps.php:710
+msgid "Category Order"
+msgstr ""
+
+#: modules/js_composer/config/map.php:680 modules/kingcomposer/maps.php:718
+msgid "Category Limit"
+msgstr ""
+
+#: modules/js_composer/config/map.php:686
+msgid "Category Hide Empty"
+msgstr ""
+
+#: modules/js_composer/config/map.php:694 modules/kingcomposer/maps.php:732
+msgid "Category Slugs"
+msgstr ""
+
+#: modules/js_composer/config/map.php:712 modules/kingcomposer/maps.php:747
+#: modules/kingcomposer/maps.php:748
+msgid "Products Sale Event"
+msgstr ""
+
+#: modules/js_composer/config/map.php:714
+msgid "Add Products Sale Event to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:760 modules/kingcomposer/maps.php:802
+msgid "Price Info"
+msgstr ""
+
+#: modules/js_composer/config/map.php:765 modules/kingcomposer/maps.php:492
+#: modules/kingcomposer/maps.php:587 modules/kingcomposer/maps.php:676
+#: modules/kingcomposer/maps.php:808 modules/kingcomposer/maps.php:894
+#: modules/kingcomposer/maps.php:976
+msgid "Product IDs"
+msgstr ""
+
+#: modules/js_composer/config/map.php:792 modules/kingcomposer/maps.php:834
+#: modules/kingcomposer/maps.php:835
+msgid "Products with Gallery"
+msgstr ""
+
+#: modules/js_composer/config/map.php:794
+msgid "Add Products with Gallery to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:875
+msgid "Add Products to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:954 modules/kingcomposer/maps.php:998
+#: modules/kingcomposer/maps.php:999
+msgid "Recent Post"
+msgstr ""
+
+#: modules/js_composer/config/map.php:956
+msgid "Add Recent Post to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:967
+#: modules/js_composer/config/map.php:1048 modules/kingcomposer/maps.php:1012
+#: modules/kingcomposer/maps.php:1095
+msgid "Choice"
+msgstr ""
+
+#: modules/js_composer/config/map.php:970
+#: modules/js_composer/config/map.php:1051 modules/kingcomposer/maps.php:1015
+#: modules/kingcomposer/maps.php:1098
+msgid "Recent"
+msgstr ""
+
+#: modules/js_composer/config/map.php:971
+#: modules/js_composer/config/map.php:1052 modules/kingcomposer/maps.php:1016
+#: modules/kingcomposer/maps.php:1099
+msgid "Random"
+msgstr ""
+
+#: modules/js_composer/config/map.php:972
+#: modules/js_composer/config/map.php:1053 modules/kingcomposer/maps.php:1017
+#: modules/kingcomposer/maps.php:1100
+msgid "Specific"
+msgstr ""
+
+#: modules/js_composer/config/map.php:978
+msgid "ID"
+msgstr ""
+
+#: modules/js_composer/config/map.php:979
+#: modules/js_composer/config/map.php:1060
+msgid "Only works with Specific on post choice"
+msgstr ""
+
+#: modules/js_composer/config/map.php:985
+#: modules/js_composer/config/map.php:1071 modules/kingcomposer/maps.php:1060
+#: modules/kingcomposer/maps.php:1121
+msgid "Show Read More"
+msgstr ""
+
+#: modules/js_composer/config/map.php:986
+#: modules/js_composer/config/map.php:1072 modules/kingcomposer/maps.php:1062
+#: modules/kingcomposer/maps.php:1123
+msgid "Check to show Read More."
+msgstr ""
+
+#: modules/js_composer/config/map.php:988
+#: modules/js_composer/config/map.php:1074
+#: modules/js_composer/config/map.php:1083 modules/kingcomposer/maps.php:1063
+#: modules/kingcomposer/maps.php:1124 modules/kingcomposer/maps.php:1131
+msgid "Enable"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1030 modules/kingcomposer/maps.php:1075
+#: modules/kingcomposer/maps.php:1076
+msgid "Recent Posts"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1032
+msgid "Add Recent Posts to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:1059 modules/kingcomposer/maps.php:1024
+#: modules/kingcomposer/maps.php:1107
+msgid "IDs"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1065
+msgid "Number of posts to show"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1080 modules/kingcomposer/maps.php:1128
+msgid "Show Comment Link"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1081 modules/kingcomposer/maps.php:1130
+msgid "Check to show comment link."
+msgstr ""
+
+#: modules/js_composer/config/map.php:1100 modules/kingcomposer/maps.php:1143
+#: modules/kingcomposer/maps.php:1144
+msgid "Sale Product"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1102
+msgid "Add Sale Product to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:1113
+#: modules/js_composer/config/map.php:1188 modules/kingcomposer/maps.php:1158
+#: modules/kingcomposer/maps.php:1241
+msgid "Button Text"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1140 modules/kingcomposer/maps.php:1186
+#: modules/kingcomposer/maps.php:1187
+msgid "Store Location"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1142
+msgid "Add Store Location to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:1183 modules/kingcomposer/maps.php:1235
+msgid "Icon Class"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1193 modules/kingcomposer/maps.php:1247
+msgid "Page ID"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1210
+msgid "Terms"
+msgstr ""
+
+#: modules/js_composer/config/map.php:1212
+msgid ""
+"Adds a shortcode for get_terms. Used to get terms including categories, "
+"product categories, etc."
+msgstr ""
+
+#: modules/kingcomposer/maps.php:16
+msgid "Banner Settings"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:27 modules/kingcomposer/maps.php:120
+#: modules/kingcomposer/maps.php:761 modules/kingcomposer/maps.php:1037
+#: modules/kingcomposer/maps.php:1200
+msgid "Select choice for background."
+msgstr ""
+
+#: modules/kingcomposer/maps.php:94 modules/kingcomposer/maps.php:181
+#: modules/kingcomposer/maps.php:209 modules/kingcomposer/maps.php:248
+#: modules/kingcomposer/maps.php:311 modules/kingcomposer/maps.php:404
+#: modules/kingcomposer/maps.php:440 modules/kingcomposer/maps.php:508
+#: modules/kingcomposer/maps.php:603 modules/kingcomposer/maps.php:741
+#: modules/kingcomposer/maps.php:828 modules/kingcomposer/maps.php:910
+#: modules/kingcomposer/maps.php:992 modules/kingcomposer/maps.php:1069
+#: modules/kingcomposer/maps.php:1137 modules/kingcomposer/maps.php:1180
+#: modules/kingcomposer/maps.php:1255
+msgid ""
+"If you wish to style particular content element differently, please add a "
+"class name to this field and refer to it in your custom CSS file."
+msgstr ""
+
+#: modules/kingcomposer/maps.php:100 modules/kingcomposer/maps.php:101
+msgid "Shop Coupon"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:103
+msgid "Shop Coupon Settings"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:188
+msgid "Upcoming Events"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:190
+msgid "Events Settings"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:218
+msgid "Features List Settings"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:223
+msgid "Features"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:227
+msgid "Add new feature"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:257
+msgid "Menu Card Settings"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:280
+msgid "Menus"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:284
+msgid "Add new menu"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:309 modules/kingcomposer/maps.php:438
+#: modules/kingcomposer/maps.php:506 modules/kingcomposer/maps.php:601
+#: modules/kingcomposer/maps.php:739 modules/kingcomposer/maps.php:908
+#: modules/kingcomposer/maps.php:990 modules/kingcomposer/maps.php:1178
+msgid "Extra class name"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:320
+msgid "Newsletter Settings"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:348
+msgid "Product Categories Settings"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:367 modules/kingcomposer/maps.php:478
+#: modules/kingcomposer/maps.php:573 modules/kingcomposer/maps.php:662
+#: modules/kingcomposer/maps.php:704 modules/kingcomposer/maps.php:880
+#: modules/kingcomposer/maps.php:962
+msgid "Enter orderby."
+msgstr ""
+
+#: modules/kingcomposer/maps.php:375 modules/kingcomposer/maps.php:486
+#: modules/kingcomposer/maps.php:581 modules/kingcomposer/maps.php:670
+#: modules/kingcomposer/maps.php:712 modules/kingcomposer/maps.php:888
+#: modules/kingcomposer/maps.php:970
+msgid "Enter order."
+msgstr ""
+
+#: modules/kingcomposer/maps.php:383 modules/kingcomposer/maps.php:720
+msgid "Enter the number of categories to display."
+msgstr ""
+
+#: modules/kingcomposer/maps.php:388
+msgid "Hide empty?"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:390 modules/kingcomposer/maps.php:727
+msgid "Check to hide empty brands."
+msgstr ""
+
+#: modules/kingcomposer/maps.php:391 modules/kingcomposer/maps.php:728
+msgid "Yes"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:397 modules/kingcomposer/maps.php:734
+msgid "Enter slug spearate by comma(,)."
+msgstr ""
+
+#: modules/kingcomposer/maps.php:413
+msgid "Product Settings"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:420 modules/kingcomposer/maps.php:456
+#: modules/kingcomposer/maps.php:524 modules/kingcomposer/maps.php:619
+#: modules/kingcomposer/maps.php:844 modules/kingcomposer/maps.php:926
+#: modules/kingcomposer/maps.php:1153
+msgid "Enter title."
+msgstr ""
+
+#: modules/kingcomposer/maps.php:433 modules/kingcomposer/maps.php:1173
+msgid "Enter sale product id."
+msgstr ""
+
+#: modules/kingcomposer/maps.php:449
+msgid "Products 4-1 Settings"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:461 modules/kingcomposer/maps.php:545
+#: modules/kingcomposer/maps.php:631 modules/kingcomposer/maps.php:849
+#: modules/kingcomposer/maps.php:931
+msgid "Shortcode"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:494 modules/kingcomposer/maps.php:589
+#: modules/kingcomposer/maps.php:678 modules/kingcomposer/maps.php:896
+#: modules/kingcomposer/maps.php:978
+msgid "Enter id spearate by comma(,) Note: Only works with Products Shortcode."
+msgstr ""
+
+#: modules/kingcomposer/maps.php:499 modules/kingcomposer/maps.php:594
+#: modules/kingcomposer/maps.php:683 modules/kingcomposer/maps.php:901
+#: modules/kingcomposer/maps.php:983
+msgid "Category"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:501 modules/kingcomposer/maps.php:596
+#: modules/kingcomposer/maps.php:685 modules/kingcomposer/maps.php:903
+#: modules/kingcomposer/maps.php:985
+msgid ""
+"Enter id spearate by comma(,) Note: Only works with Product Category "
+"Shortcode."
+msgstr ""
+
+#: modules/kingcomposer/maps.php:517
+msgid "Products Card Settings"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:529
+msgid "Media Align"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:612
+msgid "Products Carousel with Image Settings"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:626
+msgid "Enter sub title."
+msgstr ""
+
+#: modules/kingcomposer/maps.php:648 modules/kingcomposer/maps.php:866
+#: modules/kingcomposer/maps.php:948
+msgid "Enter the number of products to display."
+msgstr ""
+
+#: modules/kingcomposer/maps.php:653 modules/kingcomposer/maps.php:871
+#: modules/kingcomposer/maps.php:953
+msgid "Columns"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:655 modules/kingcomposer/maps.php:873
+#: modules/kingcomposer/maps.php:955
+msgid "Enter the number of cloumns to display."
+msgstr ""
+
+#: modules/kingcomposer/maps.php:725
+msgid "Category Hide empty?"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:750
+msgid "Products Sale Event Settings"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:837
+msgid "Products with Gallery Settings"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:919
+msgid "Products Settings"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:1001
+msgid "Recent Post Settings"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:1019 modules/kingcomposer/maps.php:1102
+msgid "Select choice for posts."
+msgstr ""
+
+#: modules/kingcomposer/maps.php:1026 modules/kingcomposer/maps.php:1109
+msgid "Enter id spearate by comma(,) Note: Only works with specific choice."
+msgstr ""
+
+#: modules/kingcomposer/maps.php:1078
+msgid "Recent Posts Settings"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:1116
+msgid "Enter the number of posts to display."
+msgstr ""
+
+#: modules/kingcomposer/maps.php:1146
+msgid "Sale Product Settings"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:1160
+msgid "Enter text to appear on button."
+msgstr ""
+
+#: modules/kingcomposer/maps.php:1189
+msgid "Store Location Settings"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:1271
+msgid "No sliders found"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:1275 modules/kingcomposer/maps.php:1283
+msgid "Revolution Slider"
+msgstr ""
+
+#: modules/kingcomposer/maps.php:1276
+msgid "Select your Revolution Slider."
+msgstr ""
+
+#: modules/kingcomposer/maps.php:1278
+msgid "Revolution Slider Settings"
+msgstr ""
+
+#: modules/post-formats/post-formats.php:70
+msgid "Loading..."
+msgstr ""
+
+#: modules/post-formats/views/format-audio.php:6
+msgid "Audio Options"
+msgstr ""
+
+#: modules/post-formats/views/format-audio.php:10
+msgid "Enter the paths to your audio files in the fields below"
+msgstr ""
+
+#: modules/post-formats/views/format-audio.php:17
+msgid "MP3 File URL"
+msgstr ""
+
+#: modules/post-formats/views/format-audio.php:18
+msgid "URL to an .mp3 file"
+msgstr ""
+
+#: modules/post-formats/views/format-audio.php:28
+msgid "OGA File URL"
+msgstr ""
+
+#: modules/post-formats/views/format-audio.php:29
+msgid "URL to an .oga or .ogg file"
+msgstr ""
+
+#: modules/post-formats/views/format-audio.php:39
+msgid "Embedded Audio"
+msgstr ""
+
+#: modules/post-formats/views/format-audio.php:40
+msgid "Add embedded audio formats."
+msgstr ""
+
+#: modules/post-formats/views/format-gallery.php:25
+msgid "Edit Gallery"
+msgstr ""
+
+#: modules/post-formats/views/format-gallery.php:25
+msgid "Add Images to Gallery"
+msgstr ""
+
+#: modules/post-formats/views/format-link.php:5
+#: modules/post-formats/views/format-link.php:12
+msgid "Link URL"
+msgstr ""
+
+#: modules/post-formats/views/format-link.php:13
+msgid "The URL of your link."
+msgstr ""
+
+#: modules/post-formats/views/format-quote.php:5
+#: modules/post-formats/views/format-quote.php:14
+msgid "Quote"
+msgstr ""
+
+#: modules/post-formats/views/format-quote.php:15
+msgid "The text being quoted."
+msgstr ""
+
+#: modules/post-formats/views/format-quote.php:25
+msgid "Source Name"
+msgstr ""
+
+#: modules/post-formats/views/format-quote.php:26
+msgid "The person being cited."
+msgstr ""
+
+#: modules/post-formats/views/format-video.php:5
+msgid "Video Options"
+msgstr ""
+
+#: modules/post-formats/views/format-video.php:7
+msgid ""
+"For HTML5 video support and Flash fallback please include an M4V file. "
+"Include an OGV file optionally to increase cross browser support."
+msgstr ""
+
+#: modules/post-formats/views/format-video.php:13
+msgid "M4V File URL"
+msgstr ""
+
+#: modules/post-formats/views/format-video.php:14
+msgid "The URL to the .m4v video file"
+msgstr ""
+
+#: modules/post-formats/views/format-video.php:24
+msgid "OGV File URL"
+msgstr ""
+
+#: modules/post-formats/views/format-video.php:25
+msgid "The URL to the .ogv video file"
+msgstr ""
+
+#: modules/post-formats/views/format-video.php:35
+msgid "WEBM File URL"
+msgstr ""
+
+#: modules/post-formats/views/format-video.php:36
+msgid "The URL to the .webm video file"
+msgstr ""
+
+#: modules/post-formats/views/format-video.php:46
+msgid "Video Poster"
+msgstr ""
+
+#: modules/post-formats/views/format-video.php:47
+msgid "A preivew image."
+msgstr ""
+
+#: modules/post-formats/views/format-video.php:57
+msgid "Embedded Code"
+msgstr ""
+
+#: modules/post-formats/views/format-video.php:58
+msgid "If not using self hosted video you can include embeded code here."
+msgstr ""
+
+#: modules/post-formats/views/tabs.php:9
+msgid "Standard"
+msgstr ""
+
+#: modules/post-types/static-block/static-block.php:39
+msgid "Add New Block"
+msgstr ""
+
+#: modules/post-types/static-block/static-block.php:40
+msgid "Edit Block"
+msgstr ""
+
+#: modules/post-types/static-block/static-block.php:41
+msgid "New Block"
+msgstr ""
+
+#: modules/post-types/static-block/static-block.php:42
+msgid "Static Blocks"
+msgstr ""
+
+#: modules/post-types/static-block/static-block.php:43
+msgid "View Block"
+msgstr ""
+
+#: modules/post-types/static-block/static-block.php:44
+msgid "Search"
+msgstr ""
+
+#: modules/post-types/static-block/static-block.php:45
+msgid "No blocks found"
+msgstr ""
+
+#: modules/post-types/static-block/static-block.php:46
+msgid "No blocks found in Trash"
+msgstr ""
+
+#: modules/post-types/static-block/static-block.php:48
+msgid "Static Content"
+msgstr ""
+
+#: modules/post-types/static-block/static-block.php:76
+msgid "Content Options"
+msgstr ""
+
+#: modules/post-types/static-block/static-block.php:92
+msgid "Content Filters"
+msgstr ""
+
+#: modules/post-types/static-block/static-block.php:94
+msgid "Defaults (recommended)"
+msgstr ""
+
+#: modules/post-types/static-block/static-block.php:97
+msgid "All Content Filters"
+msgstr ""
+
+#: modules/post-types/static-block/static-block.php:99
+msgid "Apply all WP content filters? This will include plugin added filters."
+msgstr ""
+
+#: modules/post-types/static-block/static-block.php:102
+msgid "Auto Paragraphs"
+msgstr ""
+
+#: modules/post-types/static-block/static-block.php:104
+msgid "On"
+msgstr ""
+
+#: modules/post-types/static-block/static-block.php:107
+msgid "Off"
+msgstr ""
+
+#: modules/post-types/static-block/static-block.php:109
+msgid ""
+"Add &lt;p&gt; and &lt;br&gt; tags automatically. (disabling may fix layout "
+"issues)"
+msgstr ""
+
+#: pizzaro-extensions.php:172 pizzaro-extensions.php:181
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Pizzaro Extensions"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://demo2.chethemes.com/pizzaro/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This selection of extensions compliment our lean and mean theme for "
+"WooCommerce, Pizzaro. Please note: they don’t work with any WordPress "
+"theme, just Pizzaro."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Transvelo"
+msgstr ""
+
+#: modules/post-types/static-block/static-block.php:36
+msgctxt "post type general name"
+msgid "Static Content Blocks"
+msgstr ""
+
+#: modules/post-types/static-block/static-block.php:37
+msgctxt "post type singular name"
+msgid "Static Block"
+msgstr ""
+
+#: modules/post-types/static-block/static-block.php:38
+msgctxt "block"
+msgid "Add New"
+msgstr ""

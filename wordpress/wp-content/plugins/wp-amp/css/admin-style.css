@@ -1,0 +1,43 @@
+.form-table {
+    border-collapse: separate; /* allow spacing between cell borders */
+    border-spacing: 0 5px;
+}
+.ui-sortable-handle {
+    background: #FFF;
+}
+.ui-sortable-handle th {
+    padding: 20px 10px 20px 10px;
+}
+.ui-sortable-handle th.drag {
+    width: 1px;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAEAQMAAABx4xdEAAAABlBMVEUAAAAqKiokbX8HAAAAAnRSTlMAPS77gSkAAAANSURBVAjXYzgAhEAAAAkIAYHhBxGdAAAAAElFTkSuQmCC');
+    background-position: 0 0;
+    cursor: move;
+    opacity: 0.8;
+    border-width: 14px 12px 14px 8px;
+    border-style: solid;
+    border-color: #fff;
+}
+.ui-sortable-handle th.drag:hover {
+    opacity: 1;
+}
+
+.unsortable th.drag {
+    width: auto;
+}
+
+mark {
+    background: 0 0;
+}
+
+mark.yes {
+    color: #7ad03a;
+}
+
+mark.error {
+    color: #a00;
+}
+
+mark.no {
+    color: #999;
+}

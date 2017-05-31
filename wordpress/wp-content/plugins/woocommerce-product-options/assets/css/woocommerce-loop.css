@@ -1,0 +1,7 @@
+.product-with-options {
+    border:1px solid gray;
+}
+
+.product-with-options .ajax_add_to_cart {
+    margin-top:10px;
+}

@@ -1,0 +1,169 @@
+#woocommerce-order-options .order-group-option-hide, .conditional-logic {
+    display:none;
+}
+
+.conditional-logic {
+    margin-bottom:20px;
+}
+
+.backend-product-option input[type=text], .backend-product-option textarea {
+    width:100%;
+}
+
+.backend-product-option-radio_image .maximum-and-minimum {
+    display:none;
+}
+
+#options-droppable .backend-product-option {
+    background:lightblue;
+    border-radius:10px;
+    border: 1px solid black;
+    padding:10px;
+    margin:10px;
+    text-align:left;
+    font-weight:normal;
+    font-size: 20px;
+    color: black;
+    line-height: 24px;
+}
+
+.backend-product-options {
+    padding-bottom:30px;
+}
+
+.backend-options tr td, .backend-options tr th {
+    vertical-align:top;
+    width:120px;
+}
+
+.backend-options input[type="number"] {
+    max-width:70px;
+}
+
+.backend-options input[type="radio"], .backend-options input[type="checkbox"] {
+    max-width:10px;
+}
+
+.backend-options .default-column {
+    width:50px;
+}
+
+.backend-product-options .backend-product-option .button:hover, .backend-product-option .button:hover {
+    background:green;
+}
+
+.backend-product-options .backend-product-option h2, .backend-product-option h2 {
+    border-bottom: 1px solid gray;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.backend-product-options .backend-product-option .button, .backend-product-option .button {
+    background:green;
+    color:white;
+    border:1px solid darkgreen;
+}
+
+.backend-product-options .backend-product-option .backend-remove-product-option.button, .backend-product-option .backend-remove-product-option.button {
+    float:right;
+    border:1px solid red;
+    background:crimson;
+    color:white;
+    margin-top:20px;
+}
+
+.backend-options .backend-product-option .backend-remove-product-option:hover {
+    background:red;
+}
+
+.backend-widget-type-outer img {
+    width:100px;
+}
+
+.backend-widget-type-outer {
+    width:125px;
+    vertical-align:top;
+    display:inline-block;
+    background:#fff;
+    border-radius:10px;
+    border: 1px solid #ababab;
+    padding:10px;
+    margin:10px;
+    font-weight:bold;
+    text-align:center;
+    font-size:24px;
+}
+
+.backend-widget-type-outer:hover {
+    cursor:move;
+    border:1px sold #cdcdcd;
+}
+
+#option-draggable {
+    vertical-align:top;
+    text-align:center;
+}
+
+.backend-option-title {
+    font-weight:bold;
+}
+
+.backend-image-upload {
+    max-width:70px;
+}
+
+.backend-expand-hide {
+    float:right;
+    font-size:130%;
+}
+
+.backend-product-option h2:hover{
+    cursor:pointer;
+}
+
+.backend-options-wrapper:hover {
+    cursor:default;
+}
+
+.backend-product-option:hover, .backend-options-wrapper tr.backend-option:hover {
+    cursor:move;
+}
+
+.backend-options th, .backend-options td {
+    text-align:center;
+}
+
+#options-droppable {
+    padding-bottom:50px;
+    border: 2px dotted;
+    border-radius: 10px;
+    text-align:center;
+}
+
+#options-droppable {
+    padding-top:50px;
+    background:black;
+    color:white;
+    font-weight:bolder;
+    font-size:200%;
+}
+
+.backend-conditional-option-checkboxes {
+    text-align:left;
+}
+
+.backend-conditional-option-checkboxes label {
+    display:block;
+}
+
+.backend-conditional-option-checkboxes br {
+    display:none;
+}
+
+.box-effect-options {
+    display:none;
+}
+
+#woocommerce-product-group-options, #woocommerce-product-options, #woocommerce-order-options {
+    background:lightgreen;
+}

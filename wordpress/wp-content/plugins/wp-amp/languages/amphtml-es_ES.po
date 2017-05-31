@@ -1,0 +1,1607 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#, approved
+msgid ""
+msgstr ""
+"Project-Id-Version: Trans-wpamp\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-02-28 20:12+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+
+#: includes/class-amphtml-extended-ad.php:51
+#, approved
+msgid "Add New"
+msgstr "Agregar nuevo"
+
+#: includes/class-amphtml-extended-ad.php:57
+#, approved
+msgid "Delete Current"
+msgstr "eliminar actual"
+
+#: includes/class-amphtml-extended-ad.php:112
+#: includes/tabs/class-amphtml-tab-ad.php:38
+#: includes/tabs/class-amphtml-tab-ad.php:48
+#, approved
+msgid "Height"
+msgstr "Altura"
+
+#: includes/class-amphtml-extended-ad.php:118
+#: includes/tabs/class-amphtml-tab-ad.php:44
+#: includes/tabs/class-amphtml-tab-ad.php:54
+#, approved
+msgid "Ad block height (in pixels)"
+msgstr "altura del bloque de anuncios (en píxeles)"
+
+#: includes/class-amphtml-extended-ad.php:122
+#: includes/tabs/class-amphtml-tab-ad.php:58
+#: includes/tabs/class-amphtml-tab-ad.php:68
+#, approved
+msgid "Width"
+msgstr "Anchura"
+
+#: includes/class-amphtml-extended-ad.php:128
+#: includes/tabs/class-amphtml-tab-ad.php:64
+#: includes/tabs/class-amphtml-tab-ad.php:74
+#, approved
+msgid "Ad block width (in pixels)"
+msgstr "ancho del bloque de anuncios (en píxeles)"
+
+#: includes/class-amphtml-extended-ad.php:132
+#: includes/tabs/class-amphtml-tab-ad.php:78
+#: includes/tabs/class-amphtml-tab-ad.php:87
+#, approved
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/class-amphtml-extended-ad.php:137
+#: includes/tabs/class-amphtml-tab-ad.php:83
+#: includes/tabs/class-amphtml-tab-ad.php:92
+#, approved
+msgid "Ad network"
+msgstr "red de publicidad"
+
+#: includes/class-amphtml-extended-ad.php:141
+#: includes/class-amphtml-extended-ad.php:160
+#: includes/tabs/class-amphtml-tab-ad.php:96
+#: includes/tabs/class-amphtml-tab-ad.php:115
+#: includes/tabs/class-amphtml-tab-ad.php:125
+#: includes/tabs/class-amphtml-tab-ad.php:144
+#, approved
+msgid "Data Slot"
+msgstr "ranura de datos"
+
+#: includes/class-amphtml-extended-ad.php:147
+#: includes/tabs/class-amphtml-tab-ad.php:102
+#: includes/tabs/class-amphtml-tab-ad.php:131
+#, approved
+msgid "data-slot"
+msgstr "data-slot"
+
+#: includes/class-amphtml-extended-ad.php:151
+#: includes/tabs/class-amphtml-tab-ad.php:106
+#: includes/tabs/class-amphtml-tab-ad.php:135
+#, approved
+msgid "AdSense Client"
+msgstr "Cliente de AdSense"
+
+#: includes/class-amphtml-extended-ad.php:156
+#: includes/tabs/class-amphtml-tab-ad.php:111
+#: includes/tabs/class-amphtml-tab-ad.php:140
+#, approved
+msgid "data-ad-client"
+msgstr "data-ad-client"
+
+#: includes/class-amphtml-extended-ad.php:165
+#: includes/tabs/class-amphtml-tab-ad.php:121
+#: includes/tabs/class-amphtml-tab-ad.php:149
+#, approved
+msgid "data-ad-slot"
+msgstr "data-ad-slot"
+
+#: includes/class-amphtml-options.php:48
+#, approved
+msgid "WP AMP Endpoint"
+msgstr "WP AMP Punto de llegada"
+
+#: includes/class-amphtml-options.php:64
+#: includes/tabs/class-amphtml-tab-analytics.php:116
+#: includes/tabs/class-amphtml-tab-general.php:116
+#, approved
+msgid "Insert a valid endpoint"
+msgstr "Insertar un punto de llegada válido"
+
+#: includes/class-amphtml-options.php:94
+#, approved
+msgid "View AMP Version"
+msgstr "Ver Versión AMP"
+
+#: includes/class-amphtml-options.php:109
+#, approved
+msgid "Visit AMP Site"
+msgstr "Visita web AMP"
+
+#: includes/class-amphtml-options.php:179
+#, approved
+msgid "AMP Menu"
+msgstr "Menú AMP"
+
+#: includes/class-amphtml-options.php:217
+#, approved
+msgid "WP AMP Settings"
+msgstr "Configuración de AMP WP"
+
+#: includes/class-amphtml-options.php:395
+#, approved
+msgid "WP AMP featured Image"
+msgstr "Imagen destacada WP AMP"
+
+#: includes/class-amphtml-options.php:429
+#, approved
+msgid "Remove featured image"
+msgstr "Eliminar imagen destacada"
+
+#: includes/class-amphtml-options.php:435
+#, approved
+msgid "Set featured Image"
+msgstr "Establecer imagen destacada"
+
+#: includes/class-amphtml-options.php:435
+#, approved
+msgid "Choose an image"
+msgstr "Elija una imagen"
+
+#: includes/class-amphtml-options.php:502
+#, approved
+msgid "Override AMP Content"
+msgstr "sobrescribir el contenido AMP"
+
+#: includes/class-amphtml-options.php:511
+#: includes/tabs/class-amphtml-tab-appearance.php:62
+#: includes/tabs/class-amphtml-tab-templates.php:289
+#: includes/tabs/class-amphtml-tab-templates.php:328
+#: includes/tabs/class-amphtml-tab-wc.php:40
+#, approved
+msgid "Title"
+msgstr "Título"
+
+#: includes/class-amphtml-options.php:518
+#, approved
+msgid "Override AMP Title"
+msgstr "Sobrescribir Título AMP"
+
+#: includes/class-amphtml-options.php:527
+#, approved
+msgid "Disable AMP version of this page"
+msgstr "Desactivar la versión AMP de esta página"
+
+#: includes/class-amphtml-sanitize.php:247
+#, approved
+msgid "This page contains form, you can see it - "
+msgstr "Esta página contiene un formulario, se puede ver -"
+
+#: includes/class-amphtml-sanitize.php:248
+#, approved
+msgid "here"
+msgstr "aquí"
+
+#: includes/class-amphtml-shortcode.php:57
+#: includes/tabs/class-amphtml-tab-templates.php:285
+#, approved
+msgid "You May Also Like"
+msgstr "También te puede interesar"
+
+#: includes/class-amphtml-shortcode.php:71
+#, approved
+msgid "Latest blog posts"
+msgstr "Últimas entradas del blog"
+
+#: includes/class-amphtml-shortcode.php:120
+#, approved
+msgid "Switch to default version"
+msgstr "Cambiar a la versión por defecto"
+
+#: includes/class-amphtml-tab-abstract.php:104
+#, approved
+msgid "ID is required settings option!"
+msgstr "Es requeruda una ID por la configuración!"
+
+#: includes/class-amphtml-tab-abstract.php:164
+#: includes/tabs/class-amphtml-tab-appearance.php:387
+#: templates/parts/content_404.php:1 templates/parts/custom_html.php:1
+#: templates/parts/title_404.php:2
+#, approved
+msgid "%s"
+msgstr "%s"
+
+#: includes/class-amphtml-tab-abstract.php:256
+#: includes/tabs/class-amphtml-tab-appearance.php:554
+#, approved
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: includes/class-amphtml-tab.php:26
+#, approved
+msgid "General"
+msgstr "General"
+
+#: includes/class-amphtml-tab.php:27
+#, approved
+msgid "Analytics"
+msgstr "Analitycs"
+
+#: includes/class-amphtml-tab.php:28
+#, approved
+msgid "Appearance"
+msgstr "Apariencia"
+
+#: includes/class-amphtml-tab.php:29
+#, approved
+msgid "Templates"
+msgstr "Plantillas"
+
+#: includes/class-amphtml-tab.php:30
+#, approved
+msgid "Schema.org"
+msgstr "Schema.org"
+
+#: includes/class-amphtml-tab.php:31
+#, approved
+msgid "Ads"
+msgstr "anuncios"
+
+#: includes/class-amphtml-tab.php:32
+#: includes/tabs/class-amphtml-tab-troubleshooting.php:13
+#, approved
+msgid "Troubleshooting"
+msgstr "Solución de problemas"
+
+#: includes/class-amphtml-template.php:309
+#, approved
+msgid "Read more"
+msgstr "Leer mas"
+
+#: includes/class-amphtml-template.php:887 includes/class-amphtml-wc.php:253
+#, approved
+msgid "Search Results"
+msgstr "Resultados de la búsqueda"
+
+#: includes/class-amphtml-wc.php:96
+#, approved
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/class-amphtml-wc.php:107
+#, approved
+msgid "Add to Cart Button"
+msgstr "Botón Añadir a la cesta"
+
+#: includes/class-amphtml-wc.php:125
+#, approved
+msgid "WooCommerce Content Type"
+msgstr "Tipo de contenido WooCommerce"
+
+#: includes/class-amphtml-wc.php:268
+#, approved
+msgid "Product"
+msgstr "Producto"
+
+#: includes/class-amphtml-wc.php:276
+#, approved
+msgid "Offer"
+msgstr "Oferta"
+
+#: includes/tabs/class-amphtml-tab-ad.php:28
+#: includes/tabs/class-amphtml-tab-templates.php:361
+#: includes/tabs/class-amphtml-tab-templates.php:477
+#: includes/tabs/class-amphtml-tab-templates.php:559
+#: includes/tabs/class-amphtml-tab-templates.php:642
+#: includes/tabs/class-amphtml-tab-templates.php:733
+#: includes/tabs/class-amphtml-tab-wc.php:204
+#, approved
+msgid "Ad Block #1"
+msgstr "Bloque Ads # 1"
+
+#: includes/tabs/class-amphtml-tab-ad.php:29
+#: includes/tabs/class-amphtml-tab-templates.php:371
+#: includes/tabs/class-amphtml-tab-templates.php:486
+#: includes/tabs/class-amphtml-tab-templates.php:568
+#: includes/tabs/class-amphtml-tab-templates.php:651
+#: includes/tabs/class-amphtml-tab-templates.php:742
+#: includes/tabs/class-amphtml-tab-wc.php:214
+#, approved
+msgid "Ad Block #2"
+msgstr "Bloque Ads# 2"
+
+#: includes/tabs/class-amphtml-tab-ad.php:171
+#, approved
+msgid "Insert a valid ad top block width"
+msgstr "Inserte una anchura de bloque de anuncios superior válida"
+
+#: includes/tabs/class-amphtml-tab-ad.php:175
+#, approved
+msgid "Insert a valid ad bottom block width"
+msgstr "Inserte una anchura de bloque de anuncios inferior válida"
+
+#: includes/tabs/class-amphtml-tab-ad.php:179
+#, approved
+msgid "Insert a valid ad bottom block height"
+msgstr "Inserte una altura de bloque inferior de anuncios válida"
+
+#: includes/tabs/class-amphtml-tab-ad.php:183
+#, approved
+msgid "Insert a valid ad top block height"
+msgstr "Inserte una altura bloque de anuncios superior ad válida"
+
+#: includes/tabs/class-amphtml-tab-ad.php:195
+#: includes/tabs/class-amphtml-tab-ad.php:199
+#, approved
+msgid "Insert a valid ad adsense data slot"
+msgstr "Inserte una data-slot de AdSense válida"
+
+#: includes/tabs/class-amphtml-tab-ad.php:208
+#, approved
+msgid "AdSense"
+msgstr "AdSense"
+
+#: includes/tabs/class-amphtml-tab-ad.php:211
+#, approved
+msgid "Doubleclick"
+msgstr "Doubleclick"
+
+#: includes/tabs/class-amphtml-tab-analytics.php:13
+#, approved
+msgid "Google Analytics Code"
+msgstr "Código de Google Analytics"
+
+#: includes/tabs/class-amphtml-tab-analytics.php:18
+#, approved
+msgid "Setup Google Analytics tracking ID"
+msgstr "Configuración del código de seguimirnto de Google Analytics"
+
+#: includes/tabs/class-amphtml-tab-analytics.php:22
+#, approved
+msgid "Google Tag Manager ID"
+msgstr "ID del Administrador de etiquetas de Goolge"
+
+#: includes/tabs/class-amphtml-tab-analytics.php:27
+#, approved
+msgid "Replacing GTM-XXXXXX with your container ID"
+msgstr "Sustitución de GTM-XXXXXX con su ID de contenedor"
+
+#: includes/tabs/class-amphtml-tab-analytics.php:31
+#, approved
+msgid "Yandex Metrika counter ID"
+msgstr "Yandex Metrika ID de contador"
+
+#: includes/tabs/class-amphtml-tab-analytics.php:36
+#, approved
+msgid "Setup Yandex Metrika counter ID"
+msgstr "Configuración de Yandex Metrika ID de contador"
+
+#: includes/tabs/class-amphtml-tab-analytics.php:40
+#, approved
+msgid "Facebook Pixel ID"
+msgstr "ID de Facebook píxel"
+
+#: includes/tabs/class-amphtml-tab-analytics.php:44
+#, approved
+msgid "Setup Facebook pixel ID"
+msgstr "Configuración de Facebook píxel ID"
+
+#: includes/tabs/class-amphtml-tab-analytics.php:52
+#, approved
+msgid "Insert a valid ID"
+msgstr "Insertar un ID válido"
+
+#: includes/tabs/class-amphtml-tab-analytics.php:68
+#, approved
+msgid "Insert a valid google analytics id"
+msgstr "Insertar un ID de Google Analytics valido"
+
+#: includes/tabs/class-amphtml-tab-analytics.php:83
+#, approved
+msgid "Insert a valid counter id"
+msgstr "Insertar un ID de contador válido"
+
+#: includes/tabs/class-amphtml-tab-analytics.php:92
+#: includes/tabs/class-amphtml-tab-general.php:92
+#, approved
+msgid "Insert a valid content width"
+msgstr "Inserte una anchura contenido válido"
+
+#: includes/tabs/class-amphtml-tab-analytics.php:105
+#: includes/tabs/class-amphtml-tab-general.php:105
+#, approved
+msgid "Insert a valid pixel ID"
+msgstr "Inserte una identificación válida de píxeles"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:30
+#, approved
+msgid "Colors"
+msgstr "Colores"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:31
+#, approved
+msgid "Fonts"
+msgstr "Fuentes"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:32
+#, approved
+msgid "Header"
+msgstr "Encabezamiento"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:33
+#: includes/tabs/class-amphtml-tab-appearance.php:89
+#, approved
+msgid "Footer"
+msgstr "Pie de página"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:34
+#, approved
+msgid "Post Meta Data"
+msgstr "Metadatos de la publicación"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:35
+#: includes/tabs/class-amphtml-tab-appearance.php:301
+#: includes/tabs/class-amphtml-tab-templates.php:263
+#: includes/tabs/class-amphtml-tab-templates.php:465
+#: includes/tabs/class-amphtml-tab-wc.php:148
+#, approved
+msgid "Social Share Buttons"
+msgstr "Botones de compartir en redes sociales"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:36
+#: includes/tabs/class-amphtml-tab-appearance.php:326
+#, approved
+msgid "Extra CSS"
+msgstr "CSS extra"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:44
+#, approved
+msgid "Logo"
+msgstr "Logo"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:53 templates/nav.php:54
+#: templates/nav.php:63
+#, approved
+msgid "Menu"
+msgstr "Menú"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:71
+#, approved
+msgid "Post Meta"
+msgstr "Post Meta"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:80
+#, approved
+msgid "Content"
+msgstr "Contenido"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:103
+#, approved
+msgid "Header Background"
+msgstr "Fondo del encabezado"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:109
+#, approved
+msgid "Footer Background"
+msgstr "Fondo de pie de página"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:115
+#, approved
+msgid "Page Background"
+msgstr "Fondo de la página"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:121
+#, approved
+msgid "Sidebar Menu Background"
+msgstr "Fondo del menú de la barra lateral"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:127
+#, approved
+msgid "Main Title"
+msgstr "Titulo principal"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:133
+#, approved
+msgid "Link Text"
+msgstr "Texto del enlace"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:139
+#, approved
+msgid "Main Text"
+msgstr "Texto principal"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:145
+#, approved
+msgid "Header Text"
+msgstr "Texto de cabecera"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:151
+#, approved
+msgid "Footer Text"
+msgstr "Texto de pie de página"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:173
+#, approved
+msgid "Favicon"
+msgstr "favicon"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:181
+#, approved
+msgid "Header Menu"
+msgstr "Menú cabecera"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:183
+#, approved
+msgid "Show header menu (<a href=\""
+msgstr "Mostrar menú de cabecera (<a href = \""
+
+#: includes/tabs/class-amphtml-tab-appearance.php:191
+#, approved
+msgid "Header Menu Type"
+msgstr "Tipo de menú en cabecera "
+
+#: includes/tabs/class-amphtml-tab-appearance.php:199
+#, approved
+msgid "Logo Type"
+msgstr "Tipo de logo"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:207
+#, approved
+msgid "Logo Text"
+msgstr "logo de texto"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:216
+#, approved
+msgid "Logo Icon"
+msgstr "Logo de icono"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:228
+#, approved
+msgid "Footer Content"
+msgstr "El contenido de pie de página"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:233
+#, approved
+msgid "This is the footer content block for all AMP pages. <br>Leave empty to hide footer at all. <br>Plain html without inline styles allowed. (<a href=\"https://github.com/ampproject/amphtml/blob/master/spec/amp-tag-addendum.md#html5-tag-whitelist\" target=\"_blank\">HTML5 Tag Whitelist</a>)"
+msgstr "Este es el bloque de contenido de pie de página para todas las páginas de AMP. <br> Dejar en blanco para ocultar el pie de página en absoluto. <br> HTML sin estilos en línea estan permitidos. (<a href=\"https://github.com/ampproject/amphtml/blob/master/spec/amp-tag- addendum.md#html5-tag-whitelist\" target=\"_blank\">HTML5 Tag lista blanca </a>)"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:240
+#, approved
+msgid "Scroll to Top Button"
+msgstr "Botón de desplazarse al Inicio"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:241
+#, approved
+msgid "Back to top"
+msgstr "Volver arriba"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:245
+#, approved
+msgid "Leave empty to hide this button."
+msgstr "Dejar en blanco para ocultar este botón."
+
+#: includes/tabs/class-amphtml-tab-appearance.php:254
+#, approved
+msgid "Author"
+msgstr "Autor"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:259
+#, approved
+msgid "Show post author"
+msgstr "Mostrar el autor de las publicaciones"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:263
+#: includes/tabs/class-amphtml-tab-wc.php:121 templates/meta-cats.php:13
+#, approved
+msgid "Categories"
+msgstr "Categorías"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:268
+#, approved
+msgid "Show post categories"
+msgstr "Mostrar categorías de las publicaciones"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:272
+#: includes/tabs/class-amphtml-tab-wc.php:130 templates/meta-tags.php:13
+#, approved
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:277
+#, approved
+msgid "Show post tags"
+msgstr "Mostrar etiquetas de las publicaciones"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:281
+#, approved
+msgid "Date Format"
+msgstr "Formato de fecha"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:307
+#, approved
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:308
+#, approved
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:309
+#, approved
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:310
+#, approved
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:311
+#, approved
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:312
+#, approved
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:313
+#, approved
+msgid "Email"
+msgstr "Email"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:325
+#, approved
+msgid "Enter Your CSS Code"
+msgstr "Entre su código CSS"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:349
+#, approved
+msgid "Insert a valid color"
+msgstr "Inserte un color válido"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:413
+#, approved
+msgid "Icon Logo"
+msgstr "Logo de Icono"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:416
+#, approved
+msgid "Text Logo"
+msgstr "Logo de Texto"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:419
+#, approved
+msgid "Icon and Text Logo"
+msgstr "Logo de Icono y texto"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:422
+#, approved
+msgid "Image Logo"
+msgstr "Logo de imagen"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:433
+#, approved
+msgid "Site Logo"
+msgstr "Logo del site"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:438
+#: includes/tabs/class-amphtml-tab-appearance.php:457
+#: includes/tabs/class-amphtml-tab-schemaorg.php:52
+#: includes/tabs/class-amphtml-tab-schemaorg.php:72
+#, approved
+msgid "Upload Image"
+msgstr "Cargar imagen"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:440
+#: includes/tabs/class-amphtml-tab-appearance.php:459
+#: includes/tabs/class-amphtml-tab-schemaorg.php:54
+#: includes/tabs/class-amphtml-tab-schemaorg.php:74
+#, approved
+msgid "Reset Image"
+msgstr "Reiniciar imagen"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:441
+#: includes/tabs/class-amphtml-tab-appearance.php:460
+#, approved
+msgid "The image will have full size."
+msgstr "La imagen tendrá tamaño completo."
+
+#: includes/tabs/class-amphtml-tab-appearance.php:442
+#, approved
+msgid "The image will be resized to fit in a 32x32 box (but not cropped)"
+msgstr "La imagen será redimensionada para caber en una caja de 32x32 (pero no recortada)"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:452
+#, approved
+msgid "Site Favicon"
+msgstr "favicon del sitio"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:487
+#, approved
+msgid "Content contains disallowed tags. Please correct and try again."
+msgstr "Contenido contiene etiquetas no permitidas. Por favor corrija y vuelva a intentarlo."
+
+#: includes/tabs/class-amphtml-tab-appearance.php:516
+#, approved
+msgid "None"
+msgstr "Ninguna"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:526
+#: templates/meta-time.php:17
+#, approved
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr "Hace %s"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:527
+#, approved
+msgid "Relative"
+msgstr "Relativo"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:535
+#, approved
+msgid "Default system format"
+msgstr "formato del sistema por defecto"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:537
+#, approved
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:541
+#, approved
+msgid "Custom:"
+msgstr "Personalizado:"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:557
+#, approved
+msgid "Default theme settings"
+msgstr "la configuración por defecto del tema"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:571
+#, approved
+msgid "Important"
+msgstr "Importante"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:571
+#, approved
+msgid "Do not use disallowed styles for avoiding AMP validation errors."
+msgstr "No utilice estilos no permitidos para evitar errores de validación de AMP."
+
+#: includes/tabs/class-amphtml-tab-appearance.php:572
+#, approved
+msgid "Please see"
+msgstr "Por favor mira"
+
+#: includes/tabs/class-amphtml-tab-appearance.php:573
+#, approved
+msgid "Supported CSS"
+msgstr "CSS soportado"
+
+#: includes/tabs/class-amphtml-tab-general.php:13
+#, approved
+msgid "AMP Endpoint"
+msgstr "Punto de llegada AMP"
+
+#: includes/tabs/class-amphtml-tab-general.php:16
+#, approved
+msgid "This string will be added to the end of URL for all pages with AMP content"
+msgstr "Esta cadena se añade al final de la URL para todas las páginas con contenido AMP"
+
+#: includes/tabs/class-amphtml-tab-general.php:20
+#, approved
+msgid "Redirect Mobile Users"
+msgstr "Redirigir a los usuarios móviles"
+
+#: includes/tabs/class-amphtml-tab-general.php:23
+#, approved
+msgid "Redirect all mobile users to AMP version by default"
+msgstr "Redirigir todos los usuarios móviles a la versión AMP de forma predeterminada"
+
+#: includes/tabs/class-amphtml-tab-general.php:27
+#, approved
+msgid "AMP Content Max-Width"
+msgstr "Máxima anchura de contenido AMP"
+
+#: includes/tabs/class-amphtml-tab-general.php:31
+#, approved
+msgid "Setup maximum width for AMP content (in pixels)"
+msgstr "anchura máxima para el contenido AMP (en píxeles)"
+
+#: includes/tabs/class-amphtml-tab-general.php:35
+#, approved
+msgid "Post Types"
+msgstr "Tipos de publicaciones"
+
+#: includes/tabs/class-amphtml-tab-general.php:42
+#, approved
+msgid "Enable AMP for selected post types"
+msgstr "Habilitar AMP para este tipo de publicaciones seleccionadas"
+
+#: includes/tabs/class-amphtml-tab-general.php:46
+#: includes/tabs/class-amphtml-tab-templates.php:20
+#, approved
+msgid "Archives"
+msgstr "Archivos"
+
+#: includes/tabs/class-amphtml-tab-general.php:53
+#, approved
+msgid "Enable AMP for selected archive pages."
+msgstr "Habilitar AMP para las páginas de archivo seleccionados."
+
+#: includes/tabs/class-amphtml-tab-general.php:57
+#, approved
+msgid "Compatibility Mode"
+msgstr "Modo de compatibilidad"
+
+#: includes/tabs/class-amphtml-tab-general.php:61
+#, approved
+msgid "Remove third-party the_content hooks for better compatibility"
+msgstr "Retirar los ganchos de terceros en the_content para mejorar la compatibilidad"
+
+#: includes/tabs/class-amphtml-tab-general.php:65
+#, approved
+msgid "Enable RTL"
+msgstr "Habilitar RTL"
+
+#: includes/tabs/class-amphtml-tab-general.php:73
+#, approved
+msgid "Debug Mode"
+msgstr "Modo de depuración"
+
+#: includes/tabs/class-amphtml-tab-general.php:84
+#, approved
+msgid "Show errors, warnings and notices"
+msgstr "Mostrar errores, advertencias y avisos"
+
+#: includes/tabs/class-amphtml-tab-schemaorg.php:12
+#, approved
+msgid "Publisher Logo"
+msgstr "Logo del editor"
+
+#: includes/tabs/class-amphtml-tab-schemaorg.php:18
+#: includes/tabs/class-amphtml-tab-schemaorg.php:66
+#, approved
+msgid "Default Image"
+msgstr "imagen por defecto"
+
+#: includes/tabs/class-amphtml-tab-schemaorg.php:24
+#, approved
+msgid "Content Type"
+msgstr "Tipo de contenido"
+
+#: includes/tabs/class-amphtml-tab-schemaorg.php:47
+#, approved
+msgid "Default Logo"
+msgstr "Logo por Defecto"
+
+#: includes/tabs/class-amphtml-tab-schemaorg.php:55
+#, approved
+msgid "This image is required for Schema.org markup. The logo should fit in a 60x600px rectangle, and either be exactly 60px high or exactly 600px wide."
+msgstr "Se requiere esta imagen para el marcado Schema.org. El logotipo debe encajar en un rectángulo de 60x600px, o bien ser exactamente 60 píxeles de alto o exactamente 600px de ancho."
+
+#: includes/tabs/class-amphtml-tab-schemaorg.php:55
+#, approved
+msgid "See full requirements."
+msgstr "Ver todos los requisitos."
+
+#: includes/tabs/class-amphtml-tab-schemaorg.php:75
+#, approved
+msgid "This image is required for Schema.org markup and will be used if you have not set up featured image for post/page. Image should be at least 696 pixels wide."
+msgstr "Se requiere esta imagen para el marcado de Schema.org y será usado si la imagen ofrecida no se ha configurado para post / página. La imagen debe ser de al menos 696 píxeles de ancho."
+
+#: includes/tabs/class-amphtml-tab-schemaorg.php:75
+#, approved
+msgid "See requirements."
+msgstr "Ver requisitos."
+
+#: includes/tabs/class-amphtml-tab-templates.php:16
+#, approved
+msgid "Posts"
+msgstr "Publicaciones"
+
+#: includes/tabs/class-amphtml-tab-templates.php:17
+#, approved
+msgid "Pages"
+msgstr "Páginas"
+
+#: includes/tabs/class-amphtml-tab-templates.php:18
+#, approved
+msgid "Search"
+msgstr "Buscar"
+
+#: includes/tabs/class-amphtml-tab-templates.php:19
+#, approved
+msgid "Blog Page"
+msgstr "Página de blog"
+
+#: includes/tabs/class-amphtml-tab-templates.php:21
+#, approved
+msgid "404 Page"
+msgstr "Página 404"
+
+#: includes/tabs/class-amphtml-tab-templates.php:43
+#, approved
+msgid "404 Page Title"
+msgstr "Título página 404"
+
+#: includes/tabs/class-amphtml-tab-templates.php:44
+#, approved
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ups! Esa página no se puede encontrar."
+
+#: includes/tabs/class-amphtml-tab-templates.php:52
+#, approved
+msgid "404 Page Content"
+msgstr "Contenido de la página 404"
+
+#: includes/tabs/class-amphtml-tab-templates.php:53
+#, approved
+msgid "Nothing was found at this location."
+msgstr "No se encontró nada en este lugar."
+
+#: includes/tabs/class-amphtml-tab-templates.php:58
+#: includes/tabs/class-amphtml-tab-templates.php:231
+#: includes/tabs/class-amphtml-tab-templates.php:449
+#: includes/tabs/class-amphtml-tab-templates.php:524
+#: includes/tabs/class-amphtml-tab-templates.php:607
+#: includes/tabs/class-amphtml-tab-templates.php:698
+#, approved
+msgid "Plain html without inline styles allowed. (<a href=\"https://github.com/ampproject/amphtml/blob/master/spec/amp-tag-addendum.md#html5-tag-whitelist\" target=\"_blank\">HTML5 Tag Whitelist</a>)"
+msgstr "html puro sin estilos en línea permitidos. (<a href=\"https://github.com/ampproject/amphtml/blob/master/spec/amp-tag-addendum.md#html5- tag- whitelist\" target=\"_blank\"> HTML5 Tag lista blanca </a >)"
+
+#: includes/tabs/class-amphtml-tab-templates.php:63
+#: includes/tabs/class-amphtml-tab-templates.php:166
+#: includes/tabs/class-amphtml-tab-templates.php:414
+#, approved
+msgid "Search Form"
+msgstr "Formulario de búsqueda"
+
+#: includes/tabs/class-amphtml-tab-templates.php:68
+#: includes/tabs/class-amphtml-tab-templates.php:171
+#: includes/tabs/class-amphtml-tab-templates.php:419
+#, approved
+msgid "Enable search form. Needs SSL certificate for AMP validation."
+msgstr "Habilitar el formulario de búsqueda. Necesita certificado SSL para su validación AMP."
+
+#: includes/tabs/class-amphtml-tab-templates.php:176
+#, approved
+msgid "Original Button"
+msgstr "Botón original"
+
+#: includes/tabs/class-amphtml-tab-templates.php:182
+#, approved
+msgid "Show link to the original version of the post"
+msgstr "Mostrar el enlace a la versión original de la publicación"
+
+#: includes/tabs/class-amphtml-tab-templates.php:187
+#, approved
+msgid "View Original Version"
+msgstr "Ver la versión original"
+
+#: includes/tabs/class-amphtml-tab-templates.php:191
+#: includes/tabs/class-amphtml-tab-templates.php:211
+#, approved
+msgid "Button title"
+msgstr "título del botón"
+
+#: includes/tabs/class-amphtml-tab-templates.php:196
+#, approved
+msgid "Comments Button"
+msgstr "Botón de comentarios"
+
+#: includes/tabs/class-amphtml-tab-templates.php:202
+#, approved
+msgid "Show link to the comment form"
+msgstr "Mostrar enlace al formulario de comentarios"
+
+#: includes/tabs/class-amphtml-tab-templates.php:207
+#: templates/parts/page_comments_btn.php:3
+#, approved
+msgid "Comments"
+msgstr "comentarios"
+
+#: includes/tabs/class-amphtml-tab-templates.php:216
+#, approved
+msgid "Post Title"
+msgstr "Título de la entrada"
+
+#: includes/tabs/class-amphtml-tab-templates.php:225
+#: includes/tabs/class-amphtml-tab-templates.php:443
+#: includes/tabs/class-amphtml-tab-templates.php:518
+#: includes/tabs/class-amphtml-tab-templates.php:601
+#: includes/tabs/class-amphtml-tab-templates.php:692
+#, approved
+msgid "Custom HTML"
+msgstr "HTML personalizado"
+
+#: includes/tabs/class-amphtml-tab-templates.php:236
+#: includes/tabs/class-amphtml-tab-templates.php:433
+#: includes/tabs/class-amphtml-tab-templates.php:539
+#: includes/tabs/class-amphtml-tab-templates.php:622
+#, approved
+msgid "Featured Image"
+msgstr "Imagen destacada"
+
+#: includes/tabs/class-amphtml-tab-templates.php:241
+#, approved
+msgid "Show post thumbnail"
+msgstr "Mostrar post thumbnail"
+
+#: includes/tabs/class-amphtml-tab-templates.php:245
+#: includes/tabs/class-amphtml-tab-templates.php:548
+#: includes/tabs/class-amphtml-tab-templates.php:631
+#: includes/tabs/class-amphtml-tab-templates.php:722
+#, approved
+msgid "Post Meta Block"
+msgstr "Bloque Post Meta"
+
+#: includes/tabs/class-amphtml-tab-templates.php:250
+#: includes/tabs/class-amphtml-tab-templates.php:727
+#, approved
+msgid "Show post author, categories and published time"
+msgstr "Mostrar autor, categorías y tiempo de publicada"
+
+#: includes/tabs/class-amphtml-tab-templates.php:254
+#, approved
+msgid "Post Content"
+msgstr "Contenido de la publicacion"
+
+#: includes/tabs/class-amphtml-tab-templates.php:269
+#: includes/tabs/class-amphtml-tab-templates.php:471
+#: includes/tabs/class-amphtml-tab-wc.php:153
+#, approved
+msgid "Show social share buttons"
+msgstr "Mostrar botones de compartir en redes sociales"
+
+#: includes/tabs/class-amphtml-tab-templates.php:274
+#, approved
+msgid "Related Posts"
+msgstr "Artículos Relacionados"
+
+#: includes/tabs/class-amphtml-tab-templates.php:280
+#, approved
+msgid "Show related posts"
+msgstr "Mostrar publicaciones relacionadas"
+
+#: includes/tabs/class-amphtml-tab-templates.php:284
+#, approved
+msgid "Related Posts Title"
+msgstr "Título de publicaciones relacionadas"
+
+#: includes/tabs/class-amphtml-tab-templates.php:293
+#, approved
+msgid "Number of Related Posts"
+msgstr "Número de publicaciones Relacionadas"
+
+#: includes/tabs/class-amphtml-tab-templates.php:298
+#: includes/tabs/class-amphtml-tab-templates.php:337
+#, approved
+msgid "Post count"
+msgstr "Número de publicaciones"
+
+#: includes/tabs/class-amphtml-tab-templates.php:302
+#: includes/tabs/class-amphtml-tab-templates.php:341
+#, approved
+msgid "Post"
+msgstr "Publicacion"
+
+#: includes/tabs/class-amphtml-tab-templates.php:307
+#: includes/tabs/class-amphtml-tab-templates.php:346
+#, approved
+msgid "Show Post Thumbnail"
+msgstr "Mostrar Post Thumbnail"
+
+#: includes/tabs/class-amphtml-tab-templates.php:313
+#: includes/tabs/class-amphtml-tab-templates.php:324
+#, approved
+msgid "Recent Posts"
+msgstr "Publicaciones recientes"
+
+#: includes/tabs/class-amphtml-tab-templates.php:319
+#, approved
+msgid "Show recent posts"
+msgstr "Mostrar las entradas más recientes"
+
+#: includes/tabs/class-amphtml-tab-templates.php:323
+#, approved
+msgid "Recent Posts Title"
+msgstr "Título de entradas recientes"
+
+#: includes/tabs/class-amphtml-tab-templates.php:332
+#, approved
+msgid "Number of Recent Posts"
+msgstr "Número de publicaciones recientes"
+
+#: includes/tabs/class-amphtml-tab-templates.php:350
+#, approved
+msgid "Post Comments"
+msgstr "Comentarios"
+
+#: includes/tabs/class-amphtml-tab-templates.php:355
+#, approved
+msgid "Show post comments"
+msgstr "Mostrar los comentarios de publicaciones"
+
+#: includes/tabs/class-amphtml-tab-templates.php:366
+#: includes/tabs/class-amphtml-tab-templates.php:482
+#: includes/tabs/class-amphtml-tab-templates.php:564
+#: includes/tabs/class-amphtml-tab-templates.php:647
+#: includes/tabs/class-amphtml-tab-templates.php:738
+#: includes/tabs/class-amphtml-tab-wc.php:209
+#, approved
+msgid "Show ad block #1"
+msgstr "Mostrar el bloque de anuncios # 1"
+
+#: includes/tabs/class-amphtml-tab-templates.php:376
+#: includes/tabs/class-amphtml-tab-templates.php:491
+#: includes/tabs/class-amphtml-tab-templates.php:573
+#: includes/tabs/class-amphtml-tab-templates.php:656
+#: includes/tabs/class-amphtml-tab-templates.php:747
+#: includes/tabs/class-amphtml-tab-wc.php:219
+#, approved
+msgid "Show ad block #2"
+msgstr "Mostrar el bloque de anuncios # 2"
+
+#: includes/tabs/class-amphtml-tab-templates.php:423
+#: includes/tabs/class-amphtml-tab-templates.php:509
+#, approved
+msgid "Page Title"
+msgstr "Título de la página"
+
+#: includes/tabs/class-amphtml-tab-templates.php:439
+#, approved
+msgid "Show page thumbnail"
+msgstr "Mostrar miniaturas de página"
+
+#: includes/tabs/class-amphtml-tab-templates.php:455
+#, approved
+msgid "Page Content"
+msgstr "Contenido de página"
+
+#: includes/tabs/class-amphtml-tab-templates.php:530
+#: includes/tabs/class-amphtml-tab-templates.php:613
+#: includes/tabs/class-amphtml-tab-wc.php:157
+#, approved
+msgid "Content Block"
+msgstr "Bloque de contenido"
+
+#: includes/tabs/class-amphtml-tab-templates.php:535
+#, approved
+msgid "Search Page Content"
+msgstr "Buscar Contenido de la página"
+
+#: includes/tabs/class-amphtml-tab-templates.php:544
+#: includes/tabs/class-amphtml-tab-templates.php:627
+#, approved
+msgid "Show posts thumbnail"
+msgstr "Mostrar miniatura de publicaciones"
+
+#: includes/tabs/class-amphtml-tab-templates.php:553
+#: includes/tabs/class-amphtml-tab-templates.php:636
+#, approved
+msgid "Show posts author, categories and published time"
+msgstr "Mostrar mensajes de autor, categorías y hora publicada"
+
+#: includes/tabs/class-amphtml-tab-templates.php:592
+#, approved
+msgid "Blog Page Title"
+msgstr "Título Pagina de Blog"
+
+#: includes/tabs/class-amphtml-tab-templates.php:593
+#, approved
+msgid "Blog"
+msgstr "Blog"
+
+#: includes/tabs/class-amphtml-tab-templates.php:618
+#, approved
+msgid "Blog Page Content"
+msgstr "Contenido de la página Blog"
+
+#: includes/tabs/class-amphtml-tab-templates.php:674
+#, approved
+msgid "Archive Title"
+msgstr "Título archivo"
+
+#: includes/tabs/class-amphtml-tab-templates.php:683
+#: includes/tabs/class-amphtml-tab-wc.php:166
+#: includes/tabs/class-amphtml-tab-wc.php:290
+#, approved
+msgid "Description"
+msgstr "Descripción"
+
+#: includes/tabs/class-amphtml-tab-templates.php:688
+#: includes/tabs/class-amphtml-tab-wc.php:295
+#, approved
+msgid "Show description of archive page"
+msgstr "Mostrar descripción de página de archivo"
+
+#: includes/tabs/class-amphtml-tab-templates.php:704
+#, approved
+msgid "Content BLock"
+msgstr "Bloque de contenido"
+
+#: includes/tabs/class-amphtml-tab-templates.php:713
+#, approved
+msgid "Featured Images"
+msgstr "Imágenes destacadas"
+
+#: includes/tabs/class-amphtml-tab-templates.php:718
+#, approved
+msgid "Show posts thumbnails"
+msgstr "Mostrar miniaturas de publicaciones"
+
+#: includes/tabs/class-amphtml-tab-wc.php:11
+#, approved
+msgid "Product Page"
+msgstr "Página del producto"
+
+#: includes/tabs/class-amphtml-tab-wc.php:12
+#, approved
+msgid "Shop Page"
+msgstr "Página de Tienda"
+
+#: includes/tabs/class-amphtml-tab-wc.php:13
+#, approved
+msgid "Product Archives"
+msgstr "Archivo de productos"
+
+#: includes/tabs/class-amphtml-tab-wc.php:14
+#: includes/tabs/class-amphtml-tab-wc.php:276
+#: includes/tabs/class-amphtml-tab-wc.php:344
+#, approved
+msgid "Add to Cart"
+msgstr "añadir a la cesta"
+
+#: includes/tabs/class-amphtml-tab-wc.php:31
+#: includes/tabs/class-amphtml-tab-wc.php:230
+#: includes/tabs/class-amphtml-tab-wc.php:299
+#, approved
+msgid "Image"
+msgstr "Imagen"
+
+#: includes/tabs/class-amphtml-tab-wc.php:36
+#, approved
+msgid "Show product image"
+msgstr "Mostrar imagen del producto"
+
+#: includes/tabs/class-amphtml-tab-wc.php:49 templates/parts/product_sku.php:2
+#, approved
+msgid "SKU"
+msgstr "SKU"
+
+#: includes/tabs/class-amphtml-tab-wc.php:54
+#, approved
+msgid "Show product SKU"
+msgstr "Mostrar producto SKU"
+
+#: includes/tabs/class-amphtml-tab-wc.php:58
+#: includes/tabs/class-amphtml-tab-wc.php:239
+#: includes/tabs/class-amphtml-tab-wc.php:308
+#, approved
+msgid "Rating"
+msgstr "Clasificación"
+
+#: includes/tabs/class-amphtml-tab-wc.php:63
+#: includes/tabs/class-amphtml-tab-wc.php:244
+#: includes/tabs/class-amphtml-tab-wc.php:313
+#, approved
+msgid "Show product rating"
+msgstr "Mostrar clasificación de productos"
+
+#: includes/tabs/class-amphtml-tab-wc.php:67
+#: includes/tabs/class-amphtml-tab-wc.php:258
+#: includes/tabs/class-amphtml-tab-wc.php:326
+#, approved
+msgid "Add To Cart Block"
+msgstr "Bloque Añadir al carro"
+
+#: includes/tabs/class-amphtml-tab-wc.php:76
+#: includes/tabs/class-amphtml-tab-wc.php:267
+#: includes/tabs/class-amphtml-tab-wc.php:335
+#: templates/parts/shop_add_to_cart_block.php:3
+#: templates/parts/wc_archives_add_to_cart_block.php:3
+#, approved
+msgid "Price"
+msgstr "Precio"
+
+#: includes/tabs/class-amphtml-tab-wc.php:81
+#, approved
+msgid "Show product price"
+msgstr "Mostrar el precio del producto"
+
+#: includes/tabs/class-amphtml-tab-wc.php:85
+#, approved
+msgid "Stock Status"
+msgstr "Estado del stock"
+
+#: includes/tabs/class-amphtml-tab-wc.php:90
+#, approved
+msgid "Show product stock status"
+msgstr "Mostrar estado del stock del producto"
+
+#: includes/tabs/class-amphtml-tab-wc.php:94
+#, approved
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: includes/tabs/class-amphtml-tab-wc.php:99
+#, approved
+msgid "Show quantity option. Needs SSL certificate for AMP validation."
+msgstr "Mostrar opción de cantidad. Necesita certificado SSL para su validación AMP."
+
+#: includes/tabs/class-amphtml-tab-wc.php:103
+#, approved
+msgid "Options"
+msgstr "opciones"
+
+#: includes/tabs/class-amphtml-tab-wc.php:108
+#, approved
+msgid "Show variable options. Needs SSL certificate for AMP validation."
+msgstr "Mostrar opciones de variaciones. Necesita certificado SSL para su validación AMP."
+
+#: includes/tabs/class-amphtml-tab-wc.php:112
+#: includes/tabs/class-amphtml-tab-wc.php:359
+#, approved
+msgid "Add To Cart"
+msgstr "Añadir a la cesta"
+
+#: includes/tabs/class-amphtml-tab-wc.php:117
+#, approved
+msgid "Show add to cart button"
+msgstr "Mostrar botón Añadir al carro"
+
+#: includes/tabs/class-amphtml-tab-wc.php:126
+#, approved
+msgid "Show product categories"
+msgstr "Mostrar categorías de productos"
+
+#: includes/tabs/class-amphtml-tab-wc.php:135
+#, approved
+msgid "Show product tags"
+msgstr "Mostrar etiquetas de productos"
+
+#: includes/tabs/class-amphtml-tab-wc.php:139
+#: includes/tabs/class-amphtml-tab-wc.php:248
+#: includes/tabs/class-amphtml-tab-wc.php:317
+#, approved
+msgid "Short Description"
+msgstr "Descripción breve"
+
+#: includes/tabs/class-amphtml-tab-wc.php:144
+#, approved
+msgid "Show product short description"
+msgstr "Mostrar descripción corta del producto"
+
+#: includes/tabs/class-amphtml-tab-wc.php:171
+#, approved
+msgid "Show product description"
+msgstr "Mostrar descripción del producto"
+
+#: includes/tabs/class-amphtml-tab-wc.php:175
+#, approved
+msgid "Attributes"
+msgstr "atributos"
+
+#: includes/tabs/class-amphtml-tab-wc.php:180
+#, approved
+msgid "Show product attributes"
+msgstr "Mostrar atributos de productos"
+
+#: includes/tabs/class-amphtml-tab-wc.php:184
+#: templates/parts/product_description_block.php:33
+#, approved
+msgid "Reviews"
+msgstr "opiniones"
+
+#: includes/tabs/class-amphtml-tab-wc.php:189
+#, approved
+msgid "Show product reviews"
+msgstr "Mostrar comentarios de productos"
+
+#: includes/tabs/class-amphtml-tab-wc.php:193
+#, approved
+msgid "Related products"
+msgstr "Productos relacionados"
+
+#: includes/tabs/class-amphtml-tab-wc.php:198
+#, approved
+msgid "Show related products"
+msgstr "Mostrar productos relacionados"
+
+#: includes/tabs/class-amphtml-tab-wc.php:235
+#: includes/tabs/class-amphtml-tab-wc.php:304
+#, approved
+msgid "Show product images"
+msgstr "Mostrar imágenes de productos"
+
+#: includes/tabs/class-amphtml-tab-wc.php:254
+#: includes/tabs/class-amphtml-tab-wc.php:322
+#, approved
+msgid "Show product short descriptions"
+msgstr "Mostrar descripciones cortas de productos"
+
+#: includes/tabs/class-amphtml-tab-wc.php:272
+#: includes/tabs/class-amphtml-tab-wc.php:340
+#, approved
+msgid "Show product prices"
+msgstr "Mostrar precios de productos"
+
+#: includes/tabs/class-amphtml-tab-wc.php:281
+#: includes/tabs/class-amphtml-tab-wc.php:349
+#, approved
+msgid "Show \"Add to Cart\" button"
+msgstr "Mostrar botón \"Añadir al carrito\""
+
+#: includes/tabs/class-amphtml-tab-wc.php:358
+#, approved
+msgid "Add to Cart Text"
+msgstr "Texto Añadir a la cesta"
+
+#: includes/tabs/class-amphtml-tab-wc.php:363
+#, approved
+msgid "\"Add to Cart\" button text"
+msgstr " texto del botón \"Añadir al carrito\""
+
+#: includes/tabs/class-amphtml-tab-wc.php:367
+#, approved
+msgid "Add to Cart Behavior"
+msgstr "Comportamiento de Añadir a la Cesta"
+
+#: includes/tabs/class-amphtml-tab-wc.php:371
+#, approved
+msgid "\"Add to Cart\" button click action"
+msgstr "acción de clic de botón \"Añadir al carrito\""
+
+#: includes/tabs/class-amphtml-tab-wc.php:384
+#, approved
+msgid "Add To Cart And Redirect"
+msgstr "Añadir al carro y redirección"
+
+#: includes/tabs/class-amphtml-tab-wc.php:387
+#, approved
+msgid "Redirect"
+msgstr "redirigir"
+
+#: templates/comments.php:19
+#, approved
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr "En una respuesta a &ldquo;%s&rdquo;"
+
+#: templates/comments.php:24
+#, approved
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/comments.php:49
+#, approved
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: templates/meta-cats.php:9 templates/meta-tags.php:9
+#, approved
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ","
+
+#: templates/search-none.php:10
+#, approved
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Lo sentimos, pero nada coincide con sus términos de búsqueda. Por favor inténtelo de nuevo con algunas palabras clave diferentes."
+
+#: templates/search-none.php:12
+#, approved
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que no podemos encontrar lo que esta buscando. Quizás una nueva búsqueda pueda ayudar."
+
+#: templates/searchform.php:22
+#, approved
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Search &hellip;"
+
+#: templates/searchform.php:26
+#, approved
+msgctxt "submit button"
+msgid "Search"
+msgstr "Buscar"
+
+#: templates/add-to-cart/options.php:39
+#, approved
+msgid "Quantity: "
+msgstr "Cantidad:"
+
+#: templates/parts/pagination.php:2
+#, approved
+msgid "Next &raquo;"
+msgstr "Siguiente &raquo;"
+
+#: templates/parts/pagination.php:3
+#, approved
+msgid "&laquo; Previous"
+msgstr "&laquo; Anterior"
+
+#: templates/parts/post_content.php:9
+#, approved
+msgid "Next "
+msgstr "Siguiente"
+
+#: templates/parts/post_content.php:10
+#, approved
+msgid " Prev"
+msgstr " Anterior"
+
+#: templates/parts/product_add_to_cart_block.php:8
+#, approved
+msgid "Out Of Stock"
+msgstr "Agotado"
+
+#: templates/parts/product_add_to_cart_block.php:10
+#, approved
+msgid "In Stock"
+msgstr "En stock"
+
+#: templates/parts/product_categories.php:9
+#, approved
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/parts/product_description_block.php:31
+#, approved
+msgid "%s review for %s%s%s"
+msgid_plural "%s reviews for %s%s%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/parts/product_description_block.php:47
+#, approved
+msgid "There are no reviews yet."
+msgstr "No hay comentarios aún."
+
+#: templates/parts/product_description_block.php:52
+#, approved
+msgid "Add a review"
+msgstr "Agrega una reseña"
+
+#: templates/parts/product_related_products.php:13
+#, approved
+msgid "Related Products"
+msgstr "Productos relacionados"
+
+#: templates/parts/product_tags.php:4
+#, approved
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/parts/search_page_title.php:3
+#, approved
+msgid "Search Results for: %s"
+msgstr "Resultados de búsqueda para: %s"
+
+#: templates/parts/search_page_title.php:6
+#, approved
+msgid "Nothing Found"
+msgstr "Nada Encontrado"

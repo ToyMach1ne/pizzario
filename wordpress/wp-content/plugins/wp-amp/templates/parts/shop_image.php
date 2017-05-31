@@ -1,0 +1,1 @@
+<?php echo $this->render_element( 'image', $this->featured_image );

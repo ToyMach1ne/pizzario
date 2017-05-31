@@ -1,0 +1,89 @@
+.eb-scrollbarcnt , .eb-scrollbarcnt-short
+{
+    width:100%;
+    margin:20px auto 0px;
+    position: relative;
+}
+
+.eb-scrollbarcnt .viewport , .eb-scrollbarcnt-short .viewport
+{
+	overflow:hidden;
+    position:relative;
+	width:100%;
+}
+
+.eb-scrollbarcnt .overview , .eb-scrollbarcnt-short .overview 
+{
+    list-style:none;
+    position:absolute;
+    left:0;
+    top:0;
+    margin:0;
+    padding: 5px 5px;
+	width:100%;
+}
+
+.eb-scrollbarcnt .scrollbar , .eb-scrollbarcnt-short .scrollbar
+{
+    background: #ccc	;
+    position:absolute;
+    background-position:0 0;
+    right: 0px;
+    top:0;
+    width:10px;
+	z-index:999;
+}
+
+.eb-scrollbarcnt .track, .eb-scrollbarcnt-short .track
+{
+    background:#CCC;
+    height:100%;
+    width:7px;
+    position:relative;
+    padding:0 1px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+}
+
+.eb-scrollbarcnt .thumb , .eb-scrollbarcnt-short .thumb
+{
+    background:#333;
+    height:20px;
+    width:5px;
+    cursor:pointer;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    left:2px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+}
+
+.eb-scrollbarcnt .thumb .end , .eb-scrollbarcnt-short .thumb .end
+{
+    background:#333;
+    overflow:hidden;
+    height:5px;
+    width:25px;
+	
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+}
+
+
+.eb-scrollbarcnt .disable , .eb-scrollbarcnt-short .disable
+{
+    display:none;
+}
+
+.noSelect
+{
+    user-select:none;
+    -o-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+}

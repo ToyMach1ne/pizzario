@@ -1,0 +1,49 @@
+.new-list-element {
+    display:none;
+}
+
+.remove-list-element {
+    float:right;
+}
+
+.list-element {
+    margin:20px;
+    padding:20px;
+    border:1px solid #888;
+    background:#ddd;
+}
+
+.list-element .list-element {
+    margin:20px;
+    padding:20px;
+    border:1px solid #AAA;
+    background:#eee;
+    border-radius:2px;
+}
+.list-elements-wrapper {
+    padding:20px;
+    border:1px solid #ccc;
+    background:#fff;
+    border-radius:2px;
+    margin-right:10px;
+}
+
+.select-and-display-suboptions-suboption {
+    /*display:none;*/
+}
+
+.custom-combobox {
+    position: relative;
+    display: inline-block;
+}
+.custom-combobox-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+}
+.custom-combobox-input {
+    margin: 0;
+    padding: 5px 10px;
+}

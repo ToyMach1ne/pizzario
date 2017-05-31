@@ -1,0 +1,10 @@
+<wpml-config>
+    <admin-texts>
+      <key name="yit_ywdpd_options">
+        <key name="coupon_label"/>
+        <key name="show_quantity_table_label"/>
+        <key name="show_quantity_table_label_quantity"/>
+        <key name="show_quantity_table_label_price"/>
+      </key>
+    </admin-texts>
+</wpml-config>
