@@ -1,7 +1,7 @@
 /* if work with html set TRUE, else - FALSE */
 var htmlOWp = false,
   // set wordpress template folder
-  wpThemeName = 'pizzaro',
+  wpThemeName = 'pizzaro-child',
   // and set wordpress domain
   wpDomain = 'pizzario.dev';
 
@@ -24,7 +24,7 @@ var paths = {
   images: {
     src: basePaths.src + 'img/',
     srcimg: basePaths.src + 'img/**/*.{png,jpg,jpeg,gif,svg}',
-    dest: basePaths.dest + 'img/'
+    dest: basePaths.dest + 'images/'
   },
   scripts: {
     src: basePaths.src + 'js/**',

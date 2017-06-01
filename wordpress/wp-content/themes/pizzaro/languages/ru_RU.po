@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-05-31 14:15+0300\n"
+"PO-Revision-Date: 2017-05-31 18:03+0300\n"
 "Language-Team: Pizzaro POT <support@transvelo.com>\n"
 "X-Generator: Poedit 1.8.8\n"
 "Last-Translator: \n"
@@ -1900,7 +1900,7 @@ msgstr ""
 #: inc/admin/meta-boxes/class-pizzaro-meta-box-home-v7.php:301
 #: inc/template-tags/homepage-v7.php:51 inc/template-tags/homepage-v7.php:245
 msgid "& GET FREE FOOD AND OTHER INSIDER-ONLY TREATS TO YOUR INBOX"
-msgstr ""
+msgstr "ПОЛУЧИТЬ БЕСПЛАТН УЮ ЕДУ И ДРУГОЕ НА ТВОЙ INBOX "
 
 #: inc/admin/meta-boxes/class-pizzaro-meta-box-home-v7.php:315
 #: inc/template-tags/homepage-v7.php:53 inc/template-tags/homepage-v7.php:246
@@ -1953,7 +1953,7 @@ msgstr "НАЙТИ"
 #: inc/admin/meta-boxes/class-pizzaro-meta-box-home-v7.php:461
 #: inc/template-tags/homepage-v7.php:74 inc/template-tags/homepage-v7.php:295
 msgid "PIZZARO RESTAURANT"
-msgstr ""
+msgstr "Pizzaro Ресторан"
 
 #: inc/admin/meta-boxes/class-pizzaro-meta-box-home-v7.php:461
 #: inc/template-tags/homepage-v7.php:74 inc/template-tags/homepage-v7.php:295
