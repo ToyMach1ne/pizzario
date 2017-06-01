@@ -5,9 +5,9 @@
 /**
  * Imports
  */
-@import 'bourbon';
-@import '../../../../assets/sass/utils/variables';
-@import '../../../../assets/sass/vendors/modular-scale';
+@import '../../bourbon/bourbon';
+@import '../../utils/variables';
+@import '../../vendors/modular-scale';
 
 .wapl-flash,
 .wapl-flash .product-label {

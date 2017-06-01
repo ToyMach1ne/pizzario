@@ -5,10 +5,10 @@
 /**
  * Imports
  */
-@import 'bourbon';
-@import '../../../../assets/sass/utils/variables';
-@import '../../../../assets/sass/utils/mixins';
-@import '../../../../assets/sass/vendors/modular-scale';
+@import '../../bourbon/bourbon';
+@import '../../utils/variables';
+@import '../../utils/mixins';
+@import '../../vendors/modular-scale';
 
 #wc-bookings-booking-form {
 	border: 0;

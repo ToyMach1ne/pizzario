@@ -5,9 +5,13 @@
 /**
  * Imports
  */
-@import 'node_modules/susy/sass/susy';
-@import '../../../../assets/sass/utils/variables';
-@import '../../../../assets/sass/vendors/modular-scale';
+
+@import '../../susy/susy';
+
+@import '../../utils/variables';
+
+@import '../../vendors/modular-scale';
+
 
 .woocommerce,
 .woocommerce-page {

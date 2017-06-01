@@ -5,15 +5,15 @@
 /**
  * Imports
  */
-@import 'bourbon';
-@import 'node_modules/susy/sass/susy';
-@import '../../../assets/sass/utils/variables';
-@import '../../../assets/sass/utils/bs-variables';
-@import '../../../assets/sass/utils/mixins';
-@import '../../../assets/sass/vendors/font-awesome/variables';
-@import '../../../assets/sass/vendors/font-awesome/mixins';
-@import '../../../assets/sass/vendors/modular-scale';
-@import '../../../assets/sass/base/base';
+@import '../bourbon/bourbon';
+@import '../susy/susy';
+@import '../utils/variables';
+@import '../utils/bs-variables';
+@import '../utils/mixins';
+@import '../vendors/font-awesome/variables';
+@import '../vendors/font-awesome/mixins';
+@import '../vendors/modular-scale';
+@import '../base/base';
 
 // Star font, FontAwesome doesn't work :(
 @font-face {
@@ -2232,44 +2232,44 @@ dl.variation {
  */
 
 // Blocks
-@import '../../../assets/sass/blocks/product';
-@import '../../../assets/sass/blocks/header';
+@import '../blocks/product';
+@import '../blocks/header';
 
 // Components
-@import '../../../assets/sass/components/wc-tabs';
-@import '../../../assets/sass/components/section-product';
-@import '../../../assets/sass/components/section-products';
-@import '../../../assets/sass/components/product-item';
-@import '../../../assets/sass/components/section-products-4-1';
-@import '../../../assets/sass/components/section-products-with-gallery';
-@import '../../../assets/sass/components/section-product-categories';
-@import '../../../assets/sass/components/section-products-sale-event';
-@import '../../../assets/sass/components/section-products-carousel-with-image';
-@import '../../../assets/sass/components/product-list-item';
-@import '../../../assets/sass/components/products-card';
-@import '../../../assets/sass/components/section-sale-product';
-@import '../../../assets/sass/components/section-coupon';
-@import '../../../assets/sass/components/food-type-filter';
-@import '../../../assets/sass/components/woocommerce-widget';
-@import '../../../assets/sass/components/pizzaro-sorting';
-@import '../../../assets/sass/components/shop-archive';
-@import '../../../assets/sass/components/shop-cat-view';
-@import '../../../assets/sass/components/yith-radio-button';
-@import '../../../assets/sass/components/site-header-cart';
-@import '../../../assets/sass/components/product-filters-widgets';
-@import '../../../assets/sass/components/product-list-no-image';
-@import '../../../assets/sass/components/store-locater';
-@import '../../../assets/sass/components/order-pickup';
-@import '../../../assets/sass/components/extra-product-options';
+@import '../components/wc-tabs';
+@import '../components/section-product';
+@import '../components/section-products';
+@import '../components/product-item';
+@import '../components/section-products-4-1';
+@import '../components/section-products-with-gallery';
+@import '../components/section-product-categories';
+@import '../components/section-products-sale-event';
+@import '../components/section-products-carousel-with-image';
+@import '../components/product-list-item';
+@import '../components/products-card';
+@import '../components/section-sale-product';
+@import '../components/section-coupon';
+@import '../components/food-type-filter';
+@import '../components/woocommerce-widget';
+@import '../components/pizzaro-sorting';
+@import '../components/shop-archive';
+@import '../components/shop-cat-view';
+@import '../components/yith-radio-button';
+@import '../components/site-header-cart';
+@import '../components/product-filters-widgets';
+@import '../components/product-list-no-image';
+@import '../components/store-locater';
+@import '../components/order-pickup';
+@import '../components/extra-product-options';
 
 // Pages
-@import '../../../assets/sass/pages/shop';
-@import '../../../assets/sass/pages/single-product';
-@import '../../../assets/sass/pages/single-product-v2';
-@import '../../../assets/sass/pages/single-product-v3';
-@import '../../../assets/sass/pages/checkout';
-@import '../../../assets/sass/pages/cart';
-@import '../../../assets/sass/pages/home';
-@import '../../../assets/sass/pages/order-completed';
-@import '../../../assets/sass/pages/my-account';
-@import '../../../assets/sass/pages/page-track-your-order';
+@import '../pages/shop';
+@import '../pages/single-product';
+@import '../pages/single-product-v2';
+@import '../pages/single-product-v3';
+@import '../pages/checkout';
+@import '../pages/cart';
+@import '../pages/home';
+@import '../pages/order-completed';
+@import '../pages/my-account';
+@import '../pages/page-track-your-order';

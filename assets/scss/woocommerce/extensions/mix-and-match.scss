@@ -5,11 +5,16 @@
 /**
  * Imports
  */
-@import 'bourbon';
-@import '../../../../assets/sass/utils/variables';
-@import '../../../../assets/sass/vendors/modular-scale';
-@import '../../../../assets/sass/vendors/font-awesome/variables';
-@import '../../../../assets/sass/vendors/font-awesome/mixins';
+
+
+@import '../../bourbon/bourbon';
+@import '../../utils/variables';
+
+@import '../../vendors/font-awesome/variables';
+@import '../../vendors/font-awesome/mixins';
+
+@import '../../vendors/modular-scale';
+
 
 .mnm_table {
 	.product-thumbnail,

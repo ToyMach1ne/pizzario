@@ -5,9 +5,9 @@
 /**
  * Imports
  */
-@import 'bourbon';
-@import '../../../../assets/sass/utils/variables';
-@import '../../../../assets/sass/utils/mixins';
+@import '../../bourbon/bourbon';
+@import '../../utils/variables';
+@import '../../utils/mixins';
 
 .header-widget-region {
 	.widget_brand_thumbnails {
