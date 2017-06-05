@@ -13,10 +13,11 @@
 @mixin display-box {
   @include _bourbon-deprecate-for-prefixing("display-box");
 
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox; // IE 10
-  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
 }
 
 @mixin box-orient($orient: inline-axis) {
