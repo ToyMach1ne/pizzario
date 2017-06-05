@@ -1,7 +1,7 @@
 /* if work with html set TRUE, else - FALSE */
 var htmlOWp = false,
   // set wordpress template folder
-  wpThemeName = 'pizzaro-child',
+  wpThemeName = 'pizzaro',
   // and set wordpress domain
   wpDomain = 'pizzario.dev';
 
@@ -226,7 +226,7 @@ gulp.task('browserSync', function() {
 
 gulp.task('styles', function(callback) {
   runSequence(
-    ['scss'], ['postcss'],
+    ['scss'], /*['postcss'], */
     callback
   )
 })
@@ -234,7 +234,7 @@ gulp.task('styles', function(callback) {
 // Consolidated dev phase task
 gulp.task('serve', function(callback) {
   runSequence(
-    'cache:clear', ['sprite', 'base64', 'images'], ['scripts'], ['scss', 'fonts'], ['postcss'], ['browserSync', 'watch'],
+    'cache:clear', ['sprite', 'base64', 'images'], ['scripts'], ['scss', 'fonts'], /*['postcss'],*/ ['browserSync', 'watch'],
     callback
   );
 });
