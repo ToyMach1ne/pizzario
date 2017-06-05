@@ -1,4 +1,4 @@
-@import 'fonts/font_fontawesome';
+/* @import 'fonts/font_fontawesome'; */
 @import 'normalize';
 
 .sr-only {
@@ -14344,5 +14344,107 @@ article.post {
     .images .thumbnails {
       margin: 0;
     }
+  }
+}
+
+//OWN STYLES
+.home {
+  .section-product-categories {
+    .categories {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      flex-wrap:wrap;
+      .category {
+        a {
+          img {
+            max-height:550px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.woocommerce {
+    .products {
+    li {
+      .product_type_simple {
+        background-color: #99081f;
+      }
+    }
+  }
+}
+
+.page-template-archive-product_brand {
+  header {
+    margin-bottom: 0;
+  }
+  #content {
+    background-image: url(../images/dark-pat.jpg);
+   #primary {
+    #main {
+      h1 {
+        color:#fff;
+        padding: 10px;
+      }
+      .brand_wrapp {
+        .col-md-6 {
+          height: 280px;
+          margin-bottom: 30px;
+          .brand_inner {
+            height: 100%;
+            border-radius:10px;
+            background-color: #fff;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            transition:.4s all ease-out;
+            &:hover {
+              background-color: #000;
+               .brand_content_wrapp {
+              .brand_title {
+                color:#fff;
+              }
+              p {
+                color:#fff;
+              }
+            }
+            }
+            .brand_img_wrapp {
+              width: 44%;
+              height: 100%;
+              img {
+                height: 100%;
+                border-radius: 10px 0 0 10px;
+              }
+            }
+            .brand_content_wrapp {
+              width: 56%;
+              text-align: center;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              padding: 0 10px;
+              .brand_title {
+                transition:.4s all ease-out;
+              }
+              p {
+                font-size: 13px;
+                height: 50px;
+                overflow: hidden;
+                transition:.4s all ease-out;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
   }
 }

@@ -25,14 +25,24 @@ get_header( 'v1' ); ?>
             ) ); ?>
         <?php if ( ! empty( $terms ) && ! is_wp_error( $terms ) ){
           foreach ( $terms as $term ) { $termlinks= get_term_link($term,$taxonomy); ?>
-           <div class="col-md-3">
-             <a href="<?php echo $termlinks ?>">
-               <h4 class="brand_title">
-                <?php echo $term->name; ?>
-               </h4>
-                <?php $thumbnail_id = get_woocommerce_term_meta($term->term_id, 'thumbnail_id', true);
-                $image = wp_get_attachment_url($thumbnail_id); ?>
-                <?php echo "<img src='{$image}' alt='' width='400' height='400' />"; ?>
+           <div class="col-md-6">
+            <a href="<?php echo $termlinks ?>">
+             <div class="brand_inner">
+               <div class="brand_img_wrapp">
+                    <?php $thumbnail_id = get_woocommerce_term_meta($term->term_id, 'thumbnail_id', true);
+                    $image = wp_get_attachment_url($thumbnail_id); ?>
+                    <?php echo "<img src='{$image}' alt='' width='400' height='400' />"; ?>
+               </div>
+               <div class="brand_content_wrapp">
+                 <h4 class="brand_title">
+                  <?php echo $term->name; ?>
+                 </h4>
+                 <?php echo term_description($term->term_id, 'product_brand'); ?>
+                 <div class="kitchen_show">
+
+                 </div>
+               </div>
+             </div>
             </a>
            </div>
         <?php }} ?>
