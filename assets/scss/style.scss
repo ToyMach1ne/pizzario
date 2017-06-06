@@ -14347,6 +14347,7 @@ article.post {
   }
 }
 
+
 //OWN STYLES
 .home {
   .section-product-categories {
@@ -14367,15 +14368,62 @@ article.post {
       }
     }
   }
+  .wb-bx-wrapper {
+    .wb-bx-viewport {
+      ul {
+        li {
+          height: 200px;
+          margin-bottom: 20px;
+          .wb-car-item-cnt {
+            height: 100%;
+            a {
+              img {
+                height: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+    .wb-bx-controls-direction {
+      .wb-bx-prev, .wb-bx-next {
+            position: absolute;
+            top: 120px;
+            background-color: #c00a27;
+            opacity:.5;
+            border-radius: 3px;
+            color:#fff;
+            &:hover {
+              opacity: 1;
+            }
+      }
+      .wb-bx-next {
+        right: -45px;
+      }
+      .wb-bx-prev {
+        left: -45px;
+      }
+    }
+  }
 }
 
 .woocommerce {
     .products {
     li {
+      z-index:0;
+      &:hover {
+        z-index:0;
+      }
       .product_type_simple {
         background-color: #99081f;
       }
     }
+  }
+  .woocommerce-ordering {
+    z-index:0;
+  }
+  .shop-archive-header {
+    height: auto !important;
   }
 }
 
@@ -14409,15 +14457,24 @@ article.post {
               background-color: #000;
                .brand_content_wrapp {
               .brand_title {
-                color:#fff;
+                a {
+                  color:#fff;
+                }
               }
               p {
                 color:#fff;
               }
+              .kitchen_show {
+                .card__short-info {
+                  color:#fff;
+                  a {
+                    color:#fff;
+                  }
+                }
+              }
             }
             }
             .brand_img_wrapp {
-              width: 44%;
               height: 100%;
               img {
                 height: 100%;
@@ -14432,7 +14489,12 @@ article.post {
               justify-content: center;
               padding: 0 10px;
               .brand_title {
+                a {
                 transition:.4s all ease-out;
+                &:hover {
+                  color:#c00a27;
+                }
+                }
               }
               p {
                 font-size: 13px;
@@ -14440,11 +14502,46 @@ article.post {
                 overflow: hidden;
                 transition:.4s all ease-out;
               }
+              .kitchen_show {
+                .card__short-info {
+                  transition:.4s all ease-out;
+                  a {
+                    font-size: 13px;
+                    transition:.4s all ease-out;
+                    &:hover {
+                      color:#c00a27;
+                    }
+                  }
+                }
+              }
             }
           }
         }
       }
     }
   }
+  }
+}
+
+.tax-product_brand {
+  .brand-description {
+    .term-description {
+      margin-bottom: 50px;
+    }
+    img {
+      max-width:150px;
+      float: left;
+      padding-right: 20px;
+    }
+  }
+}
+.woocommerce-cart {
+  .wc-backward {
+        color: #000;
+    border: 1px solid;
+    &:hover {
+      color:#fff;
+      border:none;
+    }
   }
 }
