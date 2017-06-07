@@ -291,8 +291,8 @@ $kc->add_map(
 						'name' => 'video_bg_url',
 						'label' => __( 'YouTube link', 'kingcomposer' ),
 						'type' => 'text',
-						'value' => 'https://www.youtube.com/watch?v=dOWFVKb2JqM',
-						'description' => __( 'Add YouTube link.', 'kingcomposer' ),
+						'value' => '',
+						'description' => __( 'Add YouTube link. Default value : https://www.youtube.com/watch?v=dOWFVKb2JqM', 'kingcomposer' ),
 						'relation' => array(
 							'parent' => 'video_bg',
 							'show_when' => 'yes'
@@ -381,7 +381,7 @@ $kc->add_map(
 						'name' => 'row_id',
 						'label' => 'Row ID',
 						'type' => 'text',
-						'value' => __(' ', 'kingcomposer'),
+						'value' => __('', 'kingcomposer'),
 						'description' => 'The unique identifier of the row'
 					),
 					array(
@@ -427,8 +427,8 @@ $kc->add_map(
 						'name' => 'video_bg_url',
 						'label' => __( 'YouTube link', 'kingcomposer' ),
 						'type' => 'text',
-						'value' => 'https://www.youtube.com/watch?v=dOWFVKb2JqM',
-						'description' => __( 'Add YouTube link.', 'kingcomposer' ),
+						'value' => '',
+						'description' => __( 'Add YouTube link. Default value : https://www.youtube.com/watch?v=dOWFVKb2JqM', 'kingcomposer' ),
 						'relation' => array(
 							'parent' => 'video_bg',
 							'show_when' => 'yes'
@@ -509,8 +509,8 @@ $kc->add_map(
 						'name' => 'video_bg_url',
 						'label' => __( 'YouTube link', 'kingcomposer' ),
 						'type' => 'text',
-						'value' => 'https://www.youtube.com/watch?v=dOWFVKb2JqM',
-						'description' => __( 'Add YouTube link.', 'kingcomposer' ),
+						'value' => '',
+						'description' => __( 'Add YouTube link. Default value : https://www.youtube.com/watch?v=dOWFVKb2JqM', 'kingcomposer' ),
 						'relation' => array(
 							'parent' => 'video_bg',
 							'show_when' => 'yes'
@@ -521,6 +521,7 @@ $kc->add_map(
 					array(
 						'name'    => 'css_custom',
 						'type'    => 'css',
+                        'options' => kc_column_options('.kc-col-container'),
 					)
 				),
 				'animate' => array(
@@ -563,7 +564,8 @@ $kc->add_map(
 				'styling' => array(
 					array(
 						'name'    => 'css_custom',
-						'type'    => 'css'
+						'type'    => 'css',
+                        'options' => kc_column_options('.kc-col-inner-container'),
 					)
 				),
 				'animate' => array(
@@ -3174,7 +3176,7 @@ $kc->add_map(
 						'label'			=> __( 'Number of words', 'kingcomposer' ),
 						'name'			=> 'number_word',
 						'description'	=> __( 'Show a certain number of words in each post.', 'kingcomposer' ),
-						'value'			=> '30'
+						'value'			=> '50'
 					),
 					array(
 						'type'			=> 'toggle',
@@ -3210,6 +3212,7 @@ $kc->add_map(
 								"screens" => "any,1024,999,767,479",
 								'Title' => array(
 									array('property' => 'color', 'label' => 'Color', 'selector' => '.list-item h3 a'),
+									array('property' => 'color', 'label' => 'Hover Color', 'selector' => '.list-item h3 a:hover'),
 									array('property' => 'font-family', 'label' => 'Font Family', 'selector' => '.list-item h3 a'),
 									array('property' => 'font-size', 'label' => 'Text Size', 'selector' => '.list-item h3 a'),
 									array('property' => 'line-height', 'label' => 'Line Height', 'selector' => '.list-item h3 a'),
@@ -3220,14 +3223,18 @@ $kc->add_map(
 									array('property' => 'margin', 'label' => 'Margin', 'selector' => '.list-item h3 a'),
 								),
 								'Meta Text' => array(
-									array('property' => 'font-family', 'label' => 'Font Family', 'selector' => '.kc-entry_meta .date, .kc-entry_meta a'),
-									array('property' => 'font-size', 'label' => 'Font Size', 'selector' => '.kc-entry_meta .date, .kc-entry_meta a'),
-									array('property' => 'line-height', 'label' => 'Line Height', 'selector' => '.kc-entry_meta .date, .kc-entry_meta a'),
-									array('property' => 'font-weight', 'label' => 'Font Weight', 'selector' => '.kc-entry_meta .date, .kc-entry_meta a'),
-									array('property' => 'text-transform', 'label' => 'Text Transform', 'selector' => '.kc-entry_meta .date, .kc-entry_meta a'),
-									array('property' => 'color', 'label' => 'Color', 'selector' => '.kc-entry_meta .date, .kc-entry_meta a'),
-									array('property' => 'color', 'label' => 'Icon Color', 'selector' => '.kc-entry_meta .date i, .kc-entry_meta i'),
-									array('property' => 'font-weight', 'label' => 'Font Weight', 'selector' => '.kc-entry_meta .date, .kc-entry_meta a'),
+									array('property' => 'color', 'label' => 'Color', 'selector' => '.kc-entry_meta span'),
+									array('property' => 'color', 'label' => 'Hover Color', 'selector' => '.kc-entry_meta a:hover'),
+									array('property' => 'color', 'label' => 'Icon Color', 'selector' => '.kc-entry_meta i'),
+									array('property' => 'font-size', 'label' => 'Font Size', 'selector' => '.kc-entry_meta span'),
+									array('property' => 'font-weight', 'label' => 'Font Weight', 'selector' => '.kc-entry_meta span'),
+									array('property' => 'font-family', 'label' => 'Font Family', 'selector' => '.kc-entry_meta span'),
+									array('property' => 'line-height', 'label' => 'Line Height', 'selector' => '.kc-entry_meta span'),
+									array('property' => 'font-weight', 'label' => 'Font Weight', 'selector' => '.kc-entry_meta span'),
+									array('property' => 'text-transform', 'label' => 'Text Transform', 'selector' => '.kc-entry_meta span'),
+									array('property' => 'padding', 'label' => 'Padding', 'selector' => '.kc-entry_meta'),
+									array('property' => 'margin', 'label' => 'Margin', 'selector' => '.kc-entry_meta span'),
+									array('property' => 'margin', 'label' => 'Icon Spacing', 'selector' => '.kc-entry_meta span i'),
 								),
 								'Text' => array(
 									array('property' => 'color', 'label' => 'Color', 'selector' => '.post-content .text'),
@@ -3236,6 +3243,8 @@ $kc->add_map(
 									array('property' => 'line-height', 'label' => 'Line Height', 'selector' => '.post-content .text'),
 									array('property' => 'font-weight', 'label' => 'Font Weight', 'selector' => '.post-content .text'),
 									array('property' => 'text-transform', 'label' => 'Text Transform', 'selector' => '.post-content .text'),
+									array('property' => 'padding', 'label' => 'Padding', 'selector' => '.post-content .text'),
+									array('property' => 'margin', 'label' => 'Margin', 'selector' => '.post-content .text'),
 								),
 								'Read More'=> array(
 									array('property' => 'color', 'label' => 'Color', 'selector' => '.read-more'),
@@ -3248,11 +3257,17 @@ $kc->add_map(
 									array('property' => 'font-weight', 'label' => 'Font Weight', 'selector' => '.read-more'),
 									array('property' => 'text-transform', 'label' => 'Text Transform', 'selector' => '.read-more'),
 									array('property' => 'border', 'label' => 'Border', 'selector' => '.read-more'),
+									array('property' => 'border-color', 'label' => 'Border Hover Color', 'selector' => '.read-more:hover'),
 									array('property' => 'border-radius', 'label' => 'Border Radius', 'selector' => '.read-more'),
-									array('property' => 'padding', 'label' => 'Button Size', 'selector' => '.read-more'),
-									array('property' => 'margin', 'label' => 'Button Margin', 'selector' => '.read-more'),
-									
+									array('property' => 'padding', 'label' => 'Padding', 'selector' => '.read-more'),
+									array('property' => 'margin', 'label' => 'Margin', 'selector' => '.read-more'),
 								),
+								'Item'=> array(
+									array('property' => 'border', 'label' => 'Border', 'selector' => '.list-item'),
+									array('property' => 'padding', 'label' => 'Padding', 'selector' => '.list-item'),
+									array('property' => 'margin', 'label' => 'Margin', 'selector' => '.list-item'),
+								),
+
 							)
 						)
 					)
@@ -3823,6 +3838,23 @@ $kc->add_map(
 						)
 					),
 					array(
+						'name'          => 'overlay',
+						'label'         => __(' Overlay Hover Effect', 'kingcomposer'),
+						'type'          => 'toggle',
+						'description'   => __(' Enable to add layer overlay will show up when hover on the image.', 'kingcomposer')
+					),
+					array(
+						'name'     => 'icon',
+						'label'    => __(' Icon Overlay', 'kingcomposer'),
+						'type'     => 'icon_picker',
+						'value'    => 'fa-plus',
+						'relation' => array(
+							'parent'    => 'overlay',
+							'show_when' => 'yes'
+						),
+						'description' => __(' The icon show on center of overlay laver.', 'kingcomposer')
+					),
+					array(
 						'type'			=> 'toggle',
 						'name'			=> 'alt_text',
 						'label'			=> __( 'Alt attribute for image', 'kingcomposer' ),
@@ -3840,6 +3872,35 @@ $kc->add_map(
 					array(
 						'name'    => 'css_custom',
 						'type'    => 'css',
+						'options'		=> array(
+							array(
+								"screens" => "any,1024,999,767,479",
+								'Image Style' => array(
+									array('property' => 'text-align', 'label' => 'Image Alignment'),
+									array('property' => 'display', 'label' => 'Image Display'),
+									array('property' => 'background-color', 'label' => 'Background Color', 'selector' => 'img'),
+									array('property' => 'box-shadow', 'label' => 'Box Shadow', 'selector' => 'img'),
+									array('property' => 'border', 'label' => 'Border', 'selector' => 'img'),
+									array('property' => 'border-radius', 'label' => 'Border Radius', 'selector' => 'img'),
+									array('property' => 'width', 'label' => 'Width', 'selector' => 'img'),
+									array('property' => 'height', 'label' => 'Height', 'selector' => 'img'),
+									array('property' => 'max-width', 'label' => 'Max Width', 'selector' => 'img'),
+									array('property' => 'margin', 'label' => 'Margin', 'selector' => '.item-grid'),
+									array('property' => 'padding', 'label' => 'Padding', 'selector' => 'img')
+								),
+								'Overlay Effect' => array(
+									array('property' => 'background-color', 'label' => 'Overlay Background Color', 'selector' => '.kc-image-overlay'),
+									array('property' => 'background-color', 'label' => 'Icon BG Color', 'selector' => '.kc-image-overlay i'),
+									array('property' => 'color', 'label' => 'Icon Color', 'selector' => '.kc-image-overlay i'),
+									array('property' => 'font-size', 'label' => 'Icon Size', 'selector' => '.kc-image-overlay i'),
+									array('property' => 'line-height', 'label' => 'Icon Line Height', 'selector' => '.kc-image-overlay i'),
+									array('property' => 'width', 'label' => 'Icon Width', 'selector' => '.kc-image-overlay i'),
+									array('property' => 'height', 'label' => 'Icon Height', 'selector' => '.kc-image-overlay i'),
+									array('property' => 'border', 'label' => 'Icon Border', 'selector' => '.kc-image-overlay i'),
+									array('property' => 'border-radius', 'label' => 'Icon Border Radius', 'selector' => '.kc-image-overlay i')
+								),
+							)
+						)
 					)
 				),
 				'animate' => array(
@@ -5316,11 +5377,11 @@ $kc->add_map(
 						'name'			=> 'layout',
 						'admin_label'	=> true,
 						'options'		=> array(
-							'1'	=> KC_URL . '/assets/frontend/images/banner/layout-1.png',
-							'2'	=> KC_URL . '/assets/frontend/images/banner/layout-2.png',
-							'3'	=> KC_URL . '/assets/frontend/images/banner/layout-3.png',
-							'4'	=> KC_URL . '/assets/frontend/images/banner/layout-4.png',
-							'5'	=> KC_URL . '/assets/frontend/images/banner/layout-5.png'
+							'1'	=> KC_URL . '/assets/frontend/images/banner/layout1.jpg',
+							'2'	=> KC_URL . '/assets/frontend/images/banner/layout2.jpg',
+							'3'	=> KC_URL . '/assets/frontend/images/banner/layout3.jpg',
+							'4'	=> KC_URL . '/assets/frontend/images/banner/layout4.jpg',
+							'5'	=> KC_URL . '/assets/frontend/images/banner/layout5.jpg'
 						),
 						'value'			=> '1'
 					),
@@ -5421,6 +5482,28 @@ $kc->add_map(
 						)
 					),
 					array(
+						'type'		=> 'select',
+						'label'		=> __( 'Caption Animation', 'kingcomposer' ),
+						'name'		=> 'caption_animation',
+						'options'	=> array(
+							'default'		    => __( 'Default', 'kingcomposer' ),
+							'slide_left'		=> __( 'Slide Left', 'kingcomposer' ),
+							'slide_right'		=> __( 'Slide Right', 'kingcomposer' ),
+							'slide_bottom'		=> __( 'Slide Bottom', 'kingcomposer' ),
+							'slide_top'		    => __( 'Slide Top', 'kingcomposer' ),
+							'push_left'		    => __( 'Push Left', 'kingcomposer' ),
+							'push_right'		=> __( 'Push Right', 'kingcomposer' ),
+							'push_bottom'		=> __( 'Push Bottom', 'kingcomposer' ),
+							'push_top'		    => __( 'Push Top', 'kingcomposer' ),
+							'zoom_in'		    => __( 'Zoom In', 'kingcomposer' ),
+							'zoom_out'		    => __( 'Zoom Out', 'kingcomposer' ),
+							'tranlate'		    => __( 'Overlay Tranlate', 'kingcomposer' ),
+							'overlay_scale_in'  => __( 'Overlay Scale In', 'kingcomposer' ),
+							'overlay_scale_out' => __( 'Overlay Scale Out', 'kingcomposer' ),
+						),
+						'value'		=> 'Default',
+					),
+					array(
 						'type'			=> 'text',
 						'label'			=> __( 'Custom class', 'kingcomposer' ),
 						'name'			=> 'custom_class',
@@ -5454,6 +5537,7 @@ $kc->add_map(
 									array('property' => 'line-height', 'label' => 'Line Height', 'selector' => '.content-desc'),
 									array('property' => 'text-transform', 'label' => 'Text Transform', 'selector' => '.content-desc'),
 									array('property' => 'text-align', 'label' => 'Text Align', 'selector' => '.content-desc'),
+									array('property' => 'padding', 'label' => 'Padding', 'selector' => '.content-desc'),
 									array('property' => 'margin', 'label' => 'Margin', 'selector' => '.content-desc')
 								),
 								'Button' => array(
@@ -5501,6 +5585,12 @@ $kc->add_map(
 									array('property' => 'text-align', 'label' => 'Text Align', 'selector' => '.overlay-effects'),
 									array('property' => 'border', 'label' => 'Border', 'selector' => '.overlay-effects'),
 									array('property' => 'padding', 'label' => 'Padding', 'selector' => '.overlay-effects')
+								),
+								'Box' => array(
+									array('property' => 'border', 'label' => 'Border'),
+									array('property' => 'border-radius', 'label' => 'Border Radius'),
+									array('property' => 'padding', 'label' => 'Padding'),
+									array('property' => 'margin', 'label' => 'Margin'),
 								)
 							)
 						)
@@ -6162,10 +6252,10 @@ $kc->add_map(
 						'name'			=> 'layout',
 						'admin_label'	=> true,
 						'options'		=> array(
-							'1'	=> KC_URL . '/assets/frontend/images/blog/layout-1.png',
-							'2'	=> KC_URL . '/assets/frontend/images/blog/layout-2.png',
-							'3'	=> KC_URL . '/assets/frontend/images/blog/layout-3.png',
-							'4'	=> KC_URL . '/assets/frontend/images/blog/layout-4.png'
+							'1'	=> KC_URL . '/assets/frontend/images/blog/layout1.jpg',
+							'2'	=> KC_URL . '/assets/frontend/images/blog/layout2.jpg',
+							'3'	=> KC_URL . '/assets/frontend/images/blog/layout3.jpg',
+							'4'	=> KC_URL . '/assets/frontend/images/blog/layout4.jpg'
 						),
 						'value'			=> '1'
 					),
@@ -6307,17 +6397,17 @@ $kc->add_map(
 									array('property' => 'line-height', 'label' => 'Line Height', 'selector' => '.kc-list-item-4 .kc-post-header .post-title-alt a,.kc-list-item-1 .post-title-alt a,.kc-list-item-2 .post-title-alt a,.kc-list-item-3 .post-title-alt a'),
 									array('property' => 'font-weight', 'label' => 'Font Weight', 'selector' => '.kc-list-item-4 .kc-post-header .post-title-alt a,.kc-list-item-1 .post-title-alt a,.kc-list-item-2 .post-title-alt a,.kc-list-item-3 .post-title-alt a'),
 									array('property' => 'text-transform', 'label' => 'Text Transform', 'selector' => '.kc-list-item-4 .kc-post-header .post-title-alt a,.kc-list-item-1 .post-title-alt a,.kc-list-item-2 .post-title-alt a,.kc-list-item-3 .post-title-alt a'),
-									array('property' => 'margin', 'label' => 'Margin', 'selector' => '.kc-list-item-4 .kc-post-header .post-title-alt a,.kc-list-item-1 .post-title-alt a,.kc-list-item-2 .post-title-alt a,.kc-list-item-3 .post-title-alt a'),
+									array('property' => 'margin', 'label' => 'Margin', 'selector' => '.kc-list-item-4 .kc-post-header .post-title-alt,.kc-list-item-1 .post-title-alt,.kc-list-item-2 .post-title-alt,.kc-list-item-3 .post-title-alt'),
 								),
 								'Desc' => array(
-									array('property' => 'color', 'label' => 'Color', 'selector' => '.kc-list-item-4 .post-content p,.kc-list-item-2 .post_details p,.kc-list-item-3 .entry-excerpt p'),
-									array('property' => 'font-family', 'label' => 'Font Family', 'selector' => '.kc-list-item-4 .post-content p,.kc-list-item-2 .post_details p,.kc-list-item-3 .entry-excerpt p'),
-									array('property' => 'font-size', 'label' => 'Font Size', 'selector' => '.kc-list-item-4 .post-content p,.kc-list-item-2 .post_details p,.kc-list-item-3 .entry-excerpt p'),
-									array('property' => 'line-height', 'label' => 'Line Height', 'selector' => '.kc-list-item-4 .post-content p,.kc-list-item-2 .post_details p,.kc-list-item-3 .entry-excerpt p'),
-									array('property' => 'font-weight', 'label' => 'Font Weight', 'selector' => '.kc-list-item-4 .post-content p,.kc-list-item-2 .post_details p,.kc-list-item-3 .entry-excerpt p'),
-									array('property' => 'text-transform', 'label' => 'Text Transform', 'selector' => '.kc-list-item-4 .post-content p,.kc-list-item-2 .post_details p,.kc-list-item-3 .entry-excerpt p'),
-									array('property' => 'text-align', 'label' => 'Text Align', 'selector' => '.kc-list-item-4 .post-content p,.kc-list-item-2 .post_details p,.kc-list-item-3 .entry-excerpt p'),
-									array('property' => 'margin', 'label' => 'Margin', 'selector' => '.kc-list-item-4 .post-content p,.kc-list-item-2 .post_details p,.kc-list-item-3 .entry-excerpt p'),
+									array('property' => 'color', 'label' => 'Color', 'selector' => '.kc-list-item-4 .post-content p,.kc-list-item-2 p,.kc-list-item-3 .entry-excerpt p'),
+									array('property' => 'font-family', 'label' => 'Font Family', 'selector' => '.kc-list-item-4 .post-content p,.kc-list-item-2 p,.kc-list-item-3 .entry-excerpt p'),
+									array('property' => 'font-size', 'label' => 'Font Size', 'selector' => '.kc-list-item-4 .post-content p,.kc-list-item-2 p,.kc-list-item-3 .entry-excerpt p'),
+									array('property' => 'line-height', 'label' => 'Line Height', 'selector' => '.kc-list-item-4 .post-content p,.kc-list-item-2 p,.kc-list-item-3 .entry-excerpt p'),
+									array('property' => 'font-weight', 'label' => 'Font Weight', 'selector' => '.kc-list-item-4 .post-content p,.kc-list-item-2 p,.kc-list-item-3 .entry-excerpt p'),
+									array('property' => 'text-transform', 'label' => 'Text Transform', 'selector' => '.kc-list-item-4 .post-content p,.kc-list-item-2 p,.kc-list-item-3 .entry-excerpt p'),
+									array('property' => 'text-align', 'label' => 'Text Align', 'selector' => '.kc-list-item-4 .post-content p,.kc-list-item-2 p,.kc-list-item-3 .entry-excerpt p'),
+									array('property' => 'margin', 'label' => 'Margin', 'selector' => '.kc-list-item-4 .post-content p,.kc-list-item-2 p,.kc-list-item-3 .entry-excerpt p'),
 								),
 								'Image' => array(
 									array('property' => 'background-color', 'label' => 'BG Color', 'selector' => '.kc-list-item-4 .kc-post-header img,.kc-list-item-1 img,.kc-list-item-2 img,.post-grid .kc-list-item-3 img'),
@@ -6532,10 +6622,10 @@ if ( is_plugin_active( 'contact-form-7/wp-contact-form-7.php' ) ) {
 								array('property' => 'font-weight', 'label' => 'Font Weight', 'selector' => '.wpcf7-textarea'),
 								array('property' => 'text-align', 'selector' => '.wpcf7-textarea'),
 								array('property' => 'text-transform', 'label' => 'Text Transform', 'selector' => '.wpcf7-textarea'),
-								array('property' => 'width', 'selector' => '.wpcf7-text'),
-								array('property' => 'height', 'selector' => '.wpcf7-text'),
-								array('property' => 'border', 'selector' => '.wpcf7-text'),
-								array('property' => 'border-radius', 'selector' => '.wpcf7-text'),
+								array('property' => 'width', 'selector' => '.wpcf7-textarea'),
+								array('property' => 'height', 'selector' => '.wpcf7-textarea'),
+								array('property' => 'border', 'selector' => '.wpcf7-textarea'),
+								array('property' => 'border-radius', 'selector' => '.wpcf7-textarea'),
 								array('property' => 'margin', 'label' => 'Margin', 'selector' => '.wpcf7-textarea'),
 								array('property' => 'padding', 'selector' => '.wpcf7-textarea'),
 							),
@@ -6615,10 +6705,10 @@ if ( is_plugin_active( 'contact-form-7/wp-contact-form-7.php' ) ) {
 								array('property' => 'font-size', 'label' => 'Font Size', 'selector' => '.wpcf7-textarea:focus'),
 								array('property' => 'line-height', 'label' => 'Line Height', 'selector' => '.wpcf7-textarea:focus'),
 								array('property' => 'font-weight', 'label' => 'Font Weight', 'selector' => '.wpcf7-textarea:focus'),
-								array('property' => 'width', 'selector' => '.wpcf7-text:focus'),
-								array('property' => 'height', 'selector' => '.wpcf7-text:focus'),
-								array('property' => 'border', 'selector' => '.wpcf7-text:focus'),
-								array('property' => 'border-radius', 'selector' => '.wpcf7-text:focus'),
+								array('property' => 'width', 'selector' => '.wpcf7-textarea:focus'),
+								array('property' => 'height', 'selector' => '.wpcf7-textarea:focus'),
+								array('property' => 'border', 'selector' => '.wpcf7-textarea:focus'),
+								array('property' => 'border-radius', 'selector' => '.wpcf7-textarea:focus'),
 							),
 							'Select' => array(
 								array('property' => 'color', 'label' => 'Color', 'selector' => '.wpcf7-select:focus'),
@@ -6681,10 +6771,10 @@ if ( is_plugin_active( 'contact-form-7/wp-contact-form-7.php' ) ) {
 								array('property' => 'font-size', 'label' => 'Font Size', 'selector' => '.wpcf7-textarea:hover'),
 								array('property' => 'line-height', 'label' => 'Line Height', 'selector' => '.wpcf7-textarea:hover'),
 								array('property' => 'font-weight', 'label' => 'Font Weight', 'selector' => '.wpcf7-textarea:hover'),
-								array('property' => 'width', 'selector' => '.wpcf7-text:hover'),
-								array('property' => 'height', 'selector' => '.wpcf7-text:hover'),
-								array('property' => 'border', 'selector' => '.wpcf7-text:hover'),
-								array('property' => 'border-radius', 'selector' => '.wpcf7-text:hover'),
+								array('property' => 'width', 'selector' => '.wpcf7-textarea:hover'),
+								array('property' => 'height', 'selector' => '.wpcf7-textarea:hover'),
+								array('property' => 'border', 'selector' => '.wpcf7-textarea:hover'),
+								array('property' => 'border-radius', 'selector' => '.wpcf7-textarea:hover'),
 							),
 							'Select' => array(
 								array('property' => 'color', 'label' => 'Color', 'selector' => '.wpcf7-select:hover'),

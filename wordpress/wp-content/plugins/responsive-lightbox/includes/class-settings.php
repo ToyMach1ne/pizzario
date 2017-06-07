@@ -978,6 +978,13 @@ class Responsive_Lightbox_Settings {
 								'parent' => 'tosrus'
 							)
 						)
+					),
+					'close_on_click' => array(
+						'title'			=> __( 'Overlay close', 'responsive-lightbox' ),
+						'section'		=> 'responsive_lightbox_configuration',
+						'type'			=> 'boolean',
+						'label'			=> __( 'Enable to close lightbox on overlay click.', 'responsive-lightbox' ),
+						'parent'		=> 'tosrus'
 					)
 				);
 				
@@ -1620,6 +1627,7 @@ class Responsive_Lightbox_Settings {
 		// save settings
 		if ( isset( $_POST['save_rl_licenses'] ) ) {
 			$licenses = get_option( 'responsive_lightbox_licenses' );
+			$statuses = array( 'updated' => 0, 'error' => 0 );
 			
 			foreach ( $extensions as $extension ) {
 				if ( ! isset( $_POST['responsive_lightbox_licenses'][$extension['id']] ) )
@@ -1636,13 +1644,11 @@ class Responsive_Lightbox_Settings {
 				);
 				// request
 				$response = $this->license_request( $request_args );
-				
-				echo '<pre>'; print_r( $response ); echo '</pre>';
 
 				// validate request
 				if ( is_wp_error( $response ) ) {
 					$input[$extension['id']['status']] = false;
-					add_settings_error( 'rl_licenses_settings', 'license_activation_failed', __( 'License activation failed.', 'responsive-lightbox' ), 'error' );
+					$statuses['error']++;
 				} else {
 					// decode the license data
 					$license_data = json_decode( wp_remote_retrieve_body( $response ) );
@@ -1651,22 +1657,32 @@ class Responsive_Lightbox_Settings {
 					if ( $license_data->license == 'valid' ) {
 						$input[$extension['id']]['status'] = true;
 						
-						if ( $status === false )
-							add_settings_error( 'rl_licenses_settings', 'license_activated', __( 'License successfully activated.', 'responsive-lightbox' ), 'updated' );
+						if ( $status === false ) {
+							$statuses['updated']++;
+						}
 					} else {
 						$input[$extension['id']]['status'] = false;
-						add_settings_error( 'rl_licenses_settings', 'license_activation_failed', __( 'License activation failed.', 'responsive-lightbox' ), 'error' );
+						$statuses['error']++;
 					}
 				}
 			}
+			
+			// success notice
+			if ( $statuses['updated'] > 0 )
+				add_settings_error( 'rl_licenses_settings', 'license_activated', sprintf( _n( '%s license successfully activated.', '%s licenses successfully activated.', (int) $statuses['updated'], 'responsive-lightbox' ), (int) $statuses['updated'] ), 'updated' );
+			// failed notice
+			if ( $statuses['error'] > 0 )
+				add_settings_error( 'rl_licenses_settings', 'license_activation_failed', sprintf( _n( '%s license activation failed.', '%s licenses activation failed.', (int) $statuses['error'], 'responsive-lightbox' ), (int) $statuses['error'] ), 'error' );
+			
 		} elseif ( isset( $_POST['reset_rl_licenses'] ) ) {
 			$licenses = get_option( 'responsive_lightbox_licenses' );
+			$statuses = array( 'updated' => 0, 'error' => 0 );
 			
 			foreach ( $extensions as $extension ) {
 				$license = ! empty( $licenses ) && isset( $licenses[$extension['id']]['license'] ) ? $licenses[$extension['id']]['license'] : '';
 				$status = ! empty( $licenses ) && ! empty( $licenses[$extension['id']]['status'] ) ? true : false;
 				
-				if ( $status === true ) {	
+				if ( $status === true || ( $status === false && ! empty( $license ) ) ) {	
 					// request data
 					$request_args = array(
 						'action'		=> 'deactivate_license',
@@ -1675,12 +1691,10 @@ class Responsive_Lightbox_Settings {
 					);
 					// request
 					$response = $this->license_request( $request_args );
-					
-					// echo '<pre>'; print_r( $response ); echo '</pre>';
 
 					// validate request
 					if ( is_wp_error( $response ) ) {
-						add_settings_error( 'rl_licenses_settings', 'license_activation_failed', __( 'License activation failed.', 'responsive-lightbox' ), 'error' );
+						$statuses['error']++;
 					} else {
 						// decode the license data
 						$license_data = json_decode( wp_remote_retrieve_body( $response ) );
@@ -1689,13 +1703,21 @@ class Responsive_Lightbox_Settings {
 						if ( $license_data->license == 'deactivated' ) {
 							$input[$extension['id']]['license'] = '';
 							$input[$extension['id']]['status'] = false;
-							add_settings_error( 'rl_licenses_settings', 'license_deactivated', __( 'License successfully deactivated.', 'responsive-lightbox' ), 'updated' );
+							$statuses['updated']++;
 						} else {
-							add_settings_error( 'rl_licenses_settings', 'license_deactivation_failed', __( 'License activation failed.', 'responsive-lightbox' ), 'error' );
+							$statuses['error']++;
 						}
 					}
 				}
 			}
+			
+			// success notice
+			if ( $statuses['updated'] > 0 )
+				add_settings_error( 'rl_licenses_settings', 'license_deactivated', sprintf( _n( '%s license successfully deactivated.', '%s licenses successfully deactivated.', (int) $statuses['updated'], 'responsive-lightbox' ), (int) $statuses['updated'] ), 'updated' );
+			// failed notice
+			if ( $statuses['error'] > 0 )
+				add_settings_error( 'rl_licenses_settings', 'license_deactivation_failed', sprintf( _n( '%s license deactivation failed.', '%s licenses deactivation failed.', (int) $statuses['error'], 'responsive-lightbox' ), (int) $statuses['error'] ), 'error' );
+			
 		}
 		
 		return $input;
@@ -1715,7 +1737,7 @@ class Responsive_Lightbox_Settings {
 			'item_name'		=> urlencode( $args['item_name'] ),
 			// 'item_id'		=> $args['item_id'],
 			'url'			=> home_url(),
-			'timeout'		=> 15,
+			'timeout'		=> 60,
 			'sslverify'		=> false
 		);
 		// call the custom API.

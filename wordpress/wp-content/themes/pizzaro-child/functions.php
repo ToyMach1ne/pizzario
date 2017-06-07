@@ -38,3 +38,4 @@
   );
 
   register_taxonomy( 'kitchens', 'product', $args );
+

@@ -1,5 +1,5 @@
 <?php
-$title = $desc = $icon = $image = $position = $show_button = $button_text = $button_link = $custom_class = $data_img = $data_icon = $data_title = $data_desc = $data_position = $data_button = '';
+$title = $desc = $icon = $image = $position = $show_button = $button_text = $button_title = $button_target = $button_href = $button_link = $custom_class = $data_img = $data_icon = $data_title = $data_desc = $data_position = $data_button = '';
 $layout = 1;
 $wrap_class	= apply_filters( 'kc-el-class', $atts );
 

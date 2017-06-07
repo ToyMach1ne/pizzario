@@ -857,3 +857,68 @@ function kc_abasort( array &$array, $order ) {
 		return (array_search($key1, $order) > array_search($key2, $order));
 	});
 }
+
+
+/* 
+ * Return options for CSS columns
+ */
+
+function kc_column_options ( $selector ){
+    
+    return array(
+        array(
+            'screens' => "any",
+            'Typography' => array(
+                array('property' => 'color', 'label' => 'Color'),
+                array('property' => 'font-size', 'label' => 'Font Size'),
+                array('property' => 'font-weight', 'label' => 'Font Weight'),
+                array('property' => 'font-style', 'label' => 'Font Style'),
+                array('property' => 'font-family', 'label' => 'Font Family'),
+                array('property' => 'text-align', 'label' => 'Text Align'),
+                array('property' => 'text-shadow', 'label' => 'Text Shadow'),
+                array('property' => 'text-transform', 'label' => 'Text Transform'),
+                array('property' => 'text-decoration', 'label' => 'Text Decoration'),
+                array('property' => 'line-height', 'label' => 'Line Height'),
+                array('property' => 'letter-spacing', 'label' => 'Letter Spacing'),
+                array('property' => 'overflow', 'label' => 'Overflow'),
+                array('property' => 'word-break', 'label' => 'Word Break'),
+            ),
+            //Background group
+            'Background' => array(
+                array('property' => 'background'),
+            ),
+            //Box group
+            'Box' => array(
+                array('property' => 'margin', 'label' => 'Margin'),
+                array('property' => 'padding', 'label' => 'Padding'),
+                array('property' => 'border', 'label' => 'Border'),
+                array('property' => 'width', 'label' => 'Width'),
+                array('property' => 'height', 'label' => 'Height'),
+                array('property' => 'border-radius', 'label' => 'Border Radius'),
+                array('property' => 'float', 'label' => 'Float'),
+                array('property' => 'display', 'label' => 'Display'),
+                array('property' => 'box-shadow', 'label' => 'Box Shadow'),
+                array('property' => 'opacity', 'label' => 'Opacity'),
+            ),
+                
+            //Box group
+            'Inside' => array(
+                array('property' => 'margin', 'label' => 'Margin', 'selector' => $selector),
+                array('property' => 'padding', 'label' => 'Padding', 'selector' => $selector),
+                array('property' => 'border', 'label' => 'Border', 'selector' => $selector),
+                array('property' => 'width', 'label' => 'Width', 'selector' => $selector),
+                array('property' => 'height', 'label' => 'Height', 'selector' => $selector),
+                array('property' => 'border-radius', 'label' => 'Border Radius', 'selector' => $selector),
+                array('property' => 'float', 'label' => 'Float', 'selector' => $selector),
+                array('property' => 'display', 'label' => 'Display', 'selector' => $selector),
+                array('property' => 'box-shadow', 'label' => 'Box Shadow', 'selector' => $selector),
+                array('property' => 'opacity', 'label' => 'Opacity', 'selector' => $selector),
+            ),
+                
+            //Custom code css
+            'Custom' => array(
+                array('property' => 'custom', 'label' => 'Custom CSS')
+            )
+        ),
+    );
+}

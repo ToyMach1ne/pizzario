@@ -59,7 +59,7 @@ if( $image_source == 'external_link' ) {
 } else {
 
 	if( $image_source == 'media_library' ) {
-		$image_id = preg_replace( '/[^\d]/', '', $image_id );
+		//$image_id = preg_replace( '/[^\d]/', '', $image_id );
 	} else {
 		$post_id = get_the_ID();
 

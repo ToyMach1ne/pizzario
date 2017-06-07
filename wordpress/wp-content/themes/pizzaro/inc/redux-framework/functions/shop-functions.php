@@ -26,12 +26,16 @@ function redux_apply_catalog_mode_for_product_loop( $product_link, $product ) {
 		$product_link = sprintf( '<a href="%s" class="button product_type_%s">%s</a>',
 			get_permalink( $product_id ),
 			esc_attr( $product_type ),
-			apply_filters( 'pizzaro_catalog_mode_button_text', esc_html__( 'View Product', 'pizzaro' ) )
+			apply_filters( 'pizzaro_catalog_mode_button_text', esc_html__( 'Заказать', 'pizzaro' ) )
 		);
 	}
 
 	return $product_link;
 }
+
+
+
+
 
 if( ! function_exists( 'redux_apply_product_food_type_taxonomy' ) ) {
 	function redux_apply_product_food_type_taxonomy( $brand_taxonomy ) {

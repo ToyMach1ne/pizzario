@@ -20,45 +20,45 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
-	<?php
-	do_action( 'pizzaro_before_header' ); ?>
+  <?php
+  do_action( 'pizzaro_before_header' ); ?>
 
-	<?php $header_bg_version = pizzaro_get_header_bg_version(); ?>
+  <?php $header_bg_version = pizzaro_get_header_bg_version(); ?>
 
-	<header id="masthead" class="site-header header-v4 <?php echo esc_attr( $header_bg_version ); ?>" role="banner" style="<?php pizzaro_header_styles(); ?>">
-		<div class="site-header-wrap">
-		<div class="col-full">
+  <header id="masthead" class="site-header header-v4 <?php echo esc_attr( $header_bg_version ); ?>" role="banner" style="<?php pizzaro_header_styles(); ?>">
+    <div class="site-header-wrap">
+    <div class="col-full">
 
-			<?php
-			/**
-			 * Functions hooked into pizzaro_header_v1 action
-			 *
-			 * @hooked pizzaro_skip_links                       - 0
-			 * @hooked pizzaro_site_branding                    - 20
-			 * @hooked pizzaro_primary_navigation               - 30
-			 * @hooked pizzaro_header_cart                      - 50
-			 */
-			do_action( 'pizzaro_header_v4' ); ?>
+      <?php
+      /**
+       * Functions hooked into pizzaro_header_v1 action
+       *
+       * @hooked pizzaro_skip_links                       - 0
+       * @hooked pizzaro_site_branding                    - 20
+       * @hooked pizzaro_primary_navigation               - 30
+       * @hooked pizzaro_header_cart                      - 50
+       */
+      do_action( 'pizzaro_header_v4' ); ?>
 
-		</div>
-		</div>
-	</header><!-- #masthead -->
+    </div>
+    </div>
+  </header><!-- #masthead -->
 
-	<?php
-	/**
-	 * Functions hooked in to pizzaro_before_content
-	 *
-	 * @hooked pizzaro_header_widget_region - 10
-	 */
-	do_action( 'pizzaro_before_content' ); ?>
+  <?php
+  /**
+   * Functions hooked in to pizzaro_before_content
+   *
+   * @hooked pizzaro_header_widget_region - 10
+   */
+  do_action( 'pizzaro_before_content' ); ?>
 
-	<div id="content" class="site-content" tabindex="-1" <?php pizzaro_site_content_style(); ?>>
-		<div class="col-full">
+  <div id="content" class="site-content" tabindex="-1" <?php pizzaro_site_content_style(); ?>>
+    <div class="col-full">
 
-		<?php
-		/**
-		 * Functions hooked in to pizzaro_content_top
-		 *
-		 * @hooked woocommerce_breadcrumb - 10
-		 */
-		do_action( 'pizzaro_content_top' );
+    <?php
+    /**
+     * Functions hooked in to pizzaro_content_top
+     *
+     * @hooked woocommerce_breadcrumb - 10
+     */
+    do_action( 'pizzaro_content_top' );

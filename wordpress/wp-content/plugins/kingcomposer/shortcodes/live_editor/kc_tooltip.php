@@ -37,9 +37,9 @@ if ( icon !== '' ) {
 
 }
 
-if ( image > 0 ) {
+if ( image !='' ) {
 
-	image 	= image.replace( /[^\d]/, '' );
+	//image 	= image.replace( /[^\d]/, '' );
 	
 	if ( img_size !== 'full'  ) {
 		img_link = ajaxurl + '?action=kc_get_thumbn_size&id=' + image + '&size=' + img_size ;

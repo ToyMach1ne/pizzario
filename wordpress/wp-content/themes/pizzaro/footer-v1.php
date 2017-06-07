@@ -9,27 +9,27 @@
 
 ?>
 
-		</div><!-- .col-full -->
-	</div><!-- #content -->
+    </div><!-- .col-full -->
+  </div><!-- #content -->
 
-	<?php do_action( 'pizzaro_before_footer_v1' ); ?>
+  <?php do_action( 'pizzaro_before_footer_v1' ); ?>
 
-	<footer id="colophon" class="site-footer footer-v1" role="contentinfo">
-		<div class="col-full">
+  <footer id="colophon" class="site-footer footer-v1" role="contentinfo">
+    <div class="col-full">
 
-			<?php
-			/**
-			 * Functions hooked in to pizzaro_footer action
-			 *
-			 * @hooked pizzaro_footer_widgets - 10
-			 * @hooked pizzaro_credit         - 20
-			 */
-			do_action( 'pizzaro_footer_v1' ); ?>
+      <?php
+      /**
+       * Functions hooked in to pizzaro_footer action
+       *
+       * @hooked pizzaro_footer_widgets - 10
+       * @hooked pizzaro_credit         - 20
+       */
+      do_action( 'pizzaro_footer_v1' ); ?>
 
-		</div><!-- .col-full -->
-	</footer><!-- #colophon -->
+    </div><!-- .col-full -->
+  </footer><!-- #colophon -->
 
-	<?php do_action( 'pizzaro_after_footer_v1' ); ?>
+  <?php do_action( 'pizzaro_after_footer_v1' ); ?>
 
 </div><!-- #page -->
 

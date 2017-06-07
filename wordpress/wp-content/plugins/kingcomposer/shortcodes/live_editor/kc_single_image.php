@@ -62,7 +62,7 @@ if( image_source == 'external_link' ) {
 
 	if( image_source == 'media_library' )
 	{
-		image_id 	= image_id.replace( /[^\d]/, '' );
+		//image_id 	= image_id.replace( /[^\d]/, '' );
 	}
 	else
 	{

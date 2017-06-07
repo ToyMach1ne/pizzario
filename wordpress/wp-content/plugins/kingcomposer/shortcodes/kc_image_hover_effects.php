@@ -1,5 +1,5 @@
 <?php
-$image = $event_click = $custom_link = $title = $button_text = $button_link = $icon = $custom_class = $img_url = $link_url = $link_title = $link_target = $before_url = $after_url = $data_img = $data_title = $data_desc = $data_button = '';
+$image = $event_click = $custom_link = $title = $button_text = $button_link = $caption_animation = $icon = $custom_class = $img_url = $link_url = $link_title = $link_target = $before_url = $after_url = $data_img = $data_title = $data_desc = $data_button = '';
 $img_size = '1170x700xct';
 $layout = 1;
 
@@ -7,7 +7,7 @@ $wrap_class	= apply_filters( 'kc-el-class', $atts );
 
 extract( $atts );
 
-$wrap_class[] = 'kc-image-hover-effects kc-img-effects-' . $layout;
+$wrap_class[] = 'kc-image-hover-effects kc-img-effects-' . $layout . ' ' . esc_attr( $caption_animation );
 if ( !empty( $custom_class ) )
 	$wrap_class[] = $custom_class;
 

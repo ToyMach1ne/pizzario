@@ -25,8 +25,8 @@ if ( custom_class !=='' ) {
 	wrap_class.push( custom_class );
 }
 
-if ( image > 0 ) {
-	image 	= image.replace( /[^\d]/, '' );
+if ( image !='' ) {
+	//image 	= image.replace( /[^\d]/, '' );
 
 	if ( img_size !== 'full'  ) {
 		img_link = ajaxurl + '?action=kc_get_thumbn_size&id=' + image + '&size=' + img_size ;

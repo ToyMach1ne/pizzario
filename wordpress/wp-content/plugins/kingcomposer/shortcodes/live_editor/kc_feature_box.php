@@ -35,8 +35,8 @@ if ( custom_class !=='' ) {
 	wrap_class.push( custom_class );
 }
 
-if ( image > 0 ) {
-	image 	= image.replace( /[^\d]/, '' );
+if ( image !='' ) {
+	//image 	= image.replace( /[^\d]/, '' );
 	img_link 	= ajaxurl + '?action=kc_get_thumbn&id=' + image + '&size=full';
 
 	data_img += '<figure class="content-image">';

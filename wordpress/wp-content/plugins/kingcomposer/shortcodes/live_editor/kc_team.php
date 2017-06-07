@@ -34,8 +34,8 @@ wrap_class.push( 'kc-team-' + layout ) ;
 if ( el_class !== '' )
 	wrap_class.push( el_class );
 
-if ( image > 0 ) {
-	image 	= image.replace( /[^\d]/, '' );
+if ( image != '' ) {
+	//image 	= image.replace( /[^\d]/, '' );
 
 	if ( sizes.indexOf( img_size ) < 0  ) {
 		img_link = ajaxurl + '?action=kc_get_thumbn_size&id=' + image + '&size=' + img_size ;

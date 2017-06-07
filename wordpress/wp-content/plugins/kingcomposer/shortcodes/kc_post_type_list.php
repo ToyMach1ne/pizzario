@@ -86,13 +86,15 @@ if ( $the_query->have_posts() ) {
 		$the_query->the_post();
 		?>
 		<div class="list-item post-<?php echo esc_attr( $post->ID ); ?>">
-			<h3><a href="<?php echo esc_attr( get_permalink( $post->ID ) ); ?>"><?php the_title(); ?></a></h3>
 			<div class="post-content">
-				<?php
-				if ( has_post_thumbnail() && $thumbnail === 'yes' ) {
-					the_post_thumbnail($image_size);
-				}
-				?>
+				<figure>
+					<?php
+					if ( has_post_thumbnail() && $thumbnail === 'yes' ) {
+						the_post_thumbnail($image_size);
+					}
+					?>
+				</figure>
+				<h3><a href="<?php echo esc_attr( get_permalink( $post->ID ) ); ?>"><?php the_title(); ?></a></h3>
 				<div class="kc-entry_meta">
 				<?php
 					if ( has_post_format( array( 'chat', 'status' ) ) )

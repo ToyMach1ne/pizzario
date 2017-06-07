@@ -801,8 +801,8 @@
 				});
 				
 				setTimeout(function(datas, el){
-					
-					var param, atts, field, value;
+
+					var param, atts, field, value, parents = [], iparents = [];
 					
 					for (var i in datas) {
 						param = datas[i][0];
@@ -812,12 +812,18 @@
 						
 						if( param.relation !== undefined ){
 	
-							var thru = false, pr = param.relation;
+							var thru = false, pr = param.relation, iparent;
 	
 							if( pr.parent !== undefined && ( pr.show_when !== undefined || pr.hide_when !== undefined  ) ){
-	
-								var parent = el.find('>.field-base-'+pr.parent);
-	
+
+								if( parents[ pr.parent ] !== undefined ){
+									parent = parents[ pr.parent ];
+								}
+								else{
+									parent = el.find('>.field-base-'+pr.parent);
+									parents[ pr.parent ] = parent;
+								}
+
 								if( parent.get(0) ){
 	
 									if( parent.data('child') !== undefined )
@@ -832,8 +838,15 @@
 									}
 	
 									parent.data({ child : child });
-	
-									var iparent = parent.find('input.kc-param[type="radio"],input.kc-param[type="checkbox"],select.kc-param');
+
+									if( iparents[ pr.parent ] !== undefined ){
+										iparent = iparents[ pr.parent ];
+									}
+									else{
+										iparent = parent.find('input.kc-param[type="radio"],input.kc-param[type="checkbox"],select.kc-param');
+										iparents[ pr.parent ] = iparent;
+									}
+
 									if( pr.show_when !== undefined ){
 										if( typeof pr.show_when != 'object' )
 											pr.show_when = pr.show_when.toString().split(',');
@@ -923,8 +936,6 @@
 	
 											}
 										).addClass('m-p-rela');
-										
-										iparent.trigger('change');
 	
 									}
 								}
@@ -941,7 +952,11 @@
 						}
 						
 					}
-					
+
+					for(var ip in iparents){
+						if( iparents[ip].get(0) ) iparents[ip].trigger('change');
+					}
+
 					delete datas, param, atts, field, value;
 					
 				}, 1, events_stack, el);
@@ -964,7 +979,7 @@
 					return false;
 					
 				map = $().extend( map, kc.maps[ cfg[2] ] );
-				
+
 				kc.params.fields.render( tab_content, map.params[cfg[0]] , data.args );
 				
 				$(tab).data( 'callback', function( tit, tab ){/* ... */ });
@@ -1402,7 +1417,23 @@
 								'none': 'None',
 							}
 						}
-					},	
+					},
+					'position' : {
+						type: 'select_group',
+						options: {
+							custom: true,
+							tooltip: true,
+							buttons: {
+								'': '<i class="fa-ban"></i>',
+								'static': 'Static',
+								'absolute': 'Absolute',
+								'fixed': 'Fixed',
+								'relative': 'Relative',
+								'initial': 'Initial',
+								'inherit': 'Inherit',
+							}
+						}
+					},
 					'display' : {
 						type: 'select_group',
 						options: {

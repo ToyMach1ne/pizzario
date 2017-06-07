@@ -93,6 +93,10 @@ switch ( $layout ) {
 	case '3':
 		$css_class[] = 'kc-blog-grid kc_blog_masonry';
 	break;
+	case '4':
+		$css_class[] 	= 'owl-carousel';
+		$data_owl 		= ' data-owl-options=\'{"autoplay": "yes", "pagination": "yes", "items": "3", "tablet":3, "mobile":1}\'';
+	break;
 	default:
 
 	break;
@@ -281,34 +285,36 @@ $css_class[] = 'kc-image-align-' . $image_align;
 								</div>
 							</a>
 						<?php endif; ?>
-						<?php if ( $meta_data == 'yes'): ?>
-							<div class="entry-meta">
-								<?php if ( $show_author == 'yes' ): ?>
-									<span class="post-author"><i class="fa fa-user"></i>  <a
-											href="<?php echo get_author_posts_url( $post->post_author ); ?>"
-											title="<?php esc_html_e( 'Posts by ', 'kingcomposer' );
-											echo get_the_author_meta( 'display_name', $post->post_author ); ?>"
-											rel="author"><?php echo get_the_author_meta( 'display_name', $post->post_author ); ?></a></span>
-								<?php endif;?>
-								<?php if ( $show_date == 'yes' ): ?>
-								<span class="entry-date"><a
-										href="<?php echo esc_url( get_permalink( $post->ID ) ); ?>"><?php echo get_the_date( 'F m, Y', $post->ID ); ?></a></span>
-								<?php endif;?>
-								<?php if ( $show_category == 'yes' ): ?>
-									<?php if ( get_the_category( $post->ID ) ): ?>
-										<span class="entry-cats"><?php the_category( ', ', '', $post->ID ); ?></span>
-									<?php endif ?>
-								<?php endif ?>
-							</div>
-						<?php endif ?>
-						<h2 class="post-title-alt"><a
+						<div class="content">
+							<h2 class="post-title-alt"><a
 								href="<?php echo esc_url( get_permalink( $post->ID ) ); ?>"><?php echo get_the_title( $post ); ?></a>
-						</h2>
-						<?php if ( $words > 0 ): ?>
-							<div class="entry-excerpt">
-								<p><?php echo wp_trim_words( $post_content, $words ); ?></p>
-							</div>
-						<?php endif ?>
+							</h2>
+							<?php if ( $meta_data == 'yes'): ?>
+								<div class="entry-meta">
+									<?php if ( $show_author == 'yes' ): ?>
+										<span class="post-author"><a
+												href="<?php echo get_author_posts_url( $post->post_author ); ?>"
+												title="<?php esc_html_e( 'Posts by ', 'kingcomposer' );
+												echo get_the_author_meta( 'display_name', $post->post_author ); ?>"
+												rel="author"><?php echo get_the_author_meta( 'display_name', $post->post_author ); ?></a></span>
+									<?php endif;?>
+									<?php if ( $show_date == 'yes' ): ?>
+									<span class="entry-date"><a
+											href="<?php echo esc_url( get_permalink( $post->ID ) ); ?>"><?php echo get_the_date( 'F m, Y', $post->ID ); ?></a></span>
+									<?php endif;?>
+									<?php if ( $show_category == 'yes' ): ?>
+										<?php if ( get_the_category( $post->ID ) ): ?>
+											<span class="entry-cats"><?php the_category( ', ', '', $post->ID ); ?></span>
+										<?php endif ?>
+									<?php endif ?>
+								</div>
+							<?php endif ?>
+							<?php if ( $words > 0 ): ?>
+								<div class="entry-excerpt">
+									<p><?php echo wp_trim_words( $post_content, $words ); ?></p>
+								</div>
+							<?php endif ?>
+						</div>
 					</div>
 				</div>
 				
@@ -325,7 +331,7 @@ $css_class[] = 'kc-image-align-' . $image_align;
 		
 			if ( has_post_thumbnail( $item->ID ) ) {
 				$image_id   = get_post_thumbnail_id( $item->ID );
-				$image_size = ! empty( $image_size ) ? $image_size : '370x250xct';
+				$image_size = ! empty( $image_size ) ? $image_size : '500x500xct';
 				
 				if ( in_array( $image_size, $size_array ) ) {
 					$image_data = wp_get_attachment_image_src( $image_id, $image_size );
@@ -343,7 +349,7 @@ $css_class[] = 'kc-image-align-' . $image_align;
 			}
 			?>
 	
-				<div class="grid-<?php echo esc_attr( $number_item ); ?>">
+				<div class="item">
 					<div class="kc-list-item-4">
 						<div class="kc-post-header">
 							<?php if ( ! empty( $img_url ) ): ?>
@@ -372,82 +378,6 @@ $css_class[] = 'kc-image-align-' . $image_align;
 								</h2>
 							</div>
 						</div>
-						
-						<?php if ( $words > 0 ): ?>
-						<div class="post-content"><p><?php echo wp_trim_words( $item->post_content, $words ); ?></p></div>
-						<?php endif ?>
-						<?php if ( isset($socials) && !empty( $socials ) ): ?>
-						<div class="post-footer">
-							<?php
-							$icons = array_unique( explode( ',', $socials ) );
-							
-							if ( count( $icons ) > 0 )
-							{
-							?>
-							<ul class="social-share">
-								<?php
-								foreach ( $icons as $icon ) {
-									
-									
-									switch ( $icon ) {
-										case 'comment':
-											?>
-											<li>
-												<a href="<?php echo get_comments_link( $item->ID ) ?>"
-												   class="comment-count fa fa-comments"
-												   data-id="32" title=""><span
-														class="number"> <?php echo get_comments_number( $item->ID ); ?></span></a>
-											</li>
-											<?php
-											break;
-										case 'facebook':
-											?>
-											<li>
-												<a href="http://www.facebook.com/sharer.php?u=<?php echo esc_url( get_permalink( $item->ID ) ); ?>"
-												   class="fa fa-facebook" target="_blank"
-												   title="<?php esc_html_e( 'Share on Facebook', 'kingcomposer' ); ?>"></a>
-											</li>
-											<?php
-											break;
-										case 'twitter':
-											?>
-											<li>
-												<a href="http://twitter.com/home?status=<?php echo esc_url( get_permalink( $item->ID ) ); ?>"
-												   class="fa fa-twitter" target="_blank"
-												   title="<?php esc_html_e( 'Share on Twitter', 'kingcomposer' ); ?>"></a>
-											</li>
-											<?php
-											
-											break;
-										case 'google':
-											
-											?>
-											<li>
-												<a href="http://plus.google.com/share?url=<?php echo esc_url( get_permalink( $item->ID ) ); ?>"
-												   class="fa fa-google-plus" target="_blank"
-												   title="<?php esc_html_e( 'Share on Google+', 'kingcomposer' ); ?>"></a>
-											</li>
-											<?php
-											
-											break;
-										case 'pinterest':
-											
-											?>
-											<li>
-												<a href="http://pinterest.com/pin/create/button/?url=<?php echo esc_url( get_permalink( $item->ID ) ); ?>&amp;media=<?php echo esc_url( $img_url ); ?>"
-												   class="fa fa-pinterest-p" target="_blank"
-												   title="<?php esc_html_e( 'Share on Pinterest', 'kingcomposer' ); ?>"></a>
-											</li>
-											<?php
-									}
-								}
-								?>
-							</ul>
-							<?php
-							}
-							?>
-						</div>
-						<?php endif ?>
 					</div>
 				</div>
 		<?php

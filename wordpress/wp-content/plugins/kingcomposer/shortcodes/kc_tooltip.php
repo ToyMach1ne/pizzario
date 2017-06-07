@@ -24,7 +24,7 @@ if ( !empty( $icon ) ) {
 
 }
 
-if ( $image > 0 ) {
+if ( $image != '' ) {
 
 	$img_link = wp_get_attachment_image_src( $image, 'full' );
 	$img_link = $img_link[0];

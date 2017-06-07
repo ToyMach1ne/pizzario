@@ -158,6 +158,18 @@ Do you have questions or issues with KingComposer? Use these support channels ap
 
 == Changelog ==
 
+= 2.6.12 (Jun 6, 2017) =
+* [Fix] Contact Form 7 Textarea setting style missing some fields.
+* [Fix] Error when insert new column inner on backend.
+* [Fix] Conflict between multi tabs slider
+* [Fix] Fix Instagram SSL error for getting images
+* [Fix] Post status auto change to Published after save
+* [Improve] Speed up performance relation fields. Now you can add more than 50 fields at same tab setting!
+* [Improve] Remove default images if image is not exists.
+* [Improve] Remove video background url default on param.
+* [Improve] Add Inside options for columns - more control on style with columns.
+* [Improve] Use new system for Presets & Templates online. Now you can have exactly how section display on preset site event that section include image.
+
 = 2.6.11 (Feb 24, 2017) =
 * [New Feature] Live editor inline for text block.
 * [New Element] Add contact form 7 element.

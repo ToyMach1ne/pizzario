@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Responsive Lightbox\n"
-"POT-Creation-Date: 2017-05-15 16:13+0200\n"
+"POT-Creation-Date: 2017-05-31 09:33+0200\n"
 "PO-Revision-Date: 2015-05-12 12:06+0100\n"
 "Last-Translator: Bartosz Arendt <info@dfactory.eu>\n"
 "Language-Team: dFactory <info@dfactory.eu>\n"
@@ -390,7 +390,7 @@ msgstr ""
 msgid "Gallery"
 msgstr ""
 
-#: ../includes/class-settings.php:374 ../includes/class-settings.php:1262
+#: ../includes/class-settings.php:374 ../includes/class-settings.php:1269
 msgid "Licenses"
 msgstr ""
 
@@ -635,7 +635,7 @@ msgstr ""
 msgid "Enable escape button"
 msgstr ""
 
-#: ../includes/class-settings.php:651 ../includes/class-settings.php:1022
+#: ../includes/class-settings.php:651 ../includes/class-settings.php:1029
 msgid "Toggle if pressing Esc button closes lightbox."
 msgstr ""
 
@@ -816,7 +816,7 @@ msgstr ""
 msgid "Click overlay to close"
 msgstr ""
 
-#: ../includes/class-settings.php:841
+#: ../includes/class-settings.php:841 ../includes/class-settings.php:986
 msgid "Enable to close lightbox on overlay click."
 msgstr ""
 
@@ -930,72 +930,76 @@ msgstr ""
 msgid "Thumbnails"
 msgstr ""
 
-#: ../includes/class-settings.php:991
+#: ../includes/class-settings.php:983
+msgid "Overlay close"
+msgstr ""
+
+#: ../includes/class-settings.php:998
 msgid "Opening speed"
 msgstr ""
 
-#: ../includes/class-settings.php:994
+#: ../includes/class-settings.php:1001
 msgid "Duration of opening animation."
 msgstr ""
 
-#: ../includes/class-settings.php:999
+#: ../includes/class-settings.php:1006
 msgid "Closing speed"
 msgstr ""
 
-#: ../includes/class-settings.php:1002
+#: ../includes/class-settings.php:1009
 msgid "Duration of closing animation."
 msgstr ""
 
-#: ../includes/class-settings.php:1007
+#: ../includes/class-settings.php:1014
 msgid "Close on click"
 msgstr ""
 
-#: ../includes/class-settings.php:1010
+#: ../includes/class-settings.php:1017
 msgid "Select how to close lightbox."
 msgstr ""
 
-#: ../includes/class-settings.php:1012
+#: ../includes/class-settings.php:1019
 msgid "background"
 msgstr ""
 
-#: ../includes/class-settings.php:1013
+#: ../includes/class-settings.php:1020
 msgid "anywhere"
 msgstr ""
 
-#: ../includes/class-settings.php:1014
+#: ../includes/class-settings.php:1021
 msgid "false"
 msgstr ""
 
-#: ../includes/class-settings.php:1019
+#: ../includes/class-settings.php:1026
 msgid "Close on Esc"
 msgstr ""
 
-#: ../includes/class-settings.php:1026
+#: ../includes/class-settings.php:1033
 msgid "Gallery fade in"
 msgstr ""
 
-#: ../includes/class-settings.php:1029
+#: ../includes/class-settings.php:1036
 msgid "Animation speed when image is loaded."
 msgstr ""
 
-#: ../includes/class-settings.php:1034
+#: ../includes/class-settings.php:1041
 msgid "Gallery fade out"
 msgstr ""
 
-#: ../includes/class-settings.php:1037
+#: ../includes/class-settings.php:1044
 msgid "Animation speed before image is loaded."
 msgstr ""
 
-#: ../includes/class-settings.php:1066 ../includes/class-settings.php:1081
-#: ../includes/class-settings.php:1094
+#: ../includes/class-settings.php:1073 ../includes/class-settings.php:1088
+#: ../includes/class-settings.php:1101
 msgid "Responsive Lightbox"
 msgstr ""
 
-#: ../includes/class-settings.php:1096
+#: ../includes/class-settings.php:1103
 msgid "Need support?"
 msgstr ""
 
-#: ../includes/class-settings.php:1097
+#: ../includes/class-settings.php:1104
 #, php-format
 msgid ""
 "If you are having problems with this plugin, please browse it's <a href=\"%s"
@@ -1003,73 +1007,60 @@ msgid ""
 "\" target=\"_blank\">Support forum</a>"
 msgstr ""
 
-#: ../includes/class-settings.php:1099
+#: ../includes/class-settings.php:1106
 msgid "Do you like this plugin?"
 msgstr ""
 
-#: ../includes/class-settings.php:1100
+#: ../includes/class-settings.php:1107
 #, php-format
 msgid "<a href=\"%s\" target=\"_blank\">Rate it 5</a> on WordPress.org"
 msgstr ""
 
-#: ../includes/class-settings.php:1101
+#: ../includes/class-settings.php:1108
 #, php-format
 msgid ""
 "Blog about it & link to the <a href=\"%s\" target=\"_blank\">plugin page</a>."
 msgstr ""
 
-#: ../includes/class-settings.php:1102
+#: ../includes/class-settings.php:1109
 #, php-format
 msgid ""
 "Check out our other <a href=\"%s\" target=\"_blank\">WordPress plugins</a>."
 msgstr ""
 
-#: ../includes/class-settings.php:1144
+#: ../includes/class-settings.php:1151
 msgid "Reset to defaults"
 msgstr ""
 
-#: ../includes/class-settings.php:1532
+#: ../includes/class-settings.php:1539
 msgid "Settings restored to defaults."
 msgstr ""
 
-#: ../includes/class-settings.php:1545
+#: ../includes/class-settings.php:1552
 msgid "Add-ons / Extensions"
 msgstr ""
 
-#: ../includes/class-settings.php:1546
+#: ../includes/class-settings.php:1553
 msgid ""
 "Enhance your website with these beautiful, easy to use extensions, designed "
 "with Responsive Lightbox integration in mind."
 msgstr ""
 
-#: ../includes/class-settings.php:1560
+#: ../includes/class-settings.php:1567
 msgid ""
 "There was an error retrieving the extensions list from the server. Please "
 "try again later."
 msgstr ""
 
-#: ../includes/class-settings.php:1573
+#: ../includes/class-settings.php:1580
 msgid "A list of licenses for your Responsive Lightbox extensions."
 msgstr ""
 
-#: ../includes/class-settings.php:1589
+#: ../includes/class-settings.php:1596
 #, php-format
 msgid ""
 "Enter your license key to activate %s extension and enable automatic upgrade "
 "notices."
-msgstr ""
-
-#: ../includes/class-settings.php:1645 ../includes/class-settings.php:1658
-#: ../includes/class-settings.php:1683 ../includes/class-settings.php:1694
-msgid "License activation failed."
-msgstr ""
-
-#: ../includes/class-settings.php:1655
-msgid "License successfully activated."
-msgstr ""
-
-#: ../includes/class-settings.php:1692
-msgid "License successfully deactivated."
 msgstr ""
 
 #: ../includes/class-widgets.php:47
@@ -1114,7 +1105,7 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
-#: ../includes/class-widgets.php:128 ../responsive-lightbox.php:472
+#: ../includes/class-widgets.php:128 ../responsive-lightbox.php:473
 msgid "Select images"
 msgstr ""
 
@@ -1194,7 +1185,7 @@ msgstr ""
 msgid "Justify"
 msgstr ""
 
-#: ../includes/class-widgets.php:450 ../responsive-lightbox.php:473
+#: ../includes/class-widgets.php:450 ../responsive-lightbox.php:474
 msgid "Select image"
 msgstr ""
 
@@ -1234,41 +1225,41 @@ msgstr ""
 msgid "Text align"
 msgstr ""
 
-#: ../responsive-lightbox.php:332
+#: ../responsive-lightbox.php:333
 #, php-format
 msgid ""
 "Thank you for installing Responsive Lightbox version %s. <a href=\"%s"
 "\">Click here</a> to check out our latest extensions!"
 msgstr ""
 
-#: ../responsive-lightbox.php:404
+#: ../responsive-lightbox.php:405
 msgid "Support"
 msgstr ""
 
-#: ../responsive-lightbox.php:423
+#: ../responsive-lightbox.php:424
 msgid "Settings"
 msgstr ""
 
-#: ../responsive-lightbox.php:444
+#: ../responsive-lightbox.php:445
 msgid "Are you sure you want to reset these settings to defaults?"
 msgstr ""
 
-#: ../responsive-lightbox.php:445
+#: ../responsive-lightbox.php:446
 msgid "Are you sure you want to reset this script settings to defaults?"
 msgstr ""
 
-#: ../responsive-lightbox.php:446
+#: ../responsive-lightbox.php:447
 msgid "Are you sure you want to reset this gallery settings to defaults?"
 msgstr ""
 
-#: ../responsive-lightbox.php:471
+#: ../responsive-lightbox.php:472
 msgid "Remove image"
 msgstr ""
 
-#: ../responsive-lightbox.php:474
+#: ../responsive-lightbox.php:475
 msgid "Use these images"
 msgstr ""
 
-#: ../responsive-lightbox.php:475
+#: ../responsive-lightbox.php:476
 msgid "Use this image"
 msgstr ""

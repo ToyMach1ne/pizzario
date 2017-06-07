@@ -98,6 +98,7 @@ class kc_sections{
 			'supports'           => array( 'title', 'editor', 'thumbnail' ),
 			'taxonomies' 		 => array( 'kc-section-category' ),
 			'rewrite'			 => array( 'slug' => 'kc-section', 'with_front' => false ),
+            'exclude_from_search' => true
 
 		);
 		

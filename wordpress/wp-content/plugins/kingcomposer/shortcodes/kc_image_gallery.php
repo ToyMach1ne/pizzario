@@ -1,6 +1,6 @@
 <?php
 
-$output = $custom_links = $title = $type_class = $slider_item_start = $slider_item_end = $ul_start = $ul_end = '';
+$output = $custom_links = $title = $type_class = $overlay = $icon = $slider_item_start = $slider_item_end = $ul_start = $ul_end = '';
 $slider_width = $navigation = $pagination = $image_masonry = $columns = '';
 
 $size_array = array('full', 'medium', 'large', 'thumbnail');
@@ -53,6 +53,12 @@ ob_start();
 if(!empty($title))
 	echo '<h3 class="kc-title image-gallery-title">'. esc_html($title) .'</h3>';
 
+if( !empty( $overlay ) ){
+    $html = '<div class="kc-image-overlay">';
+    if( !empty( $icon ) )
+        $html .= '<i class="' . $icon . '"></i>';
+    $html .= '</div>';
+}
 ?>
 
 <div <?php echo implode(' ', $element_attribute ); ?>>
@@ -75,25 +81,25 @@ if(!empty($title))
 			switch( $click_action ){
 
 				case 'none':
-					echo '<div class="item-grid grid-'. $columns .'"><img src="'. esc_attr($image[0]) .'" alt="' . $alttext .'"/></div>';
+					echo '<div class="item-grid grid-'. $columns .'"><img src="'. esc_attr($image[0]) .'" alt="' . $alttext .'"/> '. $html .'</div>';
 					break;
 
 				case 'large_image':
 					echo '<div class="item-grid grid-'. $columns .'"><a href="'. esc_attr( $attachment_data_full[$i][0] ) .'" target="_blank">'
-						.'<img src="'. esc_attr($image[0]) .'" alt="' . $alttext .'"/></a></div>';
+						.'<img src="'. esc_attr($image[0]) .'" alt="' . $alttext .'"/></a> '. $html .' </div>';
 					break;
 
 				case 'lightbox':
 					echo '<div class="item-grid grid-'. $columns .'"><a class="kc-image-link kc-pretty-photo" data-lightbox="kc-lightbox" rel="kc-pretty-photo['.$pretty_id.']" href="'. esc_attr( esc_attr( $attachment_data_full[$i][0] ) ) .'">'
-						.'<img src="'. esc_attr($image[0]) .'" alt="' . $alttext .'"/></a></div>';
+						.'<img src="'. esc_attr($image[0]) .'" alt="' . $alttext .'"/></a> '. $html .' </div>';
 					break;
 
 				case 'custom_link':
 					if(isset($custom_links_arr[$i])){
 						echo '<div class="item-grid grid-'. $columns .'"><a href="'. esc_attr( strip_tags($custom_links_arr[$i]) ) .'" target="_blank">'
-							.'<img src="'. esc_attr($image[0]) .'" alt="' . $alttext .'"/></a></div>';
+							.'<img src="'. esc_attr($image[0]) .'" alt="' . $alttext .'"/></a> '. $html .' </div>';
 					}else{
-						echo '<div class="item-grid grid-'. $columns .'"><img src="'. esc_attr($image[0]) .'" alt="' . $alttext .'"/></div>';
+						echo '<div class="item-grid grid-'. $columns .'"><img src="'. esc_attr($image[0]) .'" alt="' . $alttext .'"/> '. $html .' </div>';
 					}
 
 					break;

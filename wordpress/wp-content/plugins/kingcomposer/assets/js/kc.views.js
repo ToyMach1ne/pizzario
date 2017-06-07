@@ -100,9 +100,7 @@
 
                 kc.cfg.preset_link = kc.cfg.preset_link.replace( "http://features.kingcomposer.com/", "https://kingcomposer.com/presets/");
 
-                console.log( kc.cfg.preset_link);
-
-                var src = kc.cfg.preset_link+'&client_site='+kc.tools.base64.encode(kc_ajax_url);
+                var src = kc.cfg.preset_link+'&ver=' + kc_version + '&client_site='+kc.tools.base64.encode(kc_ajax_url);
 				
 				if (window.location.href.indexOf('https') === 0)
 					src = 'https://kingcomposer.com/redirect.php?url='+encodeURIComponent(src);
@@ -770,9 +768,11 @@
 			
 			render : function( params ){
 				
-				params.name = 'kc_column'; params.end = '[/kc_column]';
+				if( typeof params.name == 'undefined' ){
+					params.name = 'kc_column'; params.end = '[/kc_column]';
+				}
 				
-				var _w = params.args['width'];
+				var _w = params.args['width'], el, tmp_name = 'column';
 				if( _w != undefined ){
 					if( _w.toString().indexOf('/') > -1 ){
 						_w = _w.split('/');
@@ -782,9 +782,13 @@
 				}else{
 					_w = '100%';
 				}
-				
-				var el = $( kc.template( 'column', { width: _w } ) );
-				
+
+				if( params.name.indexOf('kc_column_inner') > -1)
+					tmp_name = 'column-inner';
+				else
+					tmp_name = 'column';
+
+				el = $( kc.template( tmp_name, { width: _w } ) );
 				kc.params.process_all( params.args.content, el.find('.kc-column-wrap') );
 				
 				this.el = el;
@@ -832,14 +836,14 @@
 				var el = $('#model-'+id),
 					data = kc.storage[id],
 					cdata = $().extend( true, {}, data );
-				
+
 				if( el.parent().find('>.kc-model').length >= 10 ){
 					alert(kc.__.i54);
 					return;
 				}
-				
+
 				cdata.args.content = '';
-				
+
 				var cel = kc.views.column.render( cdata, true );
 				el.after(cel);
 				

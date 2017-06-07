@@ -11,9 +11,9 @@
 
 remove_action( 'pizzaro_content_top', 'pizzaro_breadcrumb', 10 );
 
-do_action( 'pizzaro_before_homepage_v1' );
+do_action( 'pizzaro_before_homepage_v4' );
 
-get_header( 'v1' ); ?>
+get_header( 'v3' ); ?>
 
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">

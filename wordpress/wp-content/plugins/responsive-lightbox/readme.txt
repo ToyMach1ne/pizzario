@@ -3,8 +3,8 @@ Contributors: dfactory
 Donate link: http://www.dfactory.eu/
 Tags: gallery, images, lightbox, photos, theme, photo, image, picture, slideshow, modal, overlay, video
 Requires at least: 4.0
-Tested up to: 4.7.4
-Stable tag: 1.7.0
+Tested up to: 4.7.5
+Stable tag: 1.7.1
 License: MIT License
 License URI: http://opensource.org/licenses/MIT
 
@@ -69,6 +69,12 @@ No questions yet.
 2. screenshot-2.jpg
 
 == Changelog ==
+
+= 1.7.1 =
+* New: Tos "R" Us overlay close option
+* Fix: License activation issues
+* Tweak: Featherlight script update to 1.7.0
+* Tweak: Imagelightbox script update
 
 = 1.7.0 =
 * New: Add lightbox to widgets content
@@ -312,10 +318,8 @@ Initial release
 
 == Upgrade Notice ==
 
-= 1.7.0 =
-* New: Add lightbox to widgets content
-* New: Add lightbox to WordPress comments
-* New: Gallery widget
-* New: Single image widget
-* New: Visual Composer compatibility
-* New: WooCommerce 3.0 compatibility
+= 1.7.1 =
+* New: Tos "R" Us overlay close option
+* Fix: License activation issues
+* Tweak: Featherlight script update to 1.7.0
+* Tweak: Imagelightbox script update

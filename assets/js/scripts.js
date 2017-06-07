@@ -100,7 +100,7 @@
     /*===================================================================================*/
     /*  FOOTER MAP COLLAPSE
     /*===================================================================================*/
-    
+
     $('#footer-map-collapse').on('shown.bs.collapse', function () {
 
         var panel = $(this);
@@ -112,7 +112,7 @@
     });
 
     $( window ).load( function() {
-        
+
         // Adjust Product Item heights
         columnConform();
 
@@ -159,7 +159,7 @@
             if ( $( window ).width() > 768 && $('body').hasClass('page-template-template-homepage-v6') ) {
                 sidebar_header = true;
             }
-            
+
             if( !sidebar_header && $( "#page" ).find( 'header' ).hasClass( "site-header" ) ) {
                 var sticky_header = new Waypoint.Sticky({
                     element: $('header.site-header > .site-header-wrap')[0]

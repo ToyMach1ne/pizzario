@@ -558,51 +558,71 @@ class kc_ajax_front{
 
 	function get_instagrams_feed( $username, $access_token ) {
 		
-		$ins_user_id = $this->get_instagram_user_id( $username, $access_token );
+		
+        $ins_url = 'https://api.instagram.com/v1/users/self/?access_token=' . $access_token;
 
-		if ($ins_user_id) {
+        $ins_ch = curl_init();
+        curl_setopt($ins_ch, CURLOPT_URL, $ins_url);
+        curl_setopt($ins_ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ins_ch, CURLOPT_TIMEOUT, 20);
+        curl_setopt($ins_ch, CURLOPT_SSL_VERIFYPEER, true);
+        curl_setopt($ins_ch, CURLOPT_SSL_VERIFYHOST, 2);
+        curl_setopt($ins_ch, CURLOPT_CAINFO, KC_PATH . DS . "includes/frontend/helpers/DigiCertHighAssuranceEVRootCA.cer");
+
+        curl_setopt($ins_ch, CURLOPT_FOLLOWLOCATION, 3);
+        $ins_json_data = curl_exec($ins_ch);
+        $ins_json_data = json_decode($ins_json_data);
+
+        if (isset($ins_json_data->data->username) && ($ins_json_data->data->username == strtolower($username))) {
+            $ins_user_id = $ins_json_data->data->id;
+        } else {
+            $ins_user_id = 0;
+        }
+
+        if ($ins_user_id) {
 			$ins_api_url = 'https://api.instagram.com/v1/users/' . $ins_user_id . '/media/recent?access_token=' . $access_token;
 
 			$ins_ch = curl_init();
 			curl_setopt($ins_ch, CURLOPT_URL, $ins_api_url);
 			curl_setopt($ins_ch, CURLOPT_RETURNTRANSFER, 1);
 			curl_setopt($ins_ch, CURLOPT_TIMEOUT, 20);
-			curl_setopt($ins_ch, CURLOPT_SSL_VERIFYPEER, false);
-			curl_setopt($ins_ch, CURLOPT_SSL_VERIFYHOST, false);
+			curl_setopt($ins_ch, CURLOPT_SSL_VERIFYPEER, true);
+            curl_setopt($ins_ch, CURLOPT_SSL_VERIFYHOST, 2);
+            curl_setopt($ins_ch, CURLOPT_CAINFO, KC_PATH. DS . "includes/frontend/helpers/DigiCertHighAssuranceEVRootCA.cer");
+            curl_setopt($ins_ch, CURLOPT_FOLLOWLOCATION, 3);
 			$ins_data = curl_exec($ins_ch);
 			curl_close($ins_ch);
 
 			$ins_data = json_decode($ins_data);
-
 			return $ins_data->data;
 		} else {
 			return 0;
 		}
 	}
 
-	function get_instagram_user_id( $username, $access_token ) {
-		$ins_url = 'https://api.instagram.com/v1/users/self/?access_token=' . $access_token;
+	function get_instagram_user_id($username, $access_token) {
+        $ins_url = 'https://api.instagram.com/v1/users/self/?access_token=' . $access_token;
 
-		$ins_ch = curl_init();
-		curl_setopt($ins_ch, CURLOPT_URL, $ins_url);
-		curl_setopt($ins_ch, CURLOPT_RETURNTRANSFER, 1);
-		curl_setopt($ins_ch, CURLOPT_TIMEOUT, 20);
-		curl_setopt($ins_ch, CURLOPT_SSL_VERIFYPEER, false);
-		curl_setopt($ins_ch, CURLOPT_SSL_VERIFYHOST, false);
-		$ins_json_data = curl_exec($ins_ch);
-		curl_close($ins_ch);
+        $ins_ch = curl_init();
+        curl_setopt($ins_ch, CURLOPT_URL, $ins_url);
+        curl_setopt($ins_ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ins_ch, CURLOPT_TIMEOUT, 20);
+        curl_setopt($ins_ch, CURLOPT_SSL_VERIFYPEER, true);
+        curl_setopt($ins_ch, CURLOPT_SSL_VERIFYHOST, 2);
+        curl_setopt($ins_ch, CURLOPT_CAINFO, KC_PATH. DS . "includes/frontend/helpers/DigiCertHighAssuranceEVRootCA.cer");
 
-		$ins_json_data = json_decode($ins_json_data);
+        curl_setopt($ins_ch, CURLOPT_FOLLOWLOCATION, 3);
+        $ins_json_data = curl_exec($ins_ch);
+        $ins_json_data = json_decode($ins_json_data);
 
-		if (isset($ins_json_data->data->username) && ($ins_json_data->data->username == $username)) {
-			return $ins_json_data->data->id;
-		} else {
-			return 0;
-		}
-	}
+        if (isset($ins_json_data->data->username) && ($ins_json_data->data->username == $username)) {
+            return $ins_json_data->data->id;
+        } else {
+            return 0;
+        }
+    }
 
-
-	function file_get_contents( $url ){
+    function file_get_contents( $url ){
 		$url_ch = curl_init();
 		curl_setopt( $url_ch, CURLOPT_URL, $url );
 		curl_setopt( $url_ch, CURLOPT_RETURNTRANSFER, 1 );

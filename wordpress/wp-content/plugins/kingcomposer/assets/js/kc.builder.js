@@ -6759,7 +6759,9 @@
 					*	Revert browser title
 					*/
 					document.title = document.raw_title;
-					
+
+					result = result.trim();
+
 					if( result == '-1' )
 						kc.msg( 'Error: secure session is invalid. Reload and try again', 'error', 'sl-close' );
 					else if( result == '-2' )

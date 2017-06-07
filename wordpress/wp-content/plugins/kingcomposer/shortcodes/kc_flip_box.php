@@ -1,5 +1,5 @@
 <?php
-$front_data			= $back_data = $show_icon = $icon = $title = $description = $show_button = $text_on_button = $link = $direction = $wrap_class = $b_show_icon = $b_icon = $b_title = $b_description = $b_show_button = $b_text_on_button = $b_link = '';
+$front_data			= $back_data = $show_icon = $icon = $title = $description = $show_button = $text_on_button = $link = $direction = $wrap_class = $b_show_icon = $b_icon = $b_title = $b_description = $b_show_button = $b_text_on_button = $b_link = $button_href = $button_target = $button_title = '';
 $element_atttribute = array();
 $el_classess		= apply_filters( 'kc-el-class', $atts );
 

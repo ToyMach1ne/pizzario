@@ -3,8 +3,8 @@ Contributors: nosilver4u
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MKMQKCBFFG3WW
 Tags: image, compress, optimize, optimization, lossless, lossy, photo, picture, seo, jpegmini, tinyjpg, tinypng, webp, wp-cli
 Requires at least: 4.4
-Tested up to: 4.7.4
-Stable tag: 3.3.1
+Tested up to: 4.8
+Stable tag: 3.4.0
 License: GPLv3
 
 Reduce image sizes in WordPress including NextGEN, GRAND FlAGallery, FooGallery and more using lossless/lossy methods and image format conversion.
@@ -132,7 +132,7 @@ Webhosts where things work (mostly) out of the box:
 * [Liquid Web](https://www.liquidweb.com)
 * [Namecheap](https://www.namecheap.com)
 * [OVH](https://www.ovh.co.uk)
-* [Site5] (https://www.site5.com) (tools must be built manually, or contact Site5 support for assistance)
+* [Site5](https://www.site5.com) (tools must be built manually, or contact Site5 support for assistance)
 * [SiteGround](https://www.siteground.com)
 * [Spry Servers](https://www.spryservers.net) (even with PHP 7)
 * [WebFaction](https://www.webfaction.com)
@@ -209,9 +209,22 @@ Pngout, TinyJPG/TinyPNG, JPEGmini, and Pngquant were recommended by EWWW IO user
 
 == Changelog ==
 
-* I no longer have a Mac with which to build new binaries. Until I can raise enough funds, there will be no more updates for the Mac OS X tools, and I may have to temporarily remove Mac support if any security issues arise in the meantime: https://www.gofundme.com/ewww-image-optimizer-mac-dev-laptop
+* Thank you to everyone who donated for a new Macbook! New binaries are coming soon.
 * Feature requests can be submitted via https://ewww.io/contact-us/ and commented on here: https://trello.com/b/Fp81dWof/ewww-image-optimizer
 * If you would like to help translate this plugin in your language, get started here: https://translate.wordpress.org/projects/wp-plugins/ewww-image-optimizer/
+
+= 3.4.0 =
+* added: optional usage tracking
+* added: close sessions even earlier in background/async handling to prevent lock-ups
+* added: multisite option to network activate and allow individual site configuration
+* changed: disabling resizes must be done on individual sites even when network activated
+* changed: PNG files with empty alpha channels can be converted to JPG without setting a background/fill color
+* fixed: webp migration script sending wrong nonce variable
+* fixed: wp-cli help text was not being parsed properly
+* updated: bundled cwebp to version 0.6.0
+* updated: bundled pngquant to verision 2.9.1 (2.8.1 for Windows)
+* deprecated: cwebp will not be updated for Mac OS X 10.9 past 0.5.1
+* obsoleted: FreeBSD 9 and CentOS 5 are "End of Life" and will no longer be tested
 
 = 3.3.1 =
 * added: alt webp supports Jetpack Carousel for image galleries
@@ -249,96 +262,10 @@ Pngout, TinyJPG/TinyPNG, JPEGmini, and Pngquant were recommended by EWWW IO user
 * fixed: fatal error when both EWWW I.O. plugins are activated
 * fixed: edited images show active and backup compression results in media library
 
-= 3.2.7 =
-* added: function to remove duplicate records from the ewwwio table when doing a bulk scan or re-optimizing an image
-* changed: zero-byte files skipped during bulk scan instead of during optimization
-* changed: exec() check rewritten, please report any errors right away
-* fixed: plugin status shows All Clear even though exec disabled and warning is displayed
-
-= 3.2.6 =
-* changed: time elapsed test now runs every 10 attachments
-* fixed: time elapsed test during bulk scan was not running every X number of images
-* fixed: scan was not returning results directly after detecting a broken attachment
-* fixed: maximum number of rows for ewwwio_images was not high enough, bumped to 4 billion
-* fixed: db migration function was not linking records to attachments properly
-
-= 3.2.5 =
-* fixed: converting PNG to JPG with GD did not properly convert resizes
-* fixed: broken attachment metadata could halt the bulk scanner
-* fixed: background optimization running when sleep is disabled
-
-= 3.2.4 =
-* changed: when license has been exceeded, visiting the settings page flushes the license cache
-* fixed: warnings for illegal string offsets
-* fixed: regression with the dreaded duplicate key name
-* fixed: scheduled optimization could run during bulk optimization, causing unexpected results
-
-= 3.2.3 =
-* added: image linker for media images optimized using scheduled optimizer or the old Scan and Optimize
-* added: low memory mode for bulk scanner with notice to user
-* added: ability to manually configure how much memory is available using EWWW_MEMORY_LIMIT constant
-* added: variable query counts depending on available memory
-* added: ability to view and remove debug.log from settings page
-* added: ability to manually disable background optimization using EWWW_DISABLE_ASYNC constant
-* changed: check every 100 images during scan to avoid timeouts and memory errors
-* changed: additional folder scanner can stop & resume mid-folder
-* fixed: bulk scanner updates timestamps when it should not
-* fixed: special characters are mangled during database insert on some systems
-* fixed: pending images that were already optimized were not cleared from queue
-* fixed: images with invalid updated dates in database corrected
-* fixed: images that should be excluded from optimization were still queued even though they would not be optimized
-* fixed: results column was too short, causing bulk optimization to get stuck on an image that was previously optimized
-* fixed: if two different attachments reference the same image, duplicate records could be inserted into database during media scan
-
-= 3.2.2 =
-* added: estimated time remaining on bulk optimize
-* added: 'ewww_image_optimizer_image_resized' hook added right after resizing, before original is overwritten
-* changed: image resizing is performed before any thumbnails are generated for reduced resource usage
-* fixed: compatibility with Azure storage plugin
-* fixed: bulk optimization not playing nice with WP Offload S3
-* fixed: optimization results for resized original not displayed when using Imsanity
-* fixed: bulk optimization not working for utf-8 filenames - credit to devsporadic on github
-* fixed: retina paths not tested correctly in some odd cases
-* notice: FreeBSD 9 is EOL, version 10.3 is now the currently supported version
-* notice: RHEL 5 and CentOS 5 will be EOL at the end of March, at that point version 6 will be the lowest supported version
-* removed: generating full-size retina image automatically when resizing images and WP Retina 2x Pro detected
-
-= 3.2.1 =
-* fixed: really old versions of PHP (less than 5.5) cannot cope with using empty() on a function return value
-* fixed: queue of images not reset when reloading bulk page
-
-= 3.2.0 =
-* added: option to ignore folders when optimizing
-* added: ability to disable optimization or creation for any or all previews of PDF files in WordPress 4.7
-* added: optimization results detail for all resizes of an image in media library list view
-* added: automatic metadata rebuilding for broken image attachments in media library during bulk scan
-* changed: bulk optimizers for media library and everything else have been merged
-* changed: bulk optimization processes images in batches for fewer AJAX requests to your server
-* changed: tool locations saved for the duration of a request to improve optimization speed
-* changed: optimization results no longer stored in attachment metadata
-* changed: populating list of optimized images during scan uses less memory
-* changed: obsolete options removed from database
-* changed: if scan is interrupted, it will automatically retry
-* changed: excessive re-optimization warning ignores theme and plugin images
-* changed: if full-size image is converted, all resizes, custom sizes, and retina images will be converted
-* changed: conversion will not inject extra numbers if possible
-* changed: image results message generated on demand to avoid stale results
-* removed: ability to use the ImageMagick 'convert' binary, use Imagick extension for PHP instead
-* removed: unoptimized images page, bulk scanner is now able to accomplish the job more accurately
-* fixed: parallel mode prevents successful conversion
-* fixed: removing API key on multisite did not fallback to local mode properly
-* fixed: pngout enabled after API key removed
-* fixed: image paths with special characters stored incorrectly in database
-* fixed: parallel optimization for retina and custom sizes was missing parameters
-* fixed: bulk optimizing a single image was broken, but who does that anyway?
-* fixed: notice when LIBXML_VERSION is undefined and alt webp is enabled
-* fixed: invalid default value for timestamp in db records
-* fixed: one-click optimization returns no error when running out of API credits
-* fixed: background mode was not checked properly in nextgen and flagallery functions
-* fixed: incorrect mimetype set after image conversion for PNG2JPG
-* fixed: using getimagesize on pdf files
-
 == Upgrade Notice ==
+
+= 3.4.0 =
+* Multisite change: disabling resizes must be done on individual sites even when network activated, as those settings are heavily theme-specific.
 
 = 3.3.0 =
 * Requires PHP 5.3+. All sites hosted on Pantheon will now use "relative" paths. Existing Pantheon sites will need to update the ewwwio_images table to match (contact support for help), or disable this function by setting EWWW_IMAGE_OPTIMIZER_RELATIVE to false in wp-config.php.
@@ -355,10 +282,6 @@ Pngout, TinyJPG/TinyPNG, JPEGmini, and Pngquant were recommended by EWWW IO user
 
 = 2.8.1 =
 * KeyCDN added support for WebP images generated by EWWW I.O. into the Cache Enabler plugin. If you are using Cache Enabler, you may wish to use their WebP option instead of Alt WebP Rewriting. Works very nicely with CDNs and is a nice simple caching plugin.
-
-= 2.8.0 =
-* added: resizing for uploaded images, set max width and height and optionally resize all existing images
-* changed: settings have been revamped, please check to make sure your settings were migrated properly
 
 == Contact and Credits ==
 

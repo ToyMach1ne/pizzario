@@ -51,6 +51,8 @@ if( !empty( $atts['css'] ) )
 if( $atts['video_bg'] === 'yes' )
 {
 	$video_bg_url = $atts['video_bg_url'];
+	
+	if( empty($video_bg_url)) $video_bg_url = 'https://www.youtube.com/watch?v=dOWFVKb2JqM';
 
 	$has_video_bg = kc_youtube_id_from_url( $video_bg_url );
 
@@ -67,8 +69,11 @@ if( $atts['video_bg'] === 'yes' )
 }
 
 
-if( !empty( $atts['row_id'] ) )
-	$element_attributes[] = 'id="' . esc_attr( $atts['row_id'] ) . '"';
+if( !empty( $atts['row_id'] ) ){
+	$row_id = urlencode( $atts['row_id'] );
+	$element_attributes[] = 'id="' . esc_attr( $row_id ) . '"';
+}
+	
 
 if( isset( $atts['force'] ) && $atts['force'] == 'yes'  ){
 	if( isset( $atts['use_container'] ) && $atts['use_container'] == 'yes' )

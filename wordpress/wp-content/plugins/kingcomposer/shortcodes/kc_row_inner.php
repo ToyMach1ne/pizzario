@@ -39,9 +39,11 @@ if( !empty( $atts['equal_height'] ) )
  *Check video background
  */
 
-if( $atts['video_bg'] === 'yes' )
+if( isset( $atts['video_bg'] ) && $atts['video_bg'] === 'yes' )
 {
 	$video_bg_url = $atts['video_bg_url'];
+	
+	if( empty($video_bg_url)) $video_bg_url = 'https://www.youtube.com/watch?v=dOWFVKb2JqM';
 	
 	$has_video_bg = kc_youtube_id_from_url( $video_bg_url );
 	
